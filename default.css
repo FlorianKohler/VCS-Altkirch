@@ -46,14 +46,15 @@ MEDIA QUERIES
 @media screen and (max-width: 980px) {
 	
 	#pagewrap {
-		width: 94%;
+		width: 98%;
 	}
 	#content {
-		width: 41%;
+		clear: both;
+		width: 45%;
 		padding: 1% 4%;
 	}
 	#middle {
-		width: 41%;
+		width: 45%;
 		padding: 1% 4%;
 		margin: 0px 0px 5px 5px;
 		float: right;
