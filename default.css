@@ -9,7 +9,7 @@ body {
 
 #pagewrap {
 	padding: 5px;
-	width: 960px;
+	width: 90%;
 	margin: 20px auto;
 }
 header {
@@ -17,20 +17,20 @@ header {
 	padding: 0 15px;
 }
 #content {
-	width: 290px;
+	width: 20%;
 	float: left;
 	padding: 5px 15px;
 }
 
 #middle {
-	width: 294px; /* Account for margins + border values */
+	width: 50%; /* Account for margins + border values */
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
 }
 
 #sidebar {
-	width: 270px;
+	width: 20%;
 	padding: 5px 15px;
 	float: left;
 }
@@ -49,7 +49,7 @@ MEDIA QUERIES
 		width: 98%;
 	}
 	#content {
-		width: 45%;
+		width: 25%;
 		padding: 1% 4%;
 	}
 	#middle {
