@@ -49,11 +49,11 @@ MEDIA QUERIES
 		width: 98%;
 	}
 	#content {
-		clear: both;
 		width: 45%;
 		padding: 1% 4%;
 	}
 	#middle {
+		clear:both;
 		width: 45%;
 		padding: 1% 4%;
 		margin: 0px 0px 5px 5px;
