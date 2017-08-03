@@ -5,6 +5,10 @@ body {
   color: #666;
 }
 
+h1 {
+	text-align: center;
+}
+
 /* STRUCTURE */
 
 #pagewrap {
@@ -14,7 +18,8 @@ body {
 }
 header {
 	height: 100px;
-	padding: 0 15px;
+	padding: 0 10px;
+	
 }
 #content {
 	width: 20%;
@@ -33,6 +38,9 @@ header {
 	width: 20%;
 	padding: 5px 15px;
 	float: left;
+	
+
+
 }
 footer {
 	clear: both;
