@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+ul {
+    margin-top: 0;
+    padding: 4%;
+}
+
 body { 
   font-family: 'Open Sans', sans-serif;
   color: #000000;
@@ -19,7 +24,8 @@ img {
 #pagewrap {
 	padding: 5px;
 	width: 90%;
-	margin: 20px auto;;
+	margin: 20px auto;
+	background-color: #F5F6CE
 }
 header {
 	height: 100px;
@@ -37,6 +43,7 @@ header {
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
+	background-color: #F5F6CE
 }
 
 #sidebar {
