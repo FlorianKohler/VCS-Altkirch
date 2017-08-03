@@ -2,19 +2,24 @@
 
 body { 
   font-family: 'Open Sans', sans-serif;
-  color: #666;
+  color: #000000;
 }
 
 h1 {
 	text-align: center;
 }
 
+img {
+  vertical-align: middle;
+}
+
+
 /* STRUCTURE */
 
 #pagewrap {
 	padding: 5px;
 	width: 90%;
-	margin: 20px auto;
+	margin: 20px auto;;
 }
 header {
 	height: 100px;
