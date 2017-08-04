@@ -37,30 +37,10 @@ td {
 	border-bottom: 1px solid #1F2023;
 }
 
-code, blockquote {
-	display: block;
-	border-left: 5px solid #4D535B;
-	padding: 10px;
-	margin-bottom: 20px;
-}
-code {
-	background-color: #131416;
-	color:#ccc;
-	border: none;
-	font-family: "Courier New", Courier, monospace;
-}
-
-blockquote p {
-	font-style: italic;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	margin: 0;
-	color: #4D535B;
-	height: 1%;
-}
-
 p {
 	line-height: 1.7em;
 	margin-bottom: 25px;
+	color: #ffffff
 }
 
 a {
@@ -710,12 +690,12 @@ div.social-icons a {
 }
 
 
-@media screen and (max-width: 740px) {
+ @media screen and (max-width: 740px) {
 
 	body { font-size: 0.8em; }	
 
 	
-	header { text-align: center; }
+	/* header { text-align: center; }
 
 	header h1 { float: none; text-align: center;  }
 
@@ -741,7 +721,7 @@ div.social-icons a {
 
 	#content { padding: 10px; }
 
-	footer .footer-content ul { width: auto; float: none; }
+	footer .footer-content ul { width: auto; float: none; }*/
 }
 
 
@@ -750,7 +730,7 @@ div.social-icons a {
 
 	body { font-size: 0.8em; }
 
-	header { text-align: center; padding: 10px 0 5px; }
+	/*header { text-align: center; padding: 10px 0 5px; }
 
 	header h1 a, header h1 a:hover { text-align: center;  padding: 10px; font-size: 1.1em; }
 
@@ -778,10 +758,10 @@ div.social-icons a {
 	
 	div#intro div.intro-content-short { padding: 20px 5px 10px; }
 
-	div#body { margin-top: 10px; }
+	div#body { margin-top: 10px; } 
 
 
-	.sf-menu li:hover ul, .sf-menu li.sfHover ul { top: 0; }
+	.sf-menu li:hover ul, .sf-menu li.sfHover ul { top: 0; }*/
 
 
 }
