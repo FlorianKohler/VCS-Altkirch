@@ -21,11 +21,14 @@ body {
 /** element defaults **/
 table {
 	width: 100%;
-	text-align: left;
+	text-align: middle;
+	color: #ffffff
 }
 
 th, td {
-	padding: 10px 10px;
+	padding: 5px 10px;
+	line-height: 1.2em;
+	text-align:center
 }
 
 th {
@@ -34,7 +37,7 @@ th {
 }
 
 td {
-	border-bottom: 1px solid #1F2023;
+	border-bottom: 2px solid #1F2023;
 }
 
 p {
@@ -163,7 +166,7 @@ h2 {
 	color: #EACF6D; /* jaune pale*/
 font-size: 2.8em;
 letter-spacing: -2px;
-padding: 0px 0px 10px;
+padding: 0px 0px 0px;
 font-weight: bold;
 margin: 0px;
 }
@@ -478,6 +481,7 @@ article .article-info {
     font-size: 0.9em;
     letter-spacing: -0.5px;
     padding: 0 0 10px 0;
+    font-style: italic;
 }
 
 article .article-info a { 
