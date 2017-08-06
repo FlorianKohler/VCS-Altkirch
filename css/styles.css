@@ -733,11 +733,9 @@ div.social-icons a {
 	#content { padding: 10px; }
 
 	footer .footer-content ul { width: auto; float: none; } */
-	nav ul li a { pointer-events: none; }
-	nav ul li a ul { pointer-events: auto;}
-	nav ul li a ul li { pointer-events: auto;}
-	nav ul li a ul li a{ pointer-events: auto;}
 	
+	/*nav ul li a { pointer-events: none; }*/
+		.pasclickable { pointer-events:none;}
 }
 
 
@@ -780,9 +778,7 @@ div.social-icons a {
 	.sf-menu li:hover ul, .sf-menu li.sfHover ul { top: 0; }
 	*/
 	
-	nav ul li a { pointer-events: none; }
-	nav ul li a ul { pointer-events: auto;}
-	nav ul li a ul li { pointer-events: auto;}
-	nav ul li a ul li a{ pointer-events: auto;}
-
+	/*nav ul li a { pointer-events: none; }*/
+	.pasclickable { pointer-events:none;}
+	
 }
