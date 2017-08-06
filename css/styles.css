@@ -313,7 +313,6 @@ nav ul li a:hover {
 nav ul li.selected a, nav ul li.selected a:hover { /* section actuelle en haut */
 	color: #fff;
 	font-weight: bold;
-	/*soulignement éventuel (pas beau) */ text-decoration: underline #EACF6D;
 	
 }
 
