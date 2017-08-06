@@ -11,6 +11,8 @@ body {
 	font-size: 1.1em;
 	color: #545B64;
 	font-weight: 300;
+	
+	min-width: 500px; /* j'approuve */
 }
 
 * {
@@ -255,7 +257,8 @@ header h1 a {
 }
 
 nav {
-	float: right;
+	float: left;
+	min-width: 700px;
 }
 
 nav ul {
