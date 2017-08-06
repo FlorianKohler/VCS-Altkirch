@@ -735,6 +735,8 @@ div.social-icons a {
 	footer .footer-content ul { width: auto; float: none; } */
 	nav ul li a { pointer-events: none; }
 	nav ul li a ul { pointer-events: auto;}
+	nav ul li a ul li { pointer-events: auto;}
+	nav ul li a ul li a{ pointer-events: auto;}
 	
 }
 
@@ -780,6 +782,7 @@ div.social-icons a {
 	
 	nav ul li a { pointer-events: none; }
 	nav ul li a ul { pointer-events: auto;}
-
+	nav ul li a ul li { pointer-events: auto;}
+	nav ul li a ul li a{ pointer-events: auto;}
 
 }
