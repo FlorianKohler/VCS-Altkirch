@@ -701,16 +701,16 @@ div.social-icons a {
 }
 
 
- /*@media screen and (max-width: 740px) {
+ @media screen and (max-width: 740px) {
 
-	body { font-size: 0.8em; }	
+	body { font-color: blue ;}
+	/* body { font-size: 0.8em; }	
 
-	
-	/* header { text-align: center; }
+	 header { text-align: center; }
 
 	header h1 { float: none; text-align: center;  }
 
-	header h1 a, header h1 a:hover { float: none; padding: 5px; }
+	header h1 a, header h1 a:hover { float: none; padding: 5px; } */
 
 	nav { float: none; }
 
@@ -720,7 +720,7 @@ div.social-icons a {
 
 	.sf-menu li:hover ul, .sf-menu li.sfHover ul { top: 23px; }
 
-	div#container { width: auto; }
+	/* div#container { width: auto; }
 
 	footer .footer-content ul { margin-bottom: 15px; }
 
@@ -732,20 +732,21 @@ div.social-icons a {
 
 	#content { padding: 10px; }
 
-	footer .footer-content ul { width: auto; float: none; }
-}*/
+	footer .footer-content ul { width: auto; float: none; } */
+	
+}
 
 
-/* @media screen and (max-width: 540px) {
+ @media screen and (max-width: 540px) {
 
+	body {font-color: red; }
+	/* body { font-size: 0.8em; }  
 
-	body { font-size: 0.8em; } */ 
-
-	/*header { text-align: center; padding: 10px 0 5px; }
+	header { text-align: center; padding: 10px 0 5px; }
 
 	header h1 a, header h1 a:hover { text-align: center;  padding: 10px; font-size: 1.1em; }
 
-	header h1, nav { float: none; }
+	header h1, nav { float: none; } */
 	
 	nav { height: auto; position: relative; }
 
@@ -765,7 +766,7 @@ div.social-icons a {
 
 	nav ul li li { margin: 0; }
 
-	div#intro .intro-content { padding: 20px 5px; }
+	/* div#intro .intro-content { padding: 20px 5px; }
 	
 	div#intro div.intro-content-short { padding: 20px 5px 10px; }
 
