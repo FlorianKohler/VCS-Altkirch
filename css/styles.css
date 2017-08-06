@@ -12,7 +12,7 @@ body {
 	color: #545B64;
 	font-weight: 300;
 	
-	min-width: 500px; /* j'approuve */
+	min-width: 800px; /* j'approuve */
 }
 
 * {
@@ -221,7 +221,7 @@ li ol, li ul {
 
 #container {
 	width: auto;
-	margin: 0 auto;
+	margin: 2%;
 }
 
 header {
@@ -229,11 +229,11 @@ header {
 	z-index: 9999;
 	border-radius: 10px;
 	opacity: 0.97;
-	margin: 20px auto 0;
+	margin: 20px 0 0;
 	position: relative;
 	text-align: left;
 	background-color: #363A3F;
-		min-width: 700px;
+	min-width: 700px;
 }
 
 
@@ -245,8 +245,8 @@ header h1 {
 
 header h1 a {
     color: #fff;
-    padding: 20px 25px;
-   font-size: 0.8em;
+    padding: 22px 5%;
+    font-size: 0.7em;
     border-bottom: none;
     text-transform: uppercase;
     display: block;
@@ -258,7 +258,7 @@ header h1 a {
 }
 
 nav {
-	float: left;
+	float: right;
 	min-width: 700px;
 }
 
@@ -271,7 +271,7 @@ nav ul {
 
 nav ul ul { 
 	margin: 0;
-	padding: 0 0 15px 0;
+	padding: 0 0 5% 0;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
@@ -279,7 +279,7 @@ nav ul ul {
 nav ul li {
 	display: block;
 	float: left;
-	padding: 0px;
+	padding: 0.01%;
 }
 
 nav ul li li {
@@ -462,7 +462,7 @@ img {
 #content {
 	padding: 1%;
 	background-color: #363A3F;
-    	float: left;
+    float: left;
 	border-radius: 10px;
 }
 
@@ -472,7 +472,7 @@ img {
 
 
 .with-right-sidebar {
-	margin-right: 2%;
+	margin-right: 0%;
 }
 
 
@@ -497,7 +497,7 @@ article .article-info a {
 	opacity: 0.97;
 	font-size: 1.05em;
 	width: 30%;
-	min-width: 200px;
+	min-width: 140px;
 }
 
 
@@ -620,6 +620,7 @@ article .article-info a {
 footer {
 	margin:50px auto 0;
 	background: #1E2124;
+	min-width: 700px; /* ajout */
 }
 
 footer p {
