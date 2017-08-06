@@ -8,7 +8,7 @@ body {
 	margin:0;
 	padding:0;
 	font-family: 'Source Sans Pro', 'sans-serif';
-	font-size: 1.1em;
+	font-size: 1em;
 	color: #545B64;
 	font-weight: 300;
 	
@@ -70,9 +70,9 @@ display: inline-block;
 
     padding: 8px 22px;
 
-    font-size: 0.85em;
-    letter-spacing: 0.25px;
-	line-height: 1.3em;
+    font-size: 0.77em;
+    letter-spacing: 0.23px;
+	line-height: 1.2em;
 border-radius: 5px;	
 text-decoration: none;
 	border:none;
@@ -101,7 +101,7 @@ fieldset {
 
 fieldset legend {
 	font-weight: bold;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	padding-right: 10px;
 }
 
@@ -120,7 +120,7 @@ form input, form select, form textarea {
 	border: none;
 	background-color:#fff;
 	font-family: 'Source Sans Pro', 'sans-serif';
-	font-size: 0.9em;
+	font-size: 0.81em;
 }
 
 form input.formbutton {
@@ -130,8 +130,8 @@ display: inline-block;
 
     padding: 8px 22px;
 
-    font-size: 0.75em;
-    letter-spacing: 0.25px;
+    font-size: 0.67em;
+    letter-spacing: 0.23px;
 	line-height: 1.3em;
 border-radius: 5px;	
 text-decoration: none;
@@ -145,7 +145,7 @@ font-weight: bold;
 }
 
 form.searchform input {
-  font-size: 0.9em;
+  font-size: 0.81em;
     padding: 6px;
 }
 
@@ -160,14 +160,14 @@ span.required {
 
 h1 {
 	color: #eee;
-	font-size: 2.7em;
+	font-size: 2.48em;
 	margin-bottom: 10px;
 }
 
 h2 {
 	color: #EACF6D; /* jaune pale*/
-font-size: 2.8em;
-letter-spacing: -2px;
+font-size: 2.59em;
+letter-spacing: -1.9px;
 padding: 0px 0px 0px;
 font-weight: bold;
 margin: 0px;
@@ -175,15 +175,15 @@ margin: 0px;
 
 h3 {
 	color: #EACF6D;
-	font-size: 1.9em;
+	font-size: 1.72em;
 	font-weight: 600;
 	margin-bottom: 10px;
-	letter-spacing: -1px;
+	letter-spacing: -0.91px;
 }
 
 h4 {
     color: #EACF6D;
-    font-size: 1.2em;
+    font-size: 1.11em;
     text-transform: uppercase;
     padding-bottom: 10px;
 	font-weight: bold;
@@ -191,7 +191,7 @@ h4 {
 
 h5 {
 	padding-bottom: 10px;
-	font-size: 1.1em;
+	font-size: 1.0em;
 	color: #ffffff;	
 }
 
@@ -207,7 +207,7 @@ li {
 }
 
 li ol, li ul {
-	font-size: 1.0em;
+	font-size: 9.1em;
 	margin-bottom: 0;
 	padding-top: 0px;
 }
@@ -246,7 +246,7 @@ header h1 {
 header h1 a {
     color: #fff;
     padding: 22px 5%;
-    font-size: 0.7em;
+    font-size: 0.63em;
     border-bottom: none;
     text-transform: uppercase;
     display: block;
@@ -292,7 +292,7 @@ nav ul li a {
 	float: left;
 	padding: 32px 28px;
     color: #fff;
-    font-size: 0.95em;
+    font-size: 0.86em;
 	margin: 0;
      border-bottom: none;
 	letter-spacing: 0px;
@@ -412,12 +412,12 @@ div#intro div.intro-content-short {
 
 div#intro h2 {
 	text-shadow: 1px 1px 0 #000;
-	font-size: 3em;
+	font-size: 2.7em;
 }
 
 
 div#intro div.intro-content-short h2 {	
-	font-size: 2.5em;
+	font-size: 2.25em;
 }
 
 div#intro h2, div#intro p {
@@ -426,7 +426,7 @@ div#intro h2, div#intro p {
 }
 
 div#intro p {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	color: #ddd;
 	line-height: 1.3em;
 }
@@ -436,7 +436,7 @@ div#body.no-intro {
 
 a.button-slider {
 	padding: 18px 25px;
-	font-size: 0.8em;
+	font-size: 0.72em;
 	text-align: center;
 	border: 2px solid #3F87AB;
 	margin: 0px 10px 0px 0;
@@ -483,7 +483,7 @@ article {
 
 article .article-info {
     color: #ffffff;
-    font-size: 0.9em;
+    font-size: 0.81em;
     letter-spacing: -0.5px;
     padding: 0 0 10px 0;
     font-style: italic;
@@ -495,7 +495,7 @@ article .article-info a {
 
 .sidebar {
 	opacity: 0.97;
-	font-size: 1.05em;
+	font-size: 0.96em;
 	width: 30%;
 	min-width: 200px;
 }
@@ -513,7 +513,7 @@ article .article-info a {
 
 .sidebar h4 {
 	padding-bottom: 0;
-	font-size: 1.4em;
+	font-size: 1.37em;
 	color: #EACF6D;
 	letter-spacing: -1px;
 	padding: 0;
@@ -553,7 +553,7 @@ article .article-info a {
 	padding: 10px 2px;
 	margin: 0;
 	line-height: 1.2em; /*espacement vertical des puces à droite*/
-	font-size: 1em; /* taille des puces à droite */
+	font-size: 0.91em; /* taille des puces à droite */
 }
 
 .sidebar li ul li.text { 
@@ -626,7 +626,7 @@ footer {
 footer p {
 	text-align: left;
 	color: #ffffff;
-	font-size: 0.9em;
+	font-size: 0.81em;
 	margin: 0;
 	padding: 0;
 }
@@ -664,7 +664,7 @@ footer .footer-content li a {
 footer .footer-content li {
 	color: #ffffff;
 	line-height: 1.5em;
-	font-size: 0.85em;
+	font-size: 0.76em;
 }
 
 footer .footer-content li a:hover { 
@@ -674,7 +674,7 @@ footer .footer-content li a:hover {
 
 footer .footer-content h4 {
 	color: #EACF6D;;
-    	font-size: 1.5em;
+    	font-size: 1.38em;
     	padding-bottom: 10px;
 	font-weight: bold;
 	letter-spacing: 0px;
@@ -704,7 +704,6 @@ div.social-icons a {
 
  @media screen and (max-width: 740px) {
 
-	body { font-color: blue ;}
 	/* body { font-size: 0.8em; }	
 
 	 header { text-align: center; }
@@ -742,7 +741,6 @@ div.social-icons a {
 
  @media screen and (max-width: 540px) {
 
-	body {font-color: red; }
 	/* body { font-size: 0.8em; }  
 
 	header { text-align: center; padding: 10px 0 5px; }
