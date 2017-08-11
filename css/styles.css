@@ -245,7 +245,7 @@ header h1 a {
 	float: left;
     color: #fff;
     padding:  2% 0px 1% 2%	; /* title VCS Altkirch dans nAv */
-    font-size: 0.7em;
+    font-size: calc(16px + 1.5vw);
     border-bottom: none;
     text-transform: uppercase;
     display: inline;
@@ -257,8 +257,10 @@ header h1 a {
 }
 
 nav {
+	display: inline;
 	float: right;
 	min-width: 98%;
+	font-size: calc(9px + 1vw)
 }
 
 nav ul {
@@ -289,7 +291,7 @@ nav ul li li {
 nav ul li a {
 	display: block;
 	float: left;
-	padding: 32px 28px;
+	padding: 32px 18px;
     color: #fff;
     font-size: 0.95em;
 	margin: 0;
@@ -707,34 +709,61 @@ div.social-icons a {
  @media screen and (max-device-width: 740px) {
 	 
 	.oncomputer {display:none;}
+	
+	header {
+	padding: ;
+	z-index: 9999;
+	opacity: 0.97;
+	margin: 10px 5px 0 5px;
+	position: relative;
+	text-align: center;
+	background-color: #363A3F;
+	min-width: 98%;
+}
 
 	body { font-size: 0.7em; min-width: 98%}  
 
-	header { text-align: center; padding: 10px 0 5px; }
 	
 	header h1 a, header h1 a:hover { display : none;}
 
 	header h1, nav { float: none; } 
 	
-
+/* #2c2f30 pour gris foncé */
 	
 	nav { height: auto; position: relative; font-size:1.3em; }
 
-	nav ul { margin: 0; text-align: center}
+	nav ul { text-align: center; background-color: #2c2f30; } /*mini espace en bas */
 	
-	.sf-menu ul { position: relative; width: auto; display: block; margin-top: 0; }
+	.sf-menu ul { position: relative; width: auto; display: block; margin: 0; }
 
-	nav ul ul { margin: 0px; border-top-right-radius: 0; }
+	.sf-with-ul {background-color: #2c2f30;}
+	
+	nav ul .onmobile ul { margin-bottom: 0px; padding: 0px} /* autour des sous menus (marge, etc) */
 
-	nav ul li { margin: 5px 0; padding: 0; float: none; }
+	nav ul .onmobile li { float: none;  }
 
-	nav ul li a { background-color: #303334; padding: 5px 7px; }
+	nav ul .onmobile li a { padding: 6px 0px; } /*#MENU: ler l'espace vertical, le 2eme.. horizontaluseless */
+	
+	
+	nav ul .onmobile li li a { padding: 5px 0 5px 0px;} /* padding: + et 3eme : espacement vertical. 2 et 4: centrage*/
 
-	nav ul li li a { padding: 8px 0 2px 8px; }
+	nav ul .onmobile li a, .sf-menu li { float: none; }
+	
+	nav ul .onmobile li ul li ul li a {background-color: #2c2f30;}
+	
+	nav ul li {
+	display: block;
+	float: left;
+	padding: 0%;
+	} 
+	
+	nav ul li ul {} /* MIni bordure autour */
+	nav ul li ul li {} /* coins affectés par les arrondis */
+	nav ul lu ul li ul {} /* rien */
+	nav ul li ul li li {} /* rien */
+	nav {} /* rien */
 
-	nav ul li a, .sf-menu li { float: none; }
-
-	nav ul li li { margin: 0; }
+	nav ul .onmobile li li { margin: 0; }
 
 	div#intro .intro-content { font-size: 0.7em; padding: 12px 5px;}
 	div#intro .intro-content img { width : 28px; height :38px; }
@@ -750,3 +779,4 @@ div.social-icons a {
 	/*nav ul li a { pointer-events: none; }*/
 	.pasclickable { pointer-events:none;}
 }
+
