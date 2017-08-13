@@ -234,7 +234,7 @@ header {
 	position: relative;
 	text-align: left;
 	background-color: #363A3F;
-	min-width: 98%;
+	min-width: 700px;
 }
 
 
@@ -244,8 +244,8 @@ header {
 header h1 a {
 	float: left;
     color: #fff;
-    padding:  2% 0px 1% 2%	; /* title VCS Altkirch dans nAv */
-    font-size: calc(16px + 1.5vw);
+    padding:  25px 0px 0% 2%	; /* title VCS Altkirch dans nAv */
+    font-size: calc(21px + 1vw);
     border-bottom: none;
     text-transform: uppercase;
     display: inline;
@@ -259,8 +259,8 @@ header h1 a {
 nav {
 	display: inline;
 	float: right;
-	min-width: 98%;
-	font-size: calc(9px + 1vw)
+	min-width: 500px;
+	font-size: calc(10px + 0.8vw);
 }
 
 nav ul {
@@ -400,19 +400,20 @@ div#intro {
 }
 
 div#intro .intro-content {
-	padding: 40px 40px;
+	padding: 20px 40px;
 	text-align: center;
 }
 
 div#intro div.intro-content-short {
 	padding: 50px 0 40px 20px;
 	text-align: left;
+/* font-size: useless here */ 
 }
 
 
 div#intro h2 {
 	text-shadow: 1px 1px 0 #000;
-	font-size: 2.7em;
+	font-size: calc(1.8em + 1.8vw); /* celui ci pour le titre */
 }
 
 
