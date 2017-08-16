@@ -477,7 +477,7 @@ img {
 	border-radius: 10px;
 }
 #content h2 {
-	font-size: calc(1.5em + 1.8vw); /* celui ci pour le titre */
+	font-size: calc(1em + 1.9vw); /* celui ci pour le titre */
 	padding: 0 0 0.2em 0;
 }
 
