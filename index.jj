@@ -1,11 +1,9 @@
 <!doctype html>
-
-<!doctype html>
 <html>
 <head>
 <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>VCS Altkirch - Coureurs</title>
+<title>{% block title %}VCS Altkirch{% endblock title %}</title>
 
 <link rel="stylesheet" href="css/reset.css" type="text/css" />
 <link rel="stylesheet" href="css/styles.css" type="text/css" />
@@ -35,7 +33,7 @@ License: Creative Commons Attribution
 <body>
 <div id="container" class="width">
 
-	
+	{% block header %}
     <header>
 	
 	<div class="width">
@@ -48,20 +46,20 @@ License: Creative Commons Attribution
     			<ul class="sf-menu dropdown">
 				
 				<div class="oncomputer">
-				<li ><a href="index.html">Accueil</a>
+				<li {% block ifindex %}class="selected"{% endblock %}><a href="index.html">Accueil</a>
         			<li><a class="oncomputer pasclickable" href="leClub.html">Le Club</a>
         				<ul>
-        				<li ><a href="leClub.html">Le VCSA en bref</a></li>
-        				<li ><a href="circuits.html">Circuits d'entraînement</a></li>
-        				<li ><a href="nousRejoindre.html">Nous rejoindre</a></li>
-						<li ><a href="partenaires.html">Nos partenaires</a></li>
+        				<li {% block ifleclub %}{% endblock %}><a href="leClub.html">Le VCSA en bref</a></li>
+        				<li {% block ifcircuits %}{% endblock %}><a href="circuits.html">Circuits d'entraînement</a></li>
+        				<li {% block ifnousrejoindre %}{% endblock %}><a href="nousRejoindre.html">Nous rejoindre</a></li>
+						<li {% block ifpartenaires %}{% endblock %}><a href="partenaires.html">Nos partenaires</a></li>
         				</ul>
         			</li>
-	     			<li ><a href="organisations.html">Nos organisations</a></li>
+	     			<li {% block iforganisations %}{% endblock %}><a href="organisations.html">Nos organisations</a></li>
 					<li><a class="pasclickable" href="#">Saison 2017</a>
 						<ul>
-						<li class="selected"><a href="coureurs.html">Les coureurs</a></li>
-						<li ><a href="resultats.html">Les résultats</a></li>
+						<li {% block ifcoureurs %}{% endblock %}><a href="coureurs.html">Les coureurs</a></li>
+						<li {% block ifresultats %}{% endblock %}><a href="resultats.html">Les résultats</a></li>
 						</ul>
 					</li>
 					<li><a  href=http://veloclubaltkirch.xoo.it/index.php>Forum</a></li>
@@ -73,20 +71,20 @@ License: Creative Commons Attribution
 				
 					<ul>
 			
-        			<li }><a href="index.html">Accueil</a>
+        			<li {{ self.ifindex() }}}><a href="index.html">Accueil</a>
         			<li><a class="pasclickable" href="leClub.html">Le Club</a>
         				<ul>
-        				<li ><a href="leClub.html">Le VCSA en bref</a></li>
-        				<li ><a href="circuits.html">Circuits d'entraînement</a></li>
-        				<li ><a href="nousRejoindre.html">Nous rejoindre</a></li>
-						<li ><a href="partenaires.html">Nos partenaires</a></li>
+        				<li {{ self.ifleclub() }}><a href="leClub.html">Le VCSA en bref</a></li>
+        				<li {{ self.ifcircuits() }}><a href="circuits.html">Circuits d'entraînement</a></li>
+        				<li {{ self.ifnousrejoindre() }}><a href="nousRejoindre.html">Nous rejoindre</a></li>
+						<li {{ self.ifpartenaires() }}><a href="partenaires.html">Nos partenaires</a></li>
         				</ul>
         			</li>
-	     			<li ><a href="organisations.html">Nos organisations</a></li>
+	     			<li {{ self.iforganisations() }}><a href="organisations.html">Nos organisations</a></li>
 					<li><a class="pasclickable" href="#">Saison 2017</a>
 						<ul>
-						<li class="selected"><a href="coureurs.html">Les coureurs</a></li>
-						<li ><a href="resultats.html">Les résultats</a></li>
+						<li {{ self.ifcoureurs() }}><a href="coureurs.html">Les coureurs</a></li>
+						<li {{ self.ifresultats() }}><a href="resultats.html">Les résultats</a></li>
 						</ul>
 					</li>
 					<li><a href=http://veloclubaltkirch.xoo.it/index.php>Forum</a></li>
@@ -104,7 +102,7 @@ License: Creative Commons Attribution
 
       
     </header>
-	
+	{% endblock header %}
 
 	
     <div id="intro">
@@ -112,9 +110,10 @@ License: Creative Commons Attribution
 	<div class="width">
       
 		<div class="intro-content">
-					
-<h2 class="indexwelcome">Les coureurs du VCSA </h2>
-
+					{% block introcontent %}<img class="logo" src="images/logo.png" height = 100 width = 80 style="float: right;" >
+					<img class="logo" src="images/logo.png" height = 100 width = 80 style="float: left;" >
+                    <h2 class="indexwelcome">Bienvenue sur le site du </br> VC Sundgovia Altkirch ! </h2>
+                    {% endblock introcontent %}
 
             	</div> <!-- intro content-->
                 
@@ -126,117 +125,36 @@ License: Creative Commons Attribution
     <div id="body" class="width">
 		
 		<section id="content" class="two-column with-right-sidebar">
+		{% block content %}
+	    <article>
+				
+		<h3>Le mot du Président</h3>
 		
-<!-- Note: ne pas mettre de photos de tailles identiques pose souci, merci de travailler les photos en amont (et vive photofiltre/gimp etc)-->
-	<!-- première partie -->
-	    <table>
-	    <tr>
-			<td> <img src="images/coureurs/AlainL.jpeg" alt="Alain" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/AntoineM.jpg" alt="Antoine" width=80% height=100%></td>
-			<td> <img src="images/coureurs/BrieucH.jpg" alt="Brieuc" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/CedricL.jpg" alt="Cédric" width=80% height=100%></td>
-	    	
-	    </tr>
-	    <tr>
-	    	<td> Alain L. <br>Pass' D1</td>
-	    	<td> Antoine M. <br>Pass' D1</td>
-	    	<td> Brieuc H. <br>Pass' D1</td>
-	    	<td> Cédric L. <br>3ème caté</td>
-
-	    </tr>
-	    </table>
-	    
-	    <br>
-	    
-	    	<!-- deuxième partie -->
-	    <table>
-	    <tr>
-			<td> <img src="images/coureurs/ClaudeS.jpg" alt="Claude" width=80% height=100%></td>
-			<td> <img src="images/coureurs/DanielF.jpg" alt="Daniel" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/EricH.jpg" alt="Eric" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/FlorianK.jpg" alt="Florian" width=80% height=100%></td>
-
-	    </tr>
-	    <tr>
-	    	<td> Claude S. <br>Pass' D3</td>
-	    	<td> Daniel F. <br>3ème caté</td>
-	    	<td> Eric H.<br>3ème caté</td>
-	    	<td> Florian K.<br>3ème caté</td>
-
-	    </tr>
-	    </table>
-	    
-	    <br>
-	    
-	    	   <!-- troisième partie -->
-	    <table>
-	    <tr>
-			<td> <img src="images/coureurs/FlorianV.jpg" alt="Florian" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/GuillaumeA.jpg" alt="Guillaume" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/GuillaumeP.jpg" alt="Guillaume" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/JeromeH.jpg" alt="Jérome" width=80% height=100%></td>
-	    </tr>
-	    <tr>
-	    	<td> Florian V.<br>Pass' D1</td>
-	    	<td> Guillaume A.<br>Pass' D1</td>
-	    	<td> Guillaume P. <br>Pass' D1</td>
-	    	<td> Jérome H.<br>Junior</td>
-	    </tr>
+		<p> "Bonjour, vive le vélo club Sundgovia Altkirch, vive le vélo en sécurité sur les routes, je vous souhaite une excellente année pleine de réussite et je vous donne rendez-vous à Seppois-le-bas pour l'ouverture de la saison FSGT. Sportivement."<br> G.H</p>
 		
-		<!-- quatrième partie -->
-	    <table>
-	    <tr>
-	    	<td> <img src="images/coureurs/JeromeJ.jpg" alt="Jérome" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/JohannV.jpg" alt="Johann" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/JoseL.jpeg" alt="José" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/JulienB.jpg" alt="Julien" width=80% height=100%></td>
-	    </tr>
-	    <tr>
-	    	<td> Jerome J. <br>Pass' D1</td>
-	    	<td> Johann V.<br>Cadet</td>
-	    	<td> José L.<br>3ème caté</td>
-	    	<td> Julien B.<br>3ème caté</td>
-	    </tr>
-	    </table>
-		
-		<!-- cinquième partie -->
-	    <table>
-	    <tr>
-	    	<td> <img src="images/coureurs/JulienG.jpg" alt="Julien" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/KevinE.jpg" alt="Kévin" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/LucienH.jpg" alt="Lucien" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/LudovicK.jpg" alt="Ludovic" width=80% height=100%></td>
-	    </tr>
-	    <tr>
-	    	<td> Jerome G. <br>3ème caté</td>
-	    	<td> Kevin E.<br>3ème caté</td>
-	    	<td> Lucien H.<br>S4 (FSGT)</td>
-	    	<td> Ludovic K.<br>2ème caté</td>
-	    </tr>
-	    </table>
-		
-		<!-- sixième partie -->
-	    <table>
-	    <tr>
-	    	<td> <img src="images/coureurs/MathieuN.jpg" alt="Mathieu" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/ReneS.jpg" alt="René" width=80% height=100%></td>
-			<td> <img src="images/coureurs/PhilippeW.jpg" alt="Philippe" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/SantoF.jpg" alt="Santo" width=80% height=100%></td>
-	    </tr>
-	    <tr>
-	    	<td> Mathieu N. <br>3ème caté</td>
-			<td> René S.<br>Pass' D3</td>
-			<td> Philippe W. <br>Pass' D1</td>
-	    	<td> Lucien H.<br>3ème caté</td>
-	    </tr>
-	    </table>
 		<br>
-		<p> Un grand merci à <a href="https://www.facebook.com/AurelieTscheillerPhotographiesCyclistes/">Aurélie Tscheiller</a>, <a href="https://www.facebook.com/clichesdinstants/">Au Fil des Instants</a> et <a href="https://www.facebook.com/Tiiffanie-photo-v%C3%A9lo-1692536604344741">Tiiffanie , photo vélo</a> pour les photos.
-
+		<td><img src="images/vcsa.jpg"></td>
+			
+		<p>
+		<h3>Dernières nouvelles</h3>
+		<hr>
+		<br>
+		<h4>Antoine M. vainqueur du GP de la MJC à Buhl en Pass' Cyclisme!</h4>
+			<div class="article-info">Rédigé le 15 août</div> 
+			<p> Après de nombreuses places d'honneur cette année, Antoine est ce mardi monté pour la première fois sur la plus haute marche du podium à Buhl, à l'issue d'une victoire en solitaire. </p>
+			<center><img src="images/AntoineBuhl.jpg" width=50%></center>
+		</p>
+		<br>
+		<h4>Hugo sélectionné aux championnats d'Europe au Danemark!</h4>
+			<div class="article-info">Rédigé le 25 Juillet</div>
+			<p> Après plusieurs sélections en Equipe de France Espoirs, Hugo va vivre le dimanche 6 août sa première course sous les couleurs de l'équipe de France élites ! Sélectionné avec 8 autres coureurs par Cyrille Guimard, il épaulera Bryan Coquard.</p>
+		</p>
+		</article>
+		{% endblock content %}
         </section>
         
 		
-		
+		{% block rightsidebar %}
         <!-- barre de droite -->
         <aside class="sidebar right-sidebar">
 		
@@ -288,13 +206,13 @@ License: Creative Commons Attribution
 		
 		
         </aside>
-		
+		{% endblock rightsidebar %}
     	<div class="clear"></div>
     </div>
 </div>
 
 	<!-- pied de page -->
-	
+	{% block footer %}
     <footer>
 	
 	<div class="footer-content width">
@@ -322,6 +240,6 @@ License: Creative Commons Attribution
          </div>
 	
     </footer>
-	
+	{% endblock footer %}
 </body>
 </html>

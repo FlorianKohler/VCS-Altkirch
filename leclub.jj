@@ -1,0 +1,34 @@
+<!doctype html>
+
+{% extends "index.jj" %}
+
+{% block title %}VCS Altkirch - En bref{% endblock title %}
+
+{% block ifindex %}{% endblock %}
+{% block ifleclub %}class="selected"{% endblock %}
+
+
+{% block introcontent %}
+<img class="cover" src="images/covers/cover_leclub.jpg" width=100%>
+{% endblock introcontent %}
+
+{% block content %}
+<h2>Le VCSA en bref</h2>
+		<p> Le vélo club Sundgovia Altkirch, fondé il y a bien longtemps, est un club convivial.</br>
+		Terreau de champions, le maillot du VCS Altkirch a déjà été porté - entre autres, par: 
+		<ul><li><a href="https://fr.wikipedia.org/wiki/Nicolas_Hartmann">Nicolas Hartmann</a>, professionnel de 2007 à 2009, chez Cofidis puis chez Bretagne-Schuller</li></ul>
+		<ul><li><a href="https://fr.wikipedia.org/wiki/Hugo_Hofstetter">Hugo Hofstetter</a>, professionnel depuis 2016 chez Cofidis. Suivez sa saison sur <a href="http://www.procyclingstats.com/rider/Hugo_Hofstetter">ProCyclingStats.</li></ul>
+		</p>
+		
+		<p>
+		<img src="images/HugoAltkirch.jpg">
+		Toujours licencié au VCS Altkirch, Hugo Hofstetter voit parfois ses supporters l'encourager.. ici à Vesoul, aux Championnats de France élite 2016.
+		</p>
+		
+		<p><h4>Comité directeur:</h4>
+		<ul><li>Président : Gilles Hartmann</li></ul>
+		<ul><li>Président d'honneur : </li></ul>
+		<ul><li>Trésorier : </li></ul>
+		<ul><li>Secrétaire : </li></ul>
+		
+		</p>{% endblock content %}

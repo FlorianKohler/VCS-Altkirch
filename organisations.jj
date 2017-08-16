@@ -1,0 +1,25 @@
+<!doctype html>
+
+{% extends "index.jj" %}
+
+{% block title %}VCS Altkirch - Résultats{% endblock title %}
+
+{% block ifindex %}{% endblock %}
+{% block iforganisations %}class="selected"{% endblock %}
+
+
+{% block introcontent %}
+<h2 class="indexwelcome">Les organisations du VCSA </h2>
+{% endblock introcontent %}
+
+{% block content %}
+<h4>  	&#149 	26ème prix Agri-Center Espace Emeraude (FSGT)</h4>
+		<p>Dimanche 27 août à Jettingen.</p>
+		<center><img src="images/Jettingen.jpg" width=50%></center>
+		<p>Toutes les précisions (engagements, etc) <a href="http://fsgt-cyclisme-alsace.shost.ca/route/publications/Publication_Jettingen.pdf">ici</a>.</p> 
+		<h4> 	&#149 Cyclo-cross de Saint Bernard (FFC)</h4>
+		<p> Dimanche 22 octobre.</p>
+		
+		<h4> 	&#149 Tour du Sundgau 2018</h4>
+		<p>Plus d'infos à venir... un peu de patience!"</p>
+{% endblock content %}

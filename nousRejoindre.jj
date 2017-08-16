@@ -1,0 +1,17 @@
+{% extends "index.jj" %}
+
+{% block title %}VCS Altkirch - Page test{% endblock title %}
+
+{% block ifindex %}{% endblock %}
+{% block ifnousrejoindre %}class="selected"{% endblock %}
+
+
+{% block introcontent %}
+<img class="cover" src="images/covers/cover_nousrejoindre.jpg" width=100%>
+{% endblock introcontent %}
+
+{% block content %}
+<h2>Nous rejoindre </h2>
+		<p> Féru de vélo, sundgauvien et à la recherche d'un club, n'hésite pas à venir nous rencontrer!
+		Le mieux, c'est de le faire sur le vélo : en nous rejoignant un mercredi (ou samedi, ou dimanche) à un entraînement. Tu trouveras les horaires toutes les semaines (en saison, du moins...) sur le <a href="http://veloclubaltkirch.xoo.it/index.php"> forum</a>.</p>
+{% endblock content %}

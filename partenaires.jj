@@ -1,0 +1,52 @@
+<!doctype html>
+
+{% extends "index.jj" %}
+
+{% block title %}VCS Altkirch - Partenaires{% endblock title %}
+
+{% block ifindex %}{% endblock %}
+{% block ifpartenaires %}class="selected"{% endblock %}
+
+
+{% block introcontent %}
+<img class="cover" src="images/covers/cover_partenaires.jpg" width=100%>
+{% endblock introcontent %}
+
+{% block content %}
+<h2>Les partenaires du VCSA </h2>
+	    <p> Le  VCS Altkirch ne serait rien sans ses partenaires et les remercie particulièrement pour leur soutien. Notamment : </p>
+	    
+	    <h4>&#149 ID Fermetures</h4>
+	    <p>Créée en 2001 et située sur Illzach (Haut-Rhin), l'entreprise ID Fermetures vous propose la fourniture et la pose de :<br>
+Fenêtres - Portes d'entrée / de service / blindées - Volets roulants / volets battants<br>
+Portes de garage - Stores (bannes, pergolas, etc.) - Portails / garde-corps / clôtures<br>
+  => Plus d'infos sur le <a href="http://www.idfermetures.fr">site de ID Fermetures ou sur la <a href="http://www.facebook.com/IDFermetures">page Facebook</a>.</p>
+
+		<h4>&#149 AS Bike</h4>
+	    <p> Spécialiste vélo & triathlon à Rixheim.<br>
+   => Plus d'infos sur le <a href="http://www.as-bike.fr">site de AS Bikes</a>.</p>
+   
+   		<h4>&#149 Le Crédit Mutuel</h4>
+	    <p> Banque coopérative<br>
+   => Plus d'infos sur le <a href="http://www.credit-mutuel.fr">site du Crédit Mutuel</a>.</p>
+
+   		<h4>&#149 Maisons Swiss Bois</h4>
+	    <p> Constructeur de maisons bois massif, chalet, extension... Qualité suisse. Procédé de construction innovant en respect avec l'environnement. Basé à Dannemarie.<br>
+   => Plus d'infos sur la <a href="http://www.facebook.com/Maisons-Swiss-Bois">page Facebook de Maisons Swiss Bois</a>.</p>
+   
+      	<h4>&#149 Daiichi Sankyo</h4>
+	    <p> Entreprise pharmaceutique<br>
+   => Plus d'infos sur le <a href="http://www.daiichi-sankyo.fr">site de Daiichi Sankyo</a></p>
+   
+   <h4>&#149 Fun2Sport</h4>
+	    <p> Vos Vacances & Stages Vélo sous toutes les formes, souvent avec d'anciens Coureurs Pro et toujours avec du plaisir, de la convivialité et du Fun!<br>
+   => Plus d'infos sur le <a href="http://www.fun2sport.fr/">site de Fun2Sport</a> ou sur la <a href="https://www.facebook.com/alain.lamy.fun2sport.fr/">page Facebook</a>.</p>
+        
+		<h4>&#149 Agri Center Jettingen</h4>
+	    <p> Matériel agricole - sur la RD419 à Jettingen.<br></p>
+	    
+	    <h4>&#149 LB Prothèses Dentaires</h4>
+	    <p> Prothésistes dentaires à Altkirch depuis 2002.<br></p>
+	    
+	    <p> Merci également à la <a href="http://www.mairie-altkirch.fr">ville d'Altkirch</a> pour son soutien !</p>
+{% endblock content %}
