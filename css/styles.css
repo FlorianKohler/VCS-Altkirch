@@ -28,18 +28,18 @@ table {
 }
 
 th, td {
-	padding: 5px 10px;
+	padding: 5px 7px;
 	line-height: 1.2em;
-	text-align:center
+	text-align:center;
+	border-bottom: 2px solid #1F2023;
 }
+
+.gauche { text-align: left;}
 
 th {
-	color: #666;
-	background: #141517 none repeat-x scroll left top;
-}
-
-td {
-	border-bottom: 2px solid #1F2023;
+	color: #ffffff;
+	font-weight: bold;
+	
 }
 
 p {
@@ -529,7 +529,7 @@ article .article-info a {
 .sidebar h4 {
 	padding-bottom: 0;
 	font-size: 1.4em;
-	color: #EACF6D;
+	color: #ffffff;
 	letter-spacing: -1px;
 	padding: 0;
 }
@@ -578,12 +578,13 @@ article .article-info a {
 .sidebar li a {
 	border-bottom-color: #6B7680;
 	color:#ffffff; /* couleur du texte des liens à droite */
+	
 }
 
 
 .sidebar li a:hover {
 	color: #AEB5BC;
-	 border-bottom-color: #AEB5BC;
+	 border-bottom-color: #AEB5BC; /* rien ? */
 }
 
 .sidebar ul.blocklist li {
@@ -591,7 +592,7 @@ article .article-info a {
 }
 
 .sidebar ul.blocklist li a,
-.sidebar ul.blocklist li a:hover {
+.sidebar ul.blocklist li a:hover { /* lien FSGT etc 3*/
 	border-bottom: 0;
 	display: block;
 	padding: 2px 5px; /* espacement vertical - espacement à gauche */

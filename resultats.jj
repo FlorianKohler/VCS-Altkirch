@@ -14,6 +14,7 @@
 
 {% block content %}
 <h2>Les résultats des coureurs du VCSA </h2>
+		<p>Un tableau récapitulatif des résultats altkirchois sur les courses sur route de la saison est disponible <a href="performances.html">ici</a>.
 		<h4>&#149 15 août</h4>
 		<h5>Prix de la MJC à Buhl:</h5>
 		<p> <ul><li>Victoire de Antoine M. en Pass' Cyclisme!</li></ul></p>
