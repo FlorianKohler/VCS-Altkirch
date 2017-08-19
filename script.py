@@ -70,12 +70,12 @@ Places.append([4,'FSGT','V4','Sebastien S'])
 Places.append([5,'FSGT','V4','Lionel B'])
 
 Places.append([8,'FSGT','V4','Rene S'])
-Places.append([9,'FSGT','V4','Sebastien S'])
-Places.append([10,'FSGT','V4','Sebastien S'])
-Places.append([1,'FSGT','V4','Sebastien S'])
-Places.append([1,'FSGT','V4','Sebastien S'])
-Places.append([2,'FSGT','V4','Sebastien S'])
-Places.append([7,'FSGT','V4','Sebastien S'])
+Places.append([9,'FSGT','V4','Rene  S'])
+Places.append([6,'FSGT','V4','Rene  S'])
+Places.append([1,'FSGT','V4','Rene  S'])
+Places.append([1,'FSGT','V4','Rene  S'])
+Places.append([2,'FSGT','V4','Rene  S'])
+Places.append([7,'FSGT','V4','Rene  S'])
 
 Places.append([4,'FSGT','Cad','Johann V'])
 Places.append([8,'FSGT','Cad','Johann V'])
@@ -106,10 +106,63 @@ Places.append([9,'FSGT','Min','Antoine C'])
 Places.append([8,'FSGT','Min','Antoine C'])
 Places.append([2,'FSGT','Min','Antoine C'])
 
+Places.append([6,'FFC','PassD1','FlorianK Monaco'])
 
-top3_ffc=0
-top10_fsgt=0
-top10_ffc=0
+Places.append([5,'FSGT','23','FlorianK Plascassier 06'])
+Places.append([1,'FSGT','23','FlorianK Sophia 06'])
+Places.append([4,'FSGT','23','FlorianK Martyrs 06'])
+Places.append([2,'FSGT','23','FlorianK Souvenir morra 06'])
+
+
+Places.append([10,'FFC','23J','FlorianK clm piemont'])
+Places.append([8,'FFC','23J','FlorianK Gerardmer'])
+
+Places.append([10,'FFC','123J','Jerome H Steige'])
+
+Places.append([1,'FFC','PassD1','Antoine M Buhl'])
+Places.append([9,'FFC','PassD1','Jerome J Buhl'])
+
+Places.append([6,'FFC','3J','Julien G Wintershouse'])
+Places.append([8,'FFC','PassD3','Claude S Muguet'])
+Places.append([10,'FFC','PassD3','Gilles E Muguet'])
+
+Places.append([2,'FFC','3J','Julien G Wintershouse'])
+
+Places.append([5,'FFC','23J','Daniel F Sentheim'])
+Places.append([1,'FFC','PassD1','Philippe W Sentheim'])
+Places.append([2,'FFC','3J','Daniel F Merkwiller'])
+
+Places.append([1,'FFC','PassD3','Rene S Schwenheim'])
+Places.append([8,'FFC','PassD3','Claude S Schwenheim'])
+
+Places.append([4,'FFC','PassD1','Kevin E Ornans'])
+Places.append([6,'FFC','PassD1','Kevin E Valdahon'])
+Places.append([4,'FFC','PassD1','Kevin E Pontarlier']) 
+Places.append([2,'FFC','PassD1','Kevin E Terre de Chaux'])
+Places.append([2,'FFC','PassD1','Kevin E Morteaux'])
+Places.append([2,'FFC','PassD1','Kevin E Noroy le bourg'])
+Places.append([4,'FFC','PassD1','Kevin E Saint Remy'])
+
+Places.append([1,'FFC','3J','Florian K Montgeron'])
+
+Places.append([8,'FFC','PassD1','Jerome J Charmont'])
+Places.append([10,'FFC','PassD1','Brieuc H Amancey'])
+
+Places.append([6,'FFC','3J','Jerome H crit printemps'])
+
+Places.append([10,'FFC','3J','Julien G TTB 1'])
+Places.append([4,'FFC','3J','Julien G TTB  TTT'])
+Places.append([3,'FFC','3J','Julien G TTB 1'])
+Places.append([2,'FFC','3J','Julien G TTB general'])
+
+Places.append([7,'FFC','23J','Julien G Saone Vingeanne']) #•au pif
+
+Places.append([9,'FFC','PassD1','Brieuc H ballon '])
+
+Places.append([10,'FFC','23J','Julien B repes'])
+
+Places.append([5,'FFC','23J','Jerome H Ronde Haute Saone 1'])
+
 
 list_cates=['FFC123J','FFC23J','FFC3J','FFCPassD1','FFCPassD3','FFCCad','FFCMin','FSGT23','FSGTS4','FSGTV4','FSGTCad','FSGTMin']
 
@@ -134,8 +187,7 @@ affichage['FSGTMin']='FSGT : Minimes'
 affichage['Total']='Total'
 
 #print(resultats)
-for perf in Places:
-#if fsgt or ffc ?
+for perf in Places: #if fsgt or ffc ?
     resultats[perf[1]+perf[2]][perf[0]-1]+=1   # resultats [FEDEcates] [place-1 à cause de l'indexation] += 1
     
 #print(resultats)
