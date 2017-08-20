@@ -2,14 +2,14 @@
 
 {% extends "index.jj" %}
 
-{% block title %}VCS Altkirch - Circuits{% endblock title %}
+{% block title %}VCS Altkirch - Contact{% endblock title %}
 
 {% block ifindex %}{% endblock %}
 {% block ifcircuits %}class="selected"{% endblock %}
 
 
 {% block introcontent %}
-<img class="cover" src="images/covers/cover_circuits.jpg" width=100%>
+<h2 class="indexwelcome">Formulaire de contact</h2>
 {% endblock introcontent %}
 
 {% block content %}
