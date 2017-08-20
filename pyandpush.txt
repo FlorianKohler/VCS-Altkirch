@@ -1,1 +1,1 @@
-git pull && py script.py && git add * && git commit -m "commit from script - normal update" && git push
+git config core.autocrlf true && git pull && py script.py && git add * && git commit -m "commit from script - normal update" && git push
