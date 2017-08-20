@@ -21,4 +21,6 @@
 		<br>
 		<h4>&#149 Le circuit du dimanche à Ballschwiller (version travaux - août 2017)</h4>
 		<iframe src="https://www.google.fr/maps/d/embed?mid=1ELAhfFXgyQcCRbKqJHrQLWGg2OU" align=middle width="85%" min-width=200 height="400" align="middle"></iframe>
-{% endblock content %}
+
+		
+		{% endblock content %}
