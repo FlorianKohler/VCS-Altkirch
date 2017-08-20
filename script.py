@@ -155,7 +155,7 @@ Places.append([4,'FFC','3J','Julien G TTB  TTT'])
 Places.append([3,'FFC','3J','Julien G TTB 1'])
 Places.append([2,'FFC','3J','Julien G TTB general'])
 
-Places.append([7,'FFC','23J','Julien G Saone Vingeanne']) #•au pif
+Places.append([5,'FFC','23J','Julien G Saone Vingeanne'])
 
 Places.append([9,'FFC','PassD1','Brieuc H ballon '])
 
