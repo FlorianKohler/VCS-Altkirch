@@ -126,13 +126,13 @@ form input, form select, form textarea {
 	background-color:#fff;
 	font-family: 'Source Sans Pro', 'sans-serif';
 	font-size: 0.9em;
-	width: 30%;
+	width: calc(100px + 25%);
 }
 
 form textarea
 {
 	height: 10em;
-	width: 60%;
+	width: calc(100px + 40%);
 }
 form input.formbutton {
 background: none repeat scroll 0% 0% #5DA1C3;
@@ -746,6 +746,7 @@ div.social-icons a {
 	background-color: #363A3F;
 	min-width: 98%;
 }
+	
 
 	body { font-size: 0.7em; min-width: 98%}  
 
