@@ -241,6 +241,12 @@ rt = template.render(bilan=bilan)
 ofh.write(rt)
 ofh.close()
 
+template = env.get_template('contact.jj') #nomdutemplate
+ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\contact.html","w", encoding="utf-8")
+rt = template.render(bilan=bilan)
+ofh.write(rt)
+ofh.close()
+
 template = env.get_template('leclub.jj') #nomdutemplate
 ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\leclub.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan)
