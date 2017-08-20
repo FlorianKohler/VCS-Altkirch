@@ -13,7 +13,7 @@
 {% endblock introcontent %}
 
 {% block content %}
-<form action="https://formspree.io/florian_le_rider@hotmail.fr"
+<form action="https://formspree.io/webmaster-vcsa@ntymail.com"
       method="POST">
 	<input type="text" name="_gotcha" style="display:none" />
 	
