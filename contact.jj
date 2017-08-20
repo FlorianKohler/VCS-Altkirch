@@ -15,8 +15,19 @@
 {% block content %}
 <form action="https://formspree.io/florian_le_rider@hotmail.fr"
       method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+	<input type="text" name="_gotcha" style="display:none" />
+	
+	<p> <label for="nom">Votre nom :</label><br>
+    <input type="text" name="name" placeholder="Christopher Froome"> </p>
+	<p>
+		<label for="nom">Votre adresse mail :</label><br>
+		<input type="email"  name="_replyto" placeholder="chrisfroome@teamsky.fr">
+	</p>
+	<p>
+	<label for="nom">Votre message :</label><br>
+	<textarea name="message" placeholder="Votre question/remarque ici"></textarea>
+
+	</p>
+    <input type="submit" value="Envoyer">
 </form> 
 {% endblock content %}

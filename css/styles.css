@@ -108,6 +108,7 @@ fieldset legend {
 
 fieldset form {
 	padding-top: 15px;
+	display: inline-block;
 }
 
 fieldset p label {
@@ -122,8 +123,14 @@ form input, form select, form textarea {
 	background-color:#fff;
 	font-family: 'Source Sans Pro', 'sans-serif';
 	font-size: 0.9em;
+	width: 30%;
 }
 
+form textarea
+{
+	height: 10em;
+	width: 60%;
+}
 form input.formbutton {
 background: none repeat scroll 0% 0% #5DA1C3;
 color: #FFF;
