@@ -667,6 +667,11 @@ footer p a {
 	padding: 50px 25px;
 }
 
+th, td a {
+	border-bottom-style: none;
+	border-bottom: none;
+}
+
 footer .footer-content ul {
 	width: 25%;
 	list-style: none;
@@ -682,9 +687,10 @@ footer .footer-content li {
 footer .footer-content li a, footer .footer-content h4 {
 }
 
+
 footer .footer-content li a {
 	color: #ffffff;
-	border-bottom-color:#ffffff;
+	border-bottom-style: none; /* lien sponsors ? */
     
 }
 
@@ -696,7 +702,7 @@ footer .footer-content li {
 
 footer .footer-content li a:hover { 
 	color: #ffffff;
-	border-bottom-color:#A6AEB5;
+	border-bottom-style:none ; /* liens sponsors avec souris ? */
 }
 
 footer .footer-content h4 {

@@ -163,8 +163,58 @@ Places.append([10,'FFC','23J','Julien B repes'])
 
 Places.append([5,'FFC','23J','Jerome H Ronde Haute Saone 1'])
 
+listeCoureurs = []
+listeCoureurs.append(["Alain L.","AlainL","Pass' D1"])
+listeCoureurs.append(["Alexis W.","AlexisW","J3 (FSGT)"])
+listeCoureurs.append(["Antoine M.","AntoineM","3e caté"])
+listeCoureurs.append(["Baptiste S.","BaptisteS","Pass' D1"])
+listeCoureurs.append(["Brieuc H.","BrieucH","Pass' D1"])
+listeCoureurs.append(["Cédric L.","CedricL","3e caté"])
+listeCoureurs.append(["Cédric M.","CedricM","S4 (FSGT)"])
+listeCoureurs.append(["Christophe D.","ChristopheD","3ème caté"])
+listeCoureurs.append(["Claude S.","ClaudeS","Pass' D3"])
+listeCoureurs.append(["Daniel F","DanielF","3e caté"])
+listeCoureurs.append(["Eric H.","EricH","3e caté"])
+listeCoureurs.append(["Florian K.","FlorianK","3 caté"])
+listeCoureurs.append(["Florian V.","FlorianV","Pass' D1"])
+listeCoureurs.append(["Gilles E.", "GillesE","Pass' D4"])
+listeCoureurs.append(["Guillaume A.","GuillaumeA","Pass' D1"])
+listeCoureurs.append(["Guillaume P.","GuillaumeP","Pass' D1"])
+listeCoureurs.append(["Jérôme H.","JeromeH","Junior"])
+listeCoureurs.append(["Jérôme J.","JeromeJ","Pass' D1"])
+listeCoureurs.append(["José L.","JoseL","3e caté"])
+listeCoureurs.append(["Julien B.","JulienB","3e caté"])
+listeCoureurs.append(["Julien G.","JulienG","3e caté"])
 
-list_cates=['FFC123J','FFC23J','FFC3J','FFCPassD1','FFCPassD3','FFCCad','FFCMin','FSGT23','FSGTS4','FSGTV4','FSGTCad','FSGTMin']
+listeCoureurs.append(["Kévin E.","KevinE","3e caté"])
+listeCoureurs.append(["Lionel B.","LionelB","Pass' D3"])
+listeCoureurs.append(["Lucien H.","LucienH","S4 (FSGT)"])
+listeCoureurs.append(["Ludovic K.","LudovicK","2e caté"])
+listeCoureurs.append(["Mathieu N.","MathieuN","3e caté"])
+listeCoureurs.append(["Pascal S.","PascalS","Pass' D1"])
+listeCoureurs.append(["Patrick V.","PatrickV","Pass' D4"])
+listeCoureurs.append(["Philippe W.","PhilippeW","3e caté"])
+listeCoureurs.append(["René S.","ReneS","Pass' D2"])
+listeCoureurs.append(["Santo F.","SantoF","3ème caté"])
+listeCoureurs.append(["Sébastien S","SebastienS","Pass' D3"])
+listeCoureurs.append(["Stéphane M.","StephaneM","V4 (FSGT)"])
+listeCoureurs.append(["Sönke W.","SonkeW","Senior (FSGT)"])
+listeCoureurs.append(["Lionel B.","LionelB","Pass' D3"])
+
+listeCoureurs.append(["Johann V.","JohannV","Cadet"])
+listeCoureurs.append(["Alexandre N.","AlexandreN","Minime"])
+listeCoureurs.append(["Anthony W.","AnthonyW","Cadet"])
+listeCoureurs.append(["Antoine C.","AntoineC","Minime"])
+listeCoureurs.append(["Clément B.","ClementB","Cadet"])
+
+listeCoureurs.append(["Hugo Hofstetter","HugoH","Coureur professionnel - Team Cofidis"])
+
+coureursDerniereLigne= len(listeCoureurs)%4
+
+ 
+
+
+list_cates=['FFC123J','FFC23J','FFC3J','FFCPassD1','FFCPassD3','FSGT23','FSGTS4','FSGTV4','FSGTCad','FSGTMin']
 
 
 resultats = collections.OrderedDict()
@@ -237,7 +287,7 @@ ofh.close()
 
 template = env.get_template('coureurs.jj') #nomdutemplate
 ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\coureurs.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan)
+rt = template.render(bilan=bilan, listeCoureurs=listeCoureurs, len = len)
 ofh.write(rt)
 ofh.close()
 

@@ -12,156 +12,47 @@
 <h2 class="indexwelcome">Les coureurs du VCSA </h2>
 {% endblock introcontent %}
 
+
 {% block content %}
+
 <!-- Note: ne pas mettre de photos de tailles identiques pose souci, merci de travailler les photos en amont (et vive photofiltre/gimp etc)-->
 	<!-- première partie -->
-	    <table>
-	    <tr>
-			<td> <img src="images/coureurs/AlainL.jpeg" alt="Alain" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/AntoineM.jpg" alt="Antoine" width=80% height=100%></td>
-			<td> <img src="images/coureurs/BrieucH.jpg" alt="Brieuc" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/CedricL.jpg" alt="Cédric" width=80% height=100%></td>
-	    	
-	    </tr>
-	    <tr>
-	    	<td> Alain L. <br>Pass' D1</td>
-	    	<td> Antoine M. <br>Pass' D1</td>
-	    	<td> Brieuc H. <br>Pass' D1</td>
-	    	<td> Cédric L. <br>3ème caté</td>
-
-	    </tr>
-	    </table>
-	    
-	    <br>
-	    
-	    	<!-- deuxième partie -->
-	    <table>
-	    <tr>
-			<td> <img src="images/coureurs/CedricM.jpg" alt="Cédric" width=80% height=100%></td>
-			<td> <img src="images/coureurs/ClaudeS.jpg" alt="Claude" width=80% height=100%></td>
-			<td> <img src="images/coureurs/DanielF.jpg" alt="Daniel" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/EricH.jpg" alt="Eric" width=80% height=100%></td>
-
-	    </tr>
-	    <tr>
-			<td> Cédric M. <br>S4 (FSGT)</td>
-	    	<td> Claude S. <br>Pass' D3</td>
-	    	<td> Daniel F. <br>3ème caté</td>
-	    	<td> Eric H.<br>3ème caté</td>
-
-	    </tr>
-	    </table>
-	    
-	    <br>
-	    
-	    	   <!-- troisième partie -->
-	    <table>
-	    <tr>
-			<td> <img src="images/coureurs/FlorianK.jpg" alt="Florian" width=80% height=100%></td>
-			<td> <img src="images/coureurs/FlorianV.jpg" alt="Florian" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/GuillaumeA.jpg" alt="Guillaume" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/GuillaumeP.jpg" alt="Guillaume" width=80% height=100%></td>
-	    	
-	    </tr>
-	    <tr>
-			<td> Florian K.<br>3ème caté</td>
-
-	    	<td> Florian V.<br>Pass' D1</td>
-	    	<td> Guillaume A.<br>Pass' D1</td>
-	    	<td> Guillaume P. <br>Pass' D1</td>
-	    	
-	    </tr>
-		
-		<!-- quatrième partie -->
-	    <table>
-	    <tr>
-			<td> <img src="images/coureurs/JeromeH.jpg" alt="Jérome" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/JeromeJ.jpg" alt="Jérome" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/JohannV.jpg" alt="Johann" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/JoseL.jpeg" alt="José" width=80% height=100%></td>
-	    	
-	    </tr>
-	    <tr>
-			<td> Jérome H.<br>Junior</td>
-	    	<td> Jerome J. <br>Pass' D1</td>
-	    	<td> Johann V.<br>Cadet</td>
-	    	<td> José L.<br>3ème caté</td>
-	    	
-	    </tr>
-	    </table>
-		
-		<!-- cinquième partie -->
-	    <table>
-	    <tr>
-			<td> <img src="images/coureurs/JulienB.jpg" alt="Julien" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/JulienG.jpg" alt="Julien" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/KevinE.jpg" alt="Kévin" width=80% height=100%></td>
-			<td> <img src="images/coureurs/LionelB.jpg" alt="Lionel" width=80% height=100%></td>
-
-
-	    </tr>
-	    <tr>
-			
-			<td> Julien B.<br>3ème caté</td>
-	    	<td> Jerome G. <br>3ème caté</td>
-	    	<td> Kevin E.<br>3ème caté</td>
-			<td> Lionel B.<br>V4 (FSGT)</td>
-
-	    </tr>
-	    </table>
-		
-		<!-- sixième partie -->
-	    <table>
-	    <tr>
-			<td> <img src="images/coureurs/LucienH.jpg" alt="Lucien" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/LudovicK.jpg" alt="Ludovic" width=80% height=100%></td>
-	    	<td> <img src="images/coureurs/MathieuN.jpg" alt="Mathieu" width=80% height=100%></td>
-			<td> <img src="images/coureurs/PascalS.jpg" alt="Pascal" width=80% height=100%></td>
-
-	    </tr>
-	    <tr>
-			<td> Lucien H.<br>S4 (FSGT)</td>
-	    	<td> Ludovic K.<br>2ème caté</td>
-	    	<td> Mathieu N. <br>3ème caté</td>
-			<td> Pascal S. <br>V4 (FSGT)</td>
-	    </tr>
-		</table>
-		
-		<!-- septième partie -->
+	{% for indexCoureurs in range(0,len(listeCoureurs)-1,4) %}
+		{% if indexCoureurs%4 == 0 %}
 		<table>
 		<tr>
-			<td> <img src="images/coureurs/PhilippeW.jpg" alt="Philippe" width=80% height=100%></td>
-			<td> <img src="images/coureurs/ReneS.jpg" alt="René" width=80% height=100%></td>
-			
-	    	<td> <img src="images/coureurs/SantoF.jpg" alt="Santo" width=80% height=100%></td>
-			<td> <img src="images/coureurs/SebastienS.jpg" alt="Sebastien" width=80% height=100%></td>
+			<td><img src="images/coureurs/{{listeCoureurs[indexCoureurs][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs][0]}}" width=80% height=100%></td>
+			<td><img src="images/coureurs/{{listeCoureurs[indexCoureurs+1][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs+1][0]}}" width=80% height=100%></td>
+			<td><img src="images/coureurs/{{listeCoureurs[indexCoureurs+2][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs+2][0]}}" width=80% height=100%></td>
+			<td><img src="images/coureurs/{{listeCoureurs[indexCoureurs+3][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs+3][0]}}" width=80% height=100%></td>
 		</tr>
-		<tr>
-			<td> Philippe W. <br>3ème caté</td>
-			<td> René S.<br>Pass' D2</td>
-	    	<td> Lucien H.<br>3ème caté</td>
-			<td> Sebastien B.<br>Pass' D3</td>
-		</tr>
+	    <tr>
+	    	<td> {{listeCoureurs[indexCoureurs][0]}} <br>{{listeCoureurs[indexCoureurs][2]}}</td>
+	    	<td> {{listeCoureurs[indexCoureurs+1][0]}} <br>{{listeCoureurs[indexCoureurs+1][2]}}</td>
+			<td> {{listeCoureurs[indexCoureurs+2][0]}} <br>{{listeCoureurs[indexCoureurs+2][2]}}</td>
+			<td> {{listeCoureurs[indexCoureurs+3][0]}} <br>{{listeCoureurs[indexCoureurs+3][2]}}</td>
+	    </tr>
 	    </table>
-		
-		<!-- huitième partie -->
-		<table>
-		<tr>
-			<td> <img src="images/coureurs/StephaneM.jpg" alt="Stéphane" width=80% height=100%></td>
-			<td> <img src="images/coureurs/Neutre.jpg" alt="Alexandre" width=80% height=100%></td>
-			<td> <img src="images/coureurs/Neutre.jpg" alt="Anthony" width=80% height=100%></td>
-			<td> <img src="images/coureurs/Neutre.jpg" alt="Clément" width=80% height=100%></td>
-		
-		</tr>
-		<tr>
-			<td> StéphaneM.<br>V4(FSGT)</td>
-			<td> Alexandre N.<br>Minime</td>
-	    	<td> Anthony W.<br>Cadet</td>
-			<td> Clément B.<br>Cadet</td>
-		</tr>
-	    </table>		
-		
-		
+		{% endif %}
+	{% endfor %}
+	
+	{% set restCoureurs = len(listeCoureurs)%4 %}
+	{% if restCoureurs>0 %}
+	<table>
+	<tr>
+		{% for indexDiff in range(restCoureurs) %}
+			<td><img src="images/coureurs/{{listeCoureurs[len(listeCoureurs)-restCoureurs+indexDiff][1]}}.jpg" alt="{{listeCoureurs[len(listeCoureurs)-restCoureurs+indexDiff][0]}}" width=80% height=100%></td>
+		{% endfor %}
+	
+	</tr>
+	<tr>
+		{% for indexDiff in range(restCoureurs) %}
+			<td> {{listeCoureurs[len(listeCoureurs)-restCoureurs+indexDiff][0]}} <br>{{listeCoureurs[len(listeCoureurs)-restCoureurs+indexDiff][2]}}</td>
+		{% endfor %}
+	</table>
+	
+	{% endif %}
 		<br>
 		<p> Un grand merci à <a href="https://www.facebook.com/AurelieTscheillerPhotographiesCyclistes/">Aurélie Tscheiller</a>, <a href="https://www.facebook.com/clichesdinstants/">Au Fil des Instants</a> et <a href="https://www.facebook.com/Tiiffanie-photo-v%C3%A9lo-1692536604344741">Tiiffanie , photo vélo</a> pour les photos.
+
 {% endblock content %}
