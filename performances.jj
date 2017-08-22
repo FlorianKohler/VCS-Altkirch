@@ -13,7 +13,7 @@
 
 {% block content %}
 <h4 align="middle"> Tableau des places - Saison Route 2017 </h4>
-<table>
+<table class="perf">
 
 <tr> {# première ligne #}
 	<th style="width: 150px">Catégorie / Place</th>

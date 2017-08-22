@@ -32,11 +32,14 @@ table {
 }
 
 th, td {
-	padding: 5px 7px;
+	padding: 5px 0px;
 	line-height: 1.2em;
 	text-align:center;
 	border-bottom: 2px solid #1F2023;
 }
+.perf td { width: inherit;}
+
+.coureurs td{ width : 25%;} /* pour diviser l'espqce proprement en 4 */
 
 .gauche { text-align: left;}
 
@@ -664,7 +667,7 @@ footer p a {
 }
 
 .footer-content {
-	padding: 50px 25px;
+	padding: 1% 2%;
 }
 
 th, td a {

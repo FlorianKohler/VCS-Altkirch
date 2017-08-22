@@ -1,6 +1,6 @@
 
 # -*- coding: utf-8 -*-
-
+import sys
 import codecs
 import jinja2
 import collections
@@ -162,6 +162,7 @@ Places.append([9,'FFC','PassD1','Brieuc H ballon '])
 Places.append([10,'FFC','23J','Julien B repes'])
 
 Places.append([5,'FFC','23J','Jerome H Ronde Haute Saone 1'])
+Places.append([5,'FFC','23J','Ludo K Xonrupt'])
 
 listeCoureurs = []
 listeCoureurs.append(["Alain L.","AlainL","Pass' D1"])
@@ -171,11 +172,11 @@ listeCoureurs.append(["Baptiste S.","BaptisteS","Pass' D1"])
 listeCoureurs.append(["Brieuc H.","BrieucH","Pass' D1"])
 listeCoureurs.append(["Cédric L.","CedricL","3e caté"])
 listeCoureurs.append(["Cédric M.","CedricM","S4 (FSGT)"])
-listeCoureurs.append(["Christophe D.","ChristopheD","3ème caté"])
+listeCoureurs.append(["Christophe D.","ChristopheD","3e caté"])
 listeCoureurs.append(["Claude S.","ClaudeS","Pass' D3"])
 listeCoureurs.append(["Daniel F","DanielF","3e caté"])
 listeCoureurs.append(["Eric H.","EricH","3e caté"])
-listeCoureurs.append(["Florian K.","FlorianK","3 caté"])
+listeCoureurs.append(["Florian K.","FlorianK","3e caté"])
 listeCoureurs.append(["Florian V.","FlorianV","Pass' D1"])
 listeCoureurs.append(["Gilles E.", "GillesE","Pass' D4"])
 listeCoureurs.append(["Guillaume A.","GuillaumeA","Pass' D1"])
@@ -195,8 +196,8 @@ listeCoureurs.append(["Pascal S.","PascalS","Pass' D1"])
 listeCoureurs.append(["Patrick V.","PatrickV","Pass' D4"])
 listeCoureurs.append(["Philippe W.","PhilippeW","3e caté"])
 listeCoureurs.append(["René S.","ReneS","Pass' D2"])
-listeCoureurs.append(["Santo F.","SantoF","3ème caté"])
-listeCoureurs.append(["Sébastien S","SebastienS","Pass' D3"])
+listeCoureurs.append(["Santo F.","SantoF","3e caté"])
+listeCoureurs.append(["Sébastien S.","SebastienS","Pass' D3"])
 listeCoureurs.append(["Stéphane M.","StephaneM","V4 (FSGT)"])
 listeCoureurs.append(["Sönke W.","SonkeW","Senior (FSGT)"])
 listeCoureurs.append(["Lionel B.","LionelB","Pass' D3"])
@@ -207,12 +208,18 @@ listeCoureurs.append(["Anthony W.","AnthonyW","Cadet"])
 listeCoureurs.append(["Antoine C.","AntoineC","Minime"])
 listeCoureurs.append(["Clément B.","ClementB","Cadet"])
 
+'''longueurmax= max([len(coureurs[0]) for coureurs in listeCoureurs])
+for i in listeCoureurs:
+    espaceacombler = longueurmax - len(i[0])
+    for nbespaces in range(espaceacombler//2):
+        i[0]="&nbsp; "+i[0]
+        i[0] +="&nbsp; "
+    if espaceacombler%2==1:
+        i[0]+="&nbsp; " '''
+        
 listeCoureurs.append(["Hugo Hofstetter","HugoH","Coureur professionnel - Team Cofidis"])
 
 coureursDerniereLigne= len(listeCoureurs)%4
-
- 
-
 
 list_cates=['FFC123J','FFC23J','FFC3J','FFCPassD1','FFCPassD3','FSGT23','FSGTS4','FSGTV4','FSGTCad','FSGTMin']
 
@@ -243,7 +250,6 @@ for perf in Places: #if fsgt or ffc ?
 #print(resultats)
 
 resultats['Total'] = [sum(resultats[cates][place] for cates in list_cates) for place in range(10)]
-
 
 
 victoires_fsgt = sum (1 for i in Places if i[0]==1 and i[1]=='FSGT')

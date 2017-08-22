@@ -19,7 +19,7 @@
 	<!-- première partie -->
 	{% for indexCoureurs in range(0,len(listeCoureurs)-1,4) %}
 		{% if indexCoureurs%4 == 0 %}
-		<table>
+		<table class="coureurs">
 		<tr>
 			<td><img src="images/coureurs/{{listeCoureurs[indexCoureurs][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs][0]}}" width=80% height=100%></td>
 			<td><img src="images/coureurs/{{listeCoureurs[indexCoureurs+1][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs+1][0]}}" width=80% height=100%></td>
@@ -27,7 +27,7 @@
 			<td><img src="images/coureurs/{{listeCoureurs[indexCoureurs+3][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs+3][0]}}" width=80% height=100%></td>
 		</tr>
 	    <tr>
-	    	<td> {{listeCoureurs[indexCoureurs][0]}} <br>{{listeCoureurs[indexCoureurs][2]}}</td>
+	    	<td> {{listeCoureurs[indexCoureurs][0]}}<br>{{listeCoureurs[indexCoureurs][2]}}</td>
 	    	<td> {{listeCoureurs[indexCoureurs+1][0]}} <br>{{listeCoureurs[indexCoureurs+1][2]}}</td>
 			<td> {{listeCoureurs[indexCoureurs+2][0]}} <br>{{listeCoureurs[indexCoureurs+2][2]}}</td>
 			<td> {{listeCoureurs[indexCoureurs+3][0]}} <br>{{listeCoureurs[indexCoureurs+3][2]}}</td>
