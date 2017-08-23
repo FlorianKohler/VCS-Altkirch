@@ -277,7 +277,7 @@ template = env.get_template('performances.jj') #nomdutemplate
 ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\performances.html","w", encoding="utf-8")
 rt = template.render(resultats=resultats, bilan=bilan,affichage=affichage)
 ofh.write(rt)
-ofh.close()
+ofh.close() 
 
 template = env.get_template('nousRejoindre.jj') #nomdutemplate
 ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\nousRejoindre.html","w", encoding="utf-8")
@@ -285,8 +285,8 @@ rt = template.render(bilan=bilan)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('circuits.jj') #nomdutemplate
-ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\circuits.html","w", encoding="utf-8")
+template = env.get_template('entrainements.jj') #nomdutemplate
+ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\entrainements.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan)  
 ofh.write(rt)
 ofh.close()

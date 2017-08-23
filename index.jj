@@ -61,7 +61,7 @@ License: Creative Commons Attribution
         			<li><a class="oncomputer pasclickable" href="leClub.html">Le Club</a>
         				<ul>
         				<li {% block ifleclub %}{% endblock %}><a href="leClub.html">Le VCSA en bref</a></li>
-        				<li {% block ifcircuits %}{% endblock %}><a href="circuits.html">Circuits d'entraînement</a></li>
+        				<li {% block ifentrainements %}{% endblock %}><a href="entrainements.html">Entraînements</a></li>
         				<li {% block ifnousrejoindre %}{% endblock %}><a href="nousRejoindre.html">Nous rejoindre</a></li>
 						<li {% block ifpartenaires %}{% endblock %}><a href="partenaires.html">Nos partenaires</a></li>
         				</ul>
@@ -86,7 +86,7 @@ License: Creative Commons Attribution
         			<li><a class="pasclickable" href="leClub.html">Le Club</a>
         				<ul>
         				<li {{ self.ifleclub() }}><a href="leClub.html">Le VCSA en bref</a></li>
-        				<li {{ self.ifcircuits() }}><a href="circuits.html">Circuits d'entraînement</a></li>
+        				<li {{ self.ifentrainements() }}><a href="entrainements.html">Entraînements</a></li>
         				<li {{ self.ifnousrejoindre() }}><a href="nousRejoindre.html">Nous rejoindre</a></li>
 						<li {{ self.ifpartenaires() }}><a href="partenaires.html">Nos partenaires</a></li>
         				</ul>
@@ -119,13 +119,13 @@ License: Creative Commons Attribution
     <div id="intro">
 
 	<div class="width">
-      
-		<div class="intro-content">
-					{% block introcontent %}<img class="logo" src="images/logo.png" height = 100 width = 80 style="float: right;" >
-					<img class="logo" src="images/logo.png" height = 100 width = 80 style="float: left;" >
-                    <h2 class="indexwelcome">Bienvenue sur le site du </br> VC Sundgovia Altkirch ! </h2>
-                    {% endblock introcontent %}
-
+			
+				<div class="intro-content">
+					{% block introcontent %}
+						<img class="logo" src="images/logo.png" style="float: right" >
+						<img class="logo" src="images/logo.png" style="float: left;" >
+						<h2 class="indexwelcome">Bienvenue sur le site du </br> VC Sundgovia Altkirch ! </h2>
+					{% endblock introcontent %}
             	</div> <!-- intro content-->
                 
             </div> <!-- width -->
@@ -167,10 +167,10 @@ License: Creative Commons Attribution
 				<h4><a href="performances.html">Bilan 2017</a></h4>
 				<ul class="topranks">
 				<li>
-					<p><span class="topranks-type">{{bilan[0]}} Victoires</span> ({{bilan[1]}} en FSGT, {{bilan[2]}} en FFC)</p>
+					<p><span class="topranks-type">{{bilan[0]}} Victoires</span><span class="onmobile"><br></span> <span class="serre">({{bilan[1]}} en FSGT, {{bilan[2]}} en FFC)</span></p>
 				</li>
 				<li>
-					<p><span class="topranks-type">{{bilan[3]}} Podiums</span> ({{bilan[4]}} en FSGT, {{bilan[5]}} en FFC) </p>
+					<p><span class="topranks-type">{{bilan[3]}} Podiums</span><span class="onmobile"><br></span> <span class="serre">({{bilan[4]}} en FSGT, {{bilan[5]}} en FFC)</span> </p>
 				</li>
 				<li>
 					<p><span class="topranks-type">{{bilan[6]}} Top 10</span></p>
@@ -187,7 +187,7 @@ License: Creative Commons Attribution
 					<li>17/03/17: <a href="http://www.dna.fr/edition-de-saint-louis-altkirch/2017/03/17/le-vcs-altkirch-bien-represente">Le VCS Altkirch bien représenté</a> (DNA)</li>	
 					<li>28/12/16: <a href="http://www.dna.fr/edition-de-saint-louis-altkirch/2016/12/28/1-800-pour-le-vcs-altkirch">1800€ pour le VCS Altkirch</a> (DNA)</li>
 					<li>30/09/16: <a href="http://www.lalsace.fr/sport/2016/11/30/l-effet-hofstetter-au-vcs-altkirch">L'effet Hofstetter au VCS Altkirch</a> (L'Alsace)</li>
-<li>02/06/16: <a href="http://www.lalsace.fr/sport/2016/06/02/l-union-sacree-au-vcs-altkirch">L'union sacrée au VCS Altkirch</a> (L'Alsace)</li>
+					<li>02/06/16: <a href="http://www.lalsace.fr/sport/2016/06/02/l-union-sacree-au-vcs-altkirch">L'union sacrée au VCS Altkirch</a> (L'Alsace)</li>
 				</ul>
             </ul>    
             </li>
@@ -201,7 +201,7 @@ License: Creative Commons Attribution
 				<li><a href="http://ffc-bfc.fr">FFC Bourgogne Franche-Comté</a></li>
 				<li><a href="http://rad-net.de">Fédération Allemande</a></li>
 				<li><a href="http://swiss-cycling.ch/fr.html">Fédération Suisse</a></li>
-				<li><a href="http://lalsace.fr">L'Alsace</a></li>					<li><a href="http://dna.fr">DNA</a></li>	
+				<li><a href="http://www.meteofrance.com/previsions-meteo-france/altkirch/68130">Météo Altkirch</a></li>	
 			</ul>
             
 		</ul>   

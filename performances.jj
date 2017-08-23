@@ -16,7 +16,7 @@
 <table class="perf">
 
 <tr> {# première ligne #}
-	<th style="width: 150px">Catégorie / Place</th>
+	<th>Catégorie / Place</th>
 	<th>{{1}}&#127942;</th>
 	<th>{{2}}&#127941;</th>
 	<th>{{3}}&#127941;</th>

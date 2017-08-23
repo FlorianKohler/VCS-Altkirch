@@ -416,28 +416,38 @@ div#intro {
 }
 
 div#intro .intro-content {
-	padding: 8px 0;
-	text-align: center;
+	padding: 	0px;
+	text-align: center;file:///C:/Users/Florian/Documents/VCS-Altkirch/images/logo.png
 }
 
-.indexwelcome {padding: 16px 0;}
 
-div#intro .intro-content img{
+.indexwelcome {padding: 10px 0px 15px 0px ;} /* h2 titre index */ 
+
+.pagestitle {padding: 8px 0px 15px 0px;} /*titres autres pages*/
+
+div#intro .intro-content img{ /* pour les images de cover */
+	padding: 5px 0px 5px 0px;
 	border-radius: 10px;
 }
 
-.logo {padding: 16px 10px;}
-
-div#intro div.intro-content-short {
-	padding: 50px 0 40px 20px;
-	text-align: left;
-/* font-size: useless here */ 
+div#intro .intro-content img.logo { /* logos de l'index */
+	padding: 8px 3% 8px 3% ;
+	width : calc(4em + 1vw);
+	height : auto;
 }
 
 
+
+/*
+div#intro div.intro-content-short {
+	padding: 50px 0 40px 20px;
+	text-align: left;
+}
+*/
+
 div#intro h2 {
 	text-shadow: 1px 1px 0 #000;
-	font-size: calc(1.8em + 1.8vw); /* celui ci pour le titre */
+	font-size: calc(2.2em + 1vw); /* celui ci pour le titre */
 }
 
 
@@ -738,12 +748,18 @@ div.social-icons a {
 
 .pasclickable { pointer-events:none;}
 
+
+	
 @media screen and (min-device-width: 740px) {
 	.onmobile {display:none;}
 }
 
  @media screen and (max-device-width: 740px) {
 	 
+	.serre{
+	letter-spacing: -0.6px;
+	}
+	
 	.oncomputer {display:none;}
 	
 	header {
@@ -801,18 +817,33 @@ div.social-icons a {
 	nav {} /* rien */
 
 	nav ul .onmobile li li { margin: 0; }
-	.logo {width : 28px; height :38px; }
-	div#intro .intro-content { font-size: 0.7em; padding: 0px 1%;}
-	.cover {padding:6px 0;}
-	div#intro .intro-content img { }
-	div#intro div.intro-content-short { padding: 20px 5px 10px; }
 	
+	.logo {
+		padding: 0.5% 10px 1% 10px;
+	}
+	div#intro .intro-content { 
+		font-size: 0.7em;
+	}
+	div#intro .intro-content img{ /* pour les images de cover */
+	padding: 3px 3px 3px 3px;
+	border-radius: 10px;
+}
+	
+	div#intro .intro-content h2 {
+	}
+
+}
+
+	.indexwelcome {padding: 7px 0px 7px 0px ;} /* h2 titre index */ 
+
+	.pagestitle {padding: 7px 0px 9px 0px;} /*titres autres pages*/	
 
 	div#body { margin-top: 0px;} 
 
-
 	.sf-menu li:hover ul, .sf-menu li.sfHover ul { top: 0; }
 	*/
+	
+
 	
 	/*nav ul li a { pointer-events: none; }*/
 	.pasclickable { pointer-events:none;}

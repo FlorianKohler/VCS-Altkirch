@@ -9,7 +9,7 @@
 
 
 {% block introcontent %}
-<h2 class="indexwelcome">Les coureurs du VCSA </h2>
+<h2 class="pagestitle">Les coureurs du VCSA </h2>
 {% endblock introcontent %}
 
 
