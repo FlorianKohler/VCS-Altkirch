@@ -32,7 +32,7 @@ table {
 }
 
 th, td {
-	padding: 5px 0px;
+	padding: 5px 5px;
 	line-height: 1.2em;
 	text-align:center;
 	border-bottom: 2px solid #1F2023;
@@ -685,8 +685,10 @@ th, td a {
 	border-bottom: none;
 }
 
+footer .footer-content {
+	width: 95%;
+}
 footer .footer-content ul {
-	width: 25%;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -771,7 +773,7 @@ div.social-icons a {
 	text-align: center;
 	background-color: #363A3F;
 	min-width: 98%;
-}
+	}
 	
 
 	body { font-size: 0.7em; min-width: 98%}  
@@ -827,13 +829,10 @@ div.social-icons a {
 	div#intro .intro-content img{ /* pour les images de cover */
 	padding: 3px 3px 3px 3px;
 	border-radius: 10px;
-}
-	
-	div#intro .intro-content h2 {
 	}
-
-}
-
+	
+	div#intro .intro-content h2 {}
+	
 	.indexwelcome {padding: 7px 0px 7px 0px ;} /* h2 titre index */ 
 
 	.pagestitle {padding: 7px 0px 9px 0px;} /*titres autres pages*/	
