@@ -20,6 +20,5 @@
 		<h4> 	&#149 Cyclo-cross de Saint Bernard (FFC)</h4>
 		<p> Dimanche 22 octobre.</p>
 		
-		<h4> 	&#149 Tour du Sundgau 2018</h4>
-		<p>Plus d'infos à venir... un peu de patience!"</p>
+
 {% endblock content %}
