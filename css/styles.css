@@ -641,6 +641,7 @@ article .article-info a {
 	line-height: 2.1em;
 	margin-bottom: 0;
 	color: #ffffff;
+	text-align: left;
 }
 
 .sidebar ul.topranks span.topranks-type { /* pour les news éventuellement à droite */ 
@@ -648,8 +649,8 @@ article .article-info a {
 	color: #000000;
 	font-weight: bold;
 	padding: 2px 4px;
+	text-align: left;
 }
-
 
 
 
@@ -759,7 +760,7 @@ div.social-icons a {
  @media screen and (max-device-width: 740px) {
 	 
 	.serre{
-	letter-spacing: -0.6px;
+	letter-spacing: calc(-1px + 0.1vw);
 	}
 	
 	.oncomputer {display:none;}
