@@ -1,11 +1,14 @@
 
 # -*- coding: utf-8 -*-
 import sys
+import os
 import codecs
 import jinja2
 import collections
 
-fsloader = jinja2.FileSystemLoader(r'C:\Users\Florian\Documents\VCS-Altkirch') #dossier ou se trouve le template
+the_dir=os.path.dirname(os.path.abspath(__file__))
+
+fsloader = jinja2.FileSystemLoader(the_dir) #dossier ou se trouve les template
 env = jinja2.Environment(loader=fsloader)
 
 Places=[]
@@ -268,61 +271,61 @@ bilan = [victoires,victoires_fsgt,victoires_ffc,top3,top3_fsgt,top3_ffc,top10, t
 
 
 template = env.get_template('index.jj') #nomdutemplate
-ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\index.html","w", encoding="utf-8")
+ofh = codecs.open("index.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('performances.jj') #nomdutemplate
-ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\performances.html","w", encoding="utf-8")
+ofh = codecs.open("performances.html","w", encoding="utf-8")
 rt = template.render(resultats=resultats, bilan=bilan,affichage=affichage)
 ofh.write(rt)
 ofh.close() 
 
 template = env.get_template('nousRejoindre.jj') #nomdutemplate
-ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\nousRejoindre.html","w", encoding="utf-8")
+ofh = codecs.open("nousRejoindre.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('entrainements.jj') #nomdutemplate
-ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\entrainements.html","w", encoding="utf-8")
+ofh = codecs.open("entrainements.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan)  
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('coureurs.jj') #nomdutemplate
-ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\coureurs.html","w", encoding="utf-8")
+ofh = codecs.open("coureurs.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, listeCoureurs=listeCoureurs, len = len)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('contact.jj') #nomdutemplate
-ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\contact.html","w", encoding="utf-8")
+ofh = codecs.open("contact.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('leclub.jj') #nomdutemplate
-ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\leclub.html","w", encoding="utf-8")
+ofh = codecs.open("leclub.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('partenaires.jj') #nomdutemplate
-ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\partenaires.html","w", encoding="utf-8")
+ofh = codecs.open("partenaires.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('resultats.jj') #nomdutemplate
-ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\resultats.html","w", encoding="utf-8")
+ofh = codecs.open("resultats.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('organisations.jj') #nomdutemplate
-ofh = codecs.open(r"C:\Users\Florian\Documents\VCS-Altkirch\\organisations.html","w", encoding="utf-8")
+ofh = codecs.open("organisations.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan)
 ofh.write(rt)
 ofh.close()
