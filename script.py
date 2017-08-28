@@ -316,7 +316,7 @@ ofh.write(rt)
 ofh.close()
 
 template = env.get_template('leclub.jj') #nomdutemplate
-ofh = codecs.open("leclub.html","w", encoding="utf-8")
+ofh = codecs.open("leClub.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan)
 ofh.write(rt)
 ofh.close()
