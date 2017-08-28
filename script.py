@@ -109,6 +109,15 @@ Places.append([9,'FSGT','Min','Antoine C'])
 Places.append([8,'FSGT','Min','Antoine C'])
 Places.append([2,'FSGT','Min','Antoine C'])
 
+Places.append([2,'FSGT','V4','Jettingen Rene  S'])
+Places.append([4,'FSGT','V4','Jettingen Jerome J'])
+Places.append([2,'FSGT','23','Jettingen Ludo'])
+Places.append([3,'FSGT','23','Jettingen Julien'])
+Places.append([8,'FSGT','23','Jettingen Jerome J '])
+Places.append([4,'FSGT','S4','Jettingen Antoine M '])
+Places.append([9,'FSGT','S4','Jettingen Brieuc H'])
+Places.append([9,'FSGT','Cad','Jettingen Anthony W'])
+
 Places.append([6,'FFC','PassD1','FlorianK Monaco'])
 
 Places.append([5,'FSGT','23','FlorianK Plascassier 06'])
@@ -294,8 +303,8 @@ rt = template.render(bilan=bilan)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('coureurs.jj') #nomdutemplate
-ofh = codecs.open("coureurs.html","w", encoding="utf-8")
+template = env.get_template('effectif.jj') #nomdutemplate
+ofh = codecs.open("effectif.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, listeCoureurs=listeCoureurs, len = len)
 ofh.write(rt)
 ofh.close()
