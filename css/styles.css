@@ -1,19 +1,46 @@
 @import url(https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300);
 
 body {
-	background: #EACF6D;
-	/* background-color: #000000 FOND noir */
-	background-color: #EACF6D;
+	
+	/* background-color: #ffffff FOND noir */
+	background-image: url('../images/fond.png');
+	background-color: #000000;
+	
 	background-repeat: no-repeat;
 	margin:0;
 	padding:0;
 	font-family: 'Encode Sans Condensed', 'sans-serif'; /* font */
 	
 	font-size: 1.1em;
-	color: #545B64;
+	/*color: #000000;*/
 	font-weight: 300;
 	
 	min-width: 700px; /* j'approuve */
+	
+}
+.resultats h5 {
+	padding: 0px 0px 0px 5%;
+	color: #000000;
+    font-size: 1.2em;
+	font-weight: bold;
+	display: inline;
+	text-align: left;
+}
+.resultats h4 { 
+	padding: 0px 5% 0px 0px;
+    color: #000000;
+    font-size: 1.2em;
+	font-weight: bold;
+	display: inline;
+	float:right;
+	}
+.resultats p {
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+}
+	
+.resultats.p {
+	display: block;
 }
 
 .motpres {
@@ -28,7 +55,7 @@ body {
 table {
 	width: 100%;
 	text-align: middle;
-	color: #ffffff
+	color: #000000
 }
 
 th, td {
@@ -44,7 +71,7 @@ th, td {
 .gauche { text-align: left;}
 
 th {
-	color: #ffffff;
+	color: #000000;
 	font-weight: bold;
 	
 }
@@ -52,13 +79,13 @@ th {
 p {
 	line-height: 1.7em;
 	margin-bottom: 25px;
-	color: #ffffff;
+	color: #000000;
 	text-align: justify;
 }
 
 a {
-	color: #ffffff;
-	border-bottom: 1px solid #ffffff;
+	color: #000000;
+	border-bottom: 1px solid #000000;
 	text-decoration: none;
 }
 
@@ -72,7 +99,7 @@ a:focus {
 }
 
 
-a.button { background: #5DA1C3;
+a.button { background: #5DA1C3; /* nothing */
 color: #FFF;
 display: inline-block;
 
@@ -174,13 +201,13 @@ span.required {
 }
 
 h1 {
-	color: #eee;
+	color: #000000;
 	font-size: 2.7em;
 	margin-bottom: 10px;
 }
 
 h2 {
-	color: #EACF6D; /* jaune pale*/
+	color: #000000; /* jaune pale*/
 font-size: 2.8em;
 /*letter-spacing: -1.5px;*/
 padding: 0px 0px 0px;
@@ -189,7 +216,7 @@ margin: 0px;
 }
 
 h3 {
-	color: #EACF6D;
+	color: #000000;
 	font-size: 1.9em;
 	font-weight: 600;
 	margin-bottom: 10px;
@@ -197,9 +224,8 @@ h3 {
 }
 
 h4 {
-    color: #EACF6D;
+    color: #000000;
     font-size: 1.2em;
-    text-transform: uppercase;
     padding-bottom: 10px;
 	font-weight: bold;
 }
@@ -207,7 +233,7 @@ h4 {
 h5 {
 	padding-bottom: 10px;
 	font-size: 1.1em;
-	color: #ffffff;	
+	color: #000000;	
 }
 
 ul, ol {
@@ -218,7 +244,7 @@ ul, ol {
 
 li {
 	padding-bottom: 5px;
-	color: #ffffff
+	color: #000000
 }
 
 li ol, li ul {
@@ -244,10 +270,10 @@ header {
 	z-index: 9999;
 	border-radius: 10px;
 	opacity: 0.97;
-	margin: 20px 0 0;
+	margin: 0px 0 0;
 	position: relative;
 	text-align: left;
-	background-color: #363A3F;
+	background-color: #1F2020;
 	min-width: 700px;
 }
 
@@ -257,7 +283,7 @@ header {
 
 header h1 a {
 	float: left;
-    color: #fff;
+    color: #EBC700;
     padding:  25px 0px 0% 2%	; /* title VCS Altkirch dans nAv */
     font-size: calc(21px + 1vw);
     border-bottom: none;
@@ -266,8 +292,9 @@ header h1 a {
     font-weight: bold;
 }
  header h1 a:hover {
-	text-decoration: underline;
-	color: #fff;
+	font-style: bold;
+	color: #EBC700;
+	font-size: calc(22px + 1vw);
 }
 
 nav {
@@ -306,7 +333,7 @@ nav ul li a {
 	display: block;
 	float: left;
 	padding: 32px 18px;
-    color: #fff;
+    color: #EBC700;
     font-size: 0.95em;
 	margin: 0;
     border-bottom: none;
@@ -321,31 +348,31 @@ nav ul li li a { /* espaces inter sous menus */
 }
 
 nav ul li a:hover {
-	color: #fff;
-	text-decoration: none;
+	color: #EBC700;
+	border-bottom: 2px solid #EBC70F;
 }
 nav.selected {
 	font-weight: bold;
 }
 nav ul li.selected a, nav ul li.selected a:hover { /* section actuelle en haut */
-	color: #fff;
+	color: #EBC700;
 	font-weight: bold;
 	
 }
 
 
 nav ul li a:hover, nav ul li.sfHover a {
-	color: #fff;
+	color: #EBC700;
 }
 
 
 nav ul li a.sf-with-ul:hover, nav ul li.sfHover a {
-	color: #fff;
+	color: #EBC700;
 }
 
 
  nav ul li.sfHover ul a, nav ul ul {
-	background: #363A3F;
+	background: #1F2020;
 }
 
 nav ul li.sf-with-ul.selected ul li a, nav ul li.selected.sfHover li a,  nav ul li.sfHover a a, nav ul li.selected li a  {
@@ -353,8 +380,9 @@ nav ul li.sf-with-ul.selected ul li a, nav ul li.selected.sfHover li a,  nav ul 
 }
 
 nav ul li li a:hover, nav ul li.sfHover li a:hover {
-	color: #fff;
-	background-color: #2A2E32;
+	color: #EBC700;
+	font-weight: bold;
+	border-bottom: none;
 }
 
 /*** ESSENTIAL STYLES ***/
@@ -417,7 +445,7 @@ div#intro {
 
 div#intro .intro-content {
 	padding: 	0px;
-	text-align: center;file:///C:/Users/Florian/Documents/VCS-Altkirch/images/logo.png
+	text-align: center;
 }
 
 
@@ -456,7 +484,7 @@ div#intro div.intro-content-short h2 {
 }
 
 div#intro h2, div#intro p {
-	color: #363A3F;
+	color: #32342F;
 	font-weight: bold;
 }
 
@@ -495,8 +523,9 @@ img {
 }
 
 #content {
+	margin-bottom: 20px;
 	padding: 1%;
-	background-color: #363A3F;
+	background-color: #DCDCDC; /* gris de début: #dddddd */
     	float: left;
 	border-radius: 10px;
 }
@@ -517,11 +546,11 @@ img {
 
 article {
     padding: 10px 10px 20px 5px;
-    color: #ffffff
+    color: #000000;
  }
 
 article .article-info {
-    color: #ffffff;
+    color: #000000;
     font-size: 0.9em;
     letter-spacing: -0.5px;
     padding: 0 0 10px 0;
@@ -529,7 +558,7 @@ article .article-info {
 }
 
 article .article-info a { 
-	color: #ffffff;
+	color: #000000;
 }
 
 .sidebar {
@@ -553,7 +582,7 @@ article .article-info a {
 .sidebar h4 {
 	padding-bottom: 0;
 	font-size: 1.4em;
-	color: #ffffff;
+	color: #000000;
 	letter-spacing: -1px;
 	padding: 0;
 }
@@ -566,7 +595,7 @@ article .article-info a {
 
 .sidebar ul li {
 	margin-bottom: 20px;
-	background-color: #2A2E32;
+	background-color: #dcdcdc;
 	border-radius: 10px;
 	line-height: 1.9em;
 	padding: 10px;
@@ -574,7 +603,7 @@ article .article-info a {
 
 
 .sidebar ul li.bg, .sidebar ul li.bg li, .sidebar ul li.bg h4, .sidebar ul li.bg a, .sidebar ul li.bg a:hover {
-	background-color: #5DA1C3;
+	background-color: #dddddd;
 	color: #fff;
 }
 .sidebar ul li.bg a, .sidebar ul li.bg a:hover {
@@ -601,14 +630,14 @@ article .article-info a {
 
 .sidebar li a {
 	border-bottom-color: #6B7680;
-	color:#ffffff; /* couleur du texte des liens à droite */
+	color:#000000; /* couleur du texte des liens à droite */
 	
 }
 
 
 .sidebar li a:hover {
-	color: #AEB5BC;
-	 border-bottom-color: #AEB5BC; /* rien ? */
+	color: #000000;
+	 border-bottom-color: #000000; /* Bilan 2017 ? */
 }
 
 .sidebar ul.blocklist li {
@@ -629,7 +658,7 @@ article .article-info a {
 }
 
 .sidebar ul.blocklist li a:hover {
-	background-color: #1E2124;
+	background-color: #dddddd;
 	color: #A0A8B0;
 }
 
@@ -640,12 +669,12 @@ article .article-info a {
 .sidebar ul.topranks p {
 	line-height: 2.1em;
 	margin-bottom: 0;
-	color: #ffffff;
+	color: #000000;
 	text-align: left;
 }
 
 .sidebar ul.topranks span.topranks-type { /* pour les news éventuellement à droite */ 
-	background-color: #EACF6D;
+	background-color: #EACF40;
 	color: #000000;
 	font-weight: bold;
 	padding: 2px 4px;
@@ -666,14 +695,14 @@ footer {
 
 footer p {
 	text-align: left;
-	color: #ffffff;
+	color: #000000;
 	font-size: 0.9em;
 	margin: 0;
 	padding: 0;
 }
 
 footer p a {
-	color: #ffffff;
+	color: #000000;
 	font-weight: bold;
 }
 
@@ -705,19 +734,19 @@ footer .footer-content li a, footer .footer-content h4 {
 
 
 footer .footer-content li a {
-	color: #ffffff;
+	color: #000000;
 	border-bottom-style: none; /* lien sponsors ? */
     
 }
 
 footer .footer-content li {
-	color: #ffffff;
+	color: #000000;
 	line-height: 1.5em;
 	font-size: 0.85em;
 }
 
 footer .footer-content li a:hover { 
-	color: #ffffff;
+	color: #000000;
 	border-bottom-style:none ; /* liens sponsors avec souris ? */
 }
 
@@ -772,7 +801,7 @@ div.social-icons a {
 	margin: 10px 5px 0 5px;
 	position: relative;
 	text-align: center;
-	background-color: #363A3F;
+	background-color: #ffffff;
 	min-width: 98%;
 	}
 	
@@ -805,7 +834,7 @@ div.social-icons a {
 
 	nav ul .onmobile li a, .sf-menu li { float: none; }
 	
-	nav ul .onmobile li ul li ul li a {background-color: #2c2f30;}
+	nav ul .onmobile li ul li ul li a {background-color: #32342F;}
 	
 	nav ul li {
 	display: block;

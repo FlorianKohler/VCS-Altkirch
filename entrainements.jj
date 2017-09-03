@@ -12,7 +12,7 @@
 <img class="cover" src="images/covers/cover_circuits.jpg" width=100%>
 {% endblock introcontent %}
 
-{% block content %}
+{% block firstcontent %}
 <h2>Les lieux d'entraînements</h2>
 		<h4>&#149 Le point de rendez-vous</h4>
 		<p> Parking du magasin Sundgau Deux Roues à Altkirch</p>
@@ -20,11 +20,22 @@
 		<br>
 		<br>
 		<h4>&#149 Le circuit du dimanche à Balschwiller (version travaux - août 2017)</h4>
-		<iframe src="https://www.google.fr/maps/d/embed?mid=1ELAhfFXgyQcCRbKqJHrQLWGg2OU" align=middle width="85%" min-width=200 height="400" align="middle"></iframe>
+		<iframe src="https://www.google.fr/maps/d/u/0/embed?mid=1ELAhfFXgyQcCRbKqJHrQLWGg2OU" align=middle width="85%" min-width=200 height="400" align="middle"></iframe>
 		
-		<h4> &#149 Horaires (jeunes et adultes)</h4>
+		
+		
+		
+
+{% endblock firstcontent %}
+
+{% block nextarticles %}
+<section id="content" class="two-column with-right-sidebar">
+<h4> &#149 Horaires (jeunes et adultes)</h4>
 		<p> Habituellement le mercredi à 15h45, l'horaire de l'entraînement varie légèrement selon les semaines, retrouvez-les en suivant le <a href="http://veloclubaltkirch.xoo.it/index.php">forum du club</a>! D'autres sorties sont également organisées, notamment les samedi.</p>
-		
-		<h4> &#149 Pour l'école de cyclisme</h4>
+</section>
+
+<section id="content" class="two-column with-right-sidebar">
+<h4> &#149 Pour l'école de cyclisme</h4>
 		<p> Les entraînements des écoles de cyclisme ont lieu le samedi après-midi, Rue du Manège à Altkirch, encadrés par Patrick (diplômé BF1). Là encore, n'hésitez pas à consulter le <a href="http://veloclubaltkirch.xoo.it/index.php">forum</a> ou à nous contacter via la rubrique <a href="contact.html">Contact</a>.</p>
-		{% endblock content %}
+</section>
+{% endblock nextarticles %}

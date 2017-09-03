@@ -134,10 +134,10 @@ License: Creative Commons Attribution
 	</div> <!--  intro-->
 
     <div id="body" class="width">
-		
+		<article>
 		<section id="content" class="two-column with-right-sidebar">
-		{% block content %}
-	    <article>
+		
+		{% block firstcontent %} 
 		<h3>Dernières nouvelles</h3>
 		<hr>
 		<br>
@@ -148,21 +148,10 @@ License: Creative Commons Attribution
 			<a href="https://fsgt-cyclisme-alsace.shost.ca/route/resultats/resultats_jettingen.pdf">Les classements complets</a> et <a href="http://www.lalsace.fr/sport/2017/08/28/du-bon-bolot"> l'article de l'Alsace</a>.</p>
 			<center><img src="images/PodiumJettingen1.jpg" width=40%>              <img src="images/PodiumJettingen2.jpg" width=40%></center>
 		</p>
+		
+		{% endblock firstcontent %}
 		<br>
-		<h4>Antoine Mattern vainqueur du GP de la MJC à Buhl en Pass' Cyclisme!</h4>
-			<div class="article-info">Rédigé le 15 août</div> 
-			<p> Après de nombreuses places d'honneur cette année, Antoine est ce mardi monté pour la première fois sur la plus haute marche du podium à Buhl. Une victoire en solitaire avec plus de 3 minutes d'avance sur ses poursuivants ! </p>
-			<center><img src="images/AntoineBuhl.jpg" width=50%></center>
-		</p>
-		<br>
-		<h4>Hugo sélectionné aux championnats d'Europe au Danemark!</h4>
-			<div class="article-info">Rédigé le 25 Juillet</div>
-			<p> Après plusieurs sélections en Equipe de France Espoirs, Hugo va vivre le dimanche 6 août sa première course sous les couleurs de l'équipe de France élites ! Sélectionné avec 8 autres coureurs par Cyrille Guimard, il épaulera Bryan Coquard.</p>
-		</p>
-		</article>
-		{% endblock content %}
-        </section>
-        
+		</section>
 		
 		{% block rightsidebar %}
         <!-- barre de droite -->
@@ -174,15 +163,10 @@ License: Creative Commons Attribution
             <li>
 				<h4><a href="performances.html">Bilan 2017</a></h4>
 				<ul class="topranks">
-				<li>
-					<p><span class="topranks-type">{{bilan[0]}} Victoires</span> <span class="serre">({{bilan[1]}}&nbsp;en&nbspFSGT, {{bilan[2]}}&nbsp;en&nbsp;FFC)</span></p>
+				<li><p><span class="topranks-type">{{bilan[0]}} Victoires</span> <span class="serre">({{bilan[1]}}&nbsp;en&nbspFSGT, {{bilan[2]}}&nbsp;en&nbsp;FFC)</span></p>
 				</li>
-				<li>
-					<p><span class="topranks-type">{{bilan[3]}} Podiums</span> </span> <span class="serre">({{bilan[4]}}&nbsp;en&nbsp;FSGT, {{bilan[5]}}&nbsp;en&nbsp;FFC)</span></p>
-				</li>
-				<li>
-					<p><span class="topranks-type">{{bilan[6]}} Top 10</span></p>
-				</li>
+				<li><p><span class="topranks-type">{{bilan[3]}} Podiums</span> </span> <span class="serre">({{bilan[4]}}&nbsp;en&nbsp;FSGT, {{bilan[5]}}&nbsp;en&nbsp;FFC)</span></p></li>
+				<li><p><span class="topranks-type">{{bilan[6]}} Top 10</span></p></li>
 			</ul>
             <li>
                 <h4>Revue de presse</h4>
@@ -210,14 +194,35 @@ License: Creative Commons Attribution
 				<li><a href="http://rad-net.de">Fédération Allemande</a></li>
 				<li><a href="http://swiss-cycling.ch/fr.html">Fédération Suisse</a></li>
 				<li><a href="http://www.meteofrance.com/previsions-meteo-france/altkirch/68130">Météo Altkirch</a></li>	
-			</ul>
-            
+			</ul>   
 		</ul>   
-        </ul>
-		
-		
+        </ul>	
         </aside>
 		{% endblock rightsidebar %}
+		
+		
+		{% block nextarticles %}
+		<section id="content" class="two-column with-right-sidebar">
+		<h4>Antoine Mattern vainqueur du GP de la MJC à Buhl en Pass' Cyclisme!</h4>
+			<div class="article-info">Rédigé le 15 août</div> 
+			<p> Après de nombreuses places d'honneur cette année, Antoine est ce mardi monté pour la première fois sur la plus haute marche du podium à Buhl. Une victoire en solitaire avec plus de 3 minutes d'avance sur ses poursuivants ! </p>
+			<center><img src="images/AntoineBuhl.jpg" width=50%></center>
+		</p>
+		<br>
+		</section>
+		
+		<section id="content" class="two-column with-right-sidebar">
+		<h4>Hugo sélectionné aux championnats d'Europe au Danemark!</h4>
+			<div class="article-info">Rédigé le 25 Juillet</div>
+			<p> Après plusieurs sélections en Equipe de France Espoirs, Hugo va vivre le dimanche 6 août sa première course sous les couleurs de l'équipe de France élites ! Sélectionné avec 8 autres coureurs par Cyrille Guimard, il épaulera Bryan Coquard.</p>
+		</p>
+		</section>
+
+		{% endblock nextarticles %}
+		
+        </article>
+		
+		
     	<div class="clear"></div>
     </div>
 </div>

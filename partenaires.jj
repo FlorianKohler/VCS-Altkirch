@@ -12,7 +12,7 @@
 <img class="cover" src="images/covers/cover_partenaires.jpg" width=100%>
 {% endblock introcontent %}
 
-{% block content %}
+{% block firstcontent %}
 <h2>Les partenaires du VCSA </h2>
 <p> Le  VCS Altkirch ne serait rien sans ses partenaires et les remercie particulièrement pour leur soutien. Notamment : </p>
 
@@ -60,4 +60,7 @@ Portes de garage - Stores (bannes, pergolas, etc.) - Portails / garde-corps / cl
 <p>Entreprise de menuiseries métalliques à Altkirch.</p>
 	    
 <p> Merci également à la <a href="http://www.mairie-altkirch.fr">ville d'Altkirch</a> pour son soutien !</p>
-{% endblock content %}
+{% endblock firstcontent %}
+
+{% block nextarticles %}
+{% endblock nextarticles %}

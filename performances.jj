@@ -11,7 +11,7 @@
 <img class="cover" src="images/covers/cover_performances.jpg" width=100%>
 {% endblock introcontent %}
 
-{% block content %}
+{% block firstcontent %}
 <h4 align="middle"> Tableau des places - Saison Route 2017 </h4>
 <table class="perf">
 
@@ -47,4 +47,7 @@
 <li>Les résultats obtenus lors des courses réservées aux juniors</li>
 </ul>
 </p>
-{% endblock content %}
+{% endblock firstcontent %}
+
+{% block nextarticles %}
+{% endblock nextarticles %}

@@ -12,7 +12,8 @@
 <img class="cover" src="images/covers/cover_leclub.jpg" width=100%>
 {% endblock introcontent %}
 
-{% block content %}
+
+{% block firstcontent %}
 <h2>Le VCSA en bref</h2>
 <hr>
 <h3>Le mot du Président</h3>
@@ -25,7 +26,13 @@
 		
 		<br>
 		<td><img src="images/vcsa.jpg"></td>
-<br><br>
+	
+{% endblock firstcontent %}
+
+{% block rightsidebar %} {{super()}} {% endblock rightsidebar%}
+
+{% block nextarticles %}
+<section id="content" class="two-column with-right-sidebar">
 <h3>Le club en quelques mots</h3>
 		<p> Le vélo club Sundgovia Altkirch, fondé en 1894, est un club convivial. Affilié à la FFC (Fédération Française de Cyclisme) tout comme à la FSGT (Fédération Sportive et Gymnique du Travail), il est possible d'y pratiquer le cyclisme sur route, comme le VTT ou encore le cyclo-cross et ce dès le plus jeune âge.</br>
 		Terreau de champions, le maillot du VCS Altkirch a déjà été porté - entre autres, par: 
@@ -37,10 +44,15 @@
 		<img src="images/HugoAltkirch.jpg">
 		Toujours licencié au VCS Altkirch, Hugo Hofstetter voit parfois ses supporters l'encourager.. ici à Vesoul, aux Championnats de France élite 2016.
 		</p>
-		
-		<p><h4>Comité directeur:</h4>
+
+</section>
+<section id="content" class="two-column with-right-sidebar">
+		<h3>Comité directeur :</h3>
+		<p>
 		<ul><li>Président : Gilles Hartmann</li></ul>
 		<ul><li>Président d'honneur : Rémy Brun</li></ul>
 		<ul><li>Secrétaire : Denis Hoesch</li></ul>
 		
-		</p>{% endblock content %}
+		</p>
+</section>
+{% endblock nextarticles%}
