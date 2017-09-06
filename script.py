@@ -118,6 +118,12 @@ Places.append([4,'FSGT','S4','Jettingen Antoine M '])
 Places.append([9,'FSGT','S4','Jettingen Brieuc H'])
 Places.append([9,'FSGT','Cad','Jettingen Anthony W'])
 
+Places.append([5,'FSGT','V4','Jerome J Rougemont'])
+Places.append([2,'FSGT','Min','Alex N Rougemont'])
+Places.append([3,'FSGT','Min','Antoine C Rougemont'])
+Places.append([7,'FSGT','S4','Antoine M Rougemont'])
+Places.append([4,'FSGT','23','Julien G Rougemont']) 
+
 Places.append([6,'FFC','PassD1','FlorianK Monaco'])
 
 Places.append([5,'FSGT','23','FlorianK Plascassier 06'])
@@ -176,6 +182,11 @@ Places.append([10,'FFC','23J','Julien B repes'])
 Places.append([5,'FFC','23J','Jerome H Ronde Haute Saone 1'])
 Places.append([5,'FFC','23J','Ludo K Xonrupt'])
 
+Places.append([4,'FFC','PassD3','Claude S St Louis'])
+
+
+
+
 listeCoureurs = []
 listeCoureurs.append(["Alain L.","AlainL","Pass' D1"])
 listeCoureurs.append(["Alexis W.","AlexisW","J3 (FSGT)"])
@@ -219,7 +230,6 @@ listeCoureurs.append(["Alexandre N.","AlexandreN","Minime"])
 listeCoureurs.append(["Anthony W.","AnthonyW","Cadet"])
 listeCoureurs.append(["Antoine C.","AntoineC","Minime"])
 listeCoureurs.append(["Clément B.","ClementB","Cadet"])
-
 '''longueurmax= max([len(coureurs[0]) for coureurs in listeCoureurs])
 for i in listeCoureurs:
     espaceacombler = longueurmax - len(i[0])

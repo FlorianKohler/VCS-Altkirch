@@ -72,4 +72,4 @@
 {% endblock firstcontent %}
 
 {% block nextarticles %}
-{% endblock nextarticles%}
+{% endblock nextarticles %}
