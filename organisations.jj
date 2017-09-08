@@ -1,5 +1,3 @@
-<!doctype html>
-
 {% extends "index.jj" %}
 
 {% block title %}VCS Altkirch - Résultats{% endblock title %}
@@ -13,9 +11,9 @@
 {% endblock introcontent %}
 
 {% block firstcontent %}
-<h4>  	&#149 	26ème prix Agri-Center Espace Emeraude (FSGT)</h4>
+<h4>  	&#149; 	26ème prix Agri-Center Espace Emeraude (FSGT)</h4>
 		<p>Dimanche 27 août à Jettingen.</p>
-		<center><img src="images/Jettingen.jpg" width=50%></center>
+		<img class="cinquante" style="text-align: center" src="images/Jettingen.jpg" alt="Affiche Jettingen">
 		<p>Toutes les précisions (engagements, etc) <a href="http://fsgt-cyclisme-alsace.shost.ca/route/publications/Publication_Jettingen.pdf">ici</a>.</p> 
 
 		
@@ -23,7 +21,7 @@
 {% endblock firstcontent %}
 
 {% block nextarticles %}
-<section class="content two-column with-right-sidebar">		<h4> 	&#149 Cyclo-cross de Saint Bernard (FFC)</h4>
+<section class="content two-column with-right-sidebar">		<h4> 	&#149; Cyclo-cross de Saint Bernard (FFC)</h4>
 		<p> Dimanche 22 octobre.</p>
 </section>
 {% endblock nextarticles %}

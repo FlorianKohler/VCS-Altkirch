@@ -1,5 +1,3 @@
-<!doctype html>
-
 {% extends "index.jj" %}
 
 {% block title %}VCS Altkirch - Entraînements{% endblock title %}

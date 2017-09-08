@@ -1,5 +1,3 @@
-<!doctype html>
-
 {% extends "index.jj" %}
 
 {% block title %}VCS Altkirch - En bref{% endblock title %}
@@ -25,7 +23,7 @@
 <br>Je souhaite à TOUS une saison 2017 pleine de plaisir et de satisfaction.<br>&nbsp; &nbsp; &nbsp; &nbsp; Gilles Hartmann</p>
 		
 		<br>
-		<td><img src="images/vcsa.jpg" alt="Le VCSA sur un contre-la-montre par équipe></td>
+		<img src="images/vcsa.jpg" alt="Le VCSA sur un contre-la-montre par équipe">
 	
 {% endblock firstcontent %}
 
