@@ -51,6 +51,12 @@ body {
 	padding:0;
 }
 
+img.quarante{
+	width:40%;
+img.cinquante{
+	width: 50%;
+}
+}
 /** element defaults **/
 table {
 	width: 100%;
@@ -522,14 +528,14 @@ img {
 	clear: both;
 }
 
-#content {
+.content {
 	margin-bottom: 20px;
 	padding: 1%;
 	background-color: #DCDCDC; /* gris de début: #dddddd */
     	float: left;
 	border-radius: 10px;
 }
-#content h2 {
+.content h2 {
 	font-size: calc(1em + 1.9vw); /* celui ci pour le titre */
 	padding: 0 0 0.2em 0;
 }

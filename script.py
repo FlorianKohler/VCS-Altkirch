@@ -130,7 +130,7 @@ Places.append([5,'FSGT','23','FlorianK Plascassier 06'])
 Places.append([1,'FSGT','23','FlorianK Sophia 06'])
 Places.append([4,'FSGT','23','FlorianK Martyrs 06'])
 Places.append([2,'FSGT','23','FlorianK Souvenir morra 06'])
-
+Places.append([3,'FSGT','23','FlorianK Trappes'])
 
 Places.append([10,'FFC','23J','FlorianK clm piemont'])
 Places.append([8,'FFC','23J','FlorianK Gerardmer'])
