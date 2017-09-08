@@ -19,7 +19,7 @@
 		{% if indexCoureurs%4 == 0 %}
 		<table class="coureurs">
 		<tr>
-			<td><img class="coureurimg" src="images/coureurs/{{listeCoureurs[indexCoureurs][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs][0]}}"</td>
+			<td><img class="coureurimg" src="images/coureurs/{{listeCoureurs[indexCoureurs][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs][0]}}"></td>
 			<td><img class="coureurimg" src="images/coureurs/{{listeCoureurs[indexCoureurs+1][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs+1][0]}}"></td>
 			<td><img class="coureurimg" src="images/coureurs/{{listeCoureurs[indexCoureurs+2][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs+2][0]}}"></td>
 			<td><img class="coureurimg" src="images/coureurs/{{listeCoureurs[indexCoureurs+3][1]}}.jpg" alt="{{listeCoureurs[indexCoureurs+3][0]}}"></td>

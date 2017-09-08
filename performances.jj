@@ -6,7 +6,7 @@
 
 
 {% block introcontent %}
-<img class="cover cent" src="images/covers/cover_performances.jpg">
+<img class="cover cent" src="images/covers/cover_performances.jpg" alt="Récapitulatif des places des altkirchois">
 {% endblock introcontent %}
 
 {% block firstcontent %}
@@ -18,23 +18,23 @@
 	<th>{{1}}&#127942;</th>
 	<th>{{2}}&#127941;</th>
 	<th>{{3}}&#127941;</th>
-{% for i in range(4,11) %}
+{%- for i in range(4,11) -%}
 	<th {% if i>5 %}class="oncomputer"{% endif %}>{{i}}</th>
-{% endfor %}
+{%- endfor -%}
 </tr> {# première ligne #}
 
-{% for titre_ligne in resultats.keys() %}
+{%- for titre_ligne in resultats.keys() -%}
 <tr> {# lignes suivantes #}
 	<th class="gauche">{{affichage[titre_ligne]}}</th> {# premiere colonne #}
-	{% for i in range(10) %}
+	{%- for i in range(10) -%}
 		{% if titre_ligne != 'Total' %}
 		<td {% if i>=5 %}class="oncomputer"{% endif %}>{{resultats[titre_ligne][i]}}</td> {# case remplie #}
 		{% else %}
 		<th {% if i>=5 %}class="oncomputer"{% endif %}>{{resultats[titre_ligne][i]}}</th> {# case remplie #}
 		{% endif %}
-	{% endfor %}
+	{%- endfor -%}
 </tr> {# lignes suivantes #}
-{% endfor %}
+{%- endfor -%}
 </table>
 <br>
 <p> Note : Ce tableau ne contient pas :
