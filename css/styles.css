@@ -53,8 +53,12 @@ body {
 
 img.quarante{
 	width:40%;
+}
 img.cinquante{
 	width: 50%;
+}
+img.cent{
+	width: 100%;
 }
 }
 /** element defaults **/

@@ -9,7 +9,7 @@
 
 
 {% block introcontent %}
-<img class="cover" src="images/covers/cover_partenaires.jpg" width=100%>
+<img class="cover cent" src="images/covers/cover_partenaires.jpg">
 {% endblock introcontent %}
 
 {% block firstcontent %}
