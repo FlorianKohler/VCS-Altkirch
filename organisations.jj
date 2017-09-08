@@ -23,8 +23,7 @@
 {% endblock firstcontent %}
 
 {% block nextarticles %}
-<section id="content" class="two-column with-right-sidebar">
-		<h4> 	&#149 Cyclo-cross de Saint Bernard (FFC)</h4>
+<section class="content two-column with-right-sidebar">		<h4> 	&#149 Cyclo-cross de Saint Bernard (FFC)</h4>
 		<p> Dimanche 22 octobre.</p>
 </section>
 {% endblock nextarticles %}
