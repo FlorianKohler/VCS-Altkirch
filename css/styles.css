@@ -660,22 +660,16 @@ article .article-info a {
 	padding: 1px 0;
 }
 
-.sidebar ul.blocklist li a,
-.sidebar ul.blocklist li a:hover { /* lien FSGT etc 3*/
+.sidebar ul.blocklist li a{ /* lien FSGT etc 3*/
+	color: #000000;
 	border-bottom: 0;
 	display: block;
 	padding: 2px 5px; /* espacement vertical - espacement à gauche */
 }
 
-.sidebar ul.blocklist li a.selected,
-.sidebar ul.blocklist li a.selected:hover {
-	font-weight: bold;
-	text-decoration: underline #EACF6D; /* accentuation du menu correspondant à la page actuelle */
-}
-
 .sidebar ul.blocklist li a:hover {
-	background-color: #dddddd;
-	color: #A0A8B0;
+	color: #000000;
+	text-decoration: underline;
 }
 
 .sidebar ul.topranks li {
@@ -804,6 +798,12 @@ div.social-icons a {
 
  @media screen and (max-device-width: 740px) {
 	 
+	.content {
+	margin-bottom: 10px;
+	}
+	.sidebar ul li {
+	margin-bottom: 15px;
+	}
 	.serre{
 	letter-spacing: calc(-1px + 0.1vw);
 	}
