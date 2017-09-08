@@ -13,7 +13,7 @@
 {% block firstcontent %}
 <h4>  	&#149; 	26ème prix Agri-Center Espace Emeraude (FSGT)</h4>
 		<p>Dimanche 27 août à Jettingen.</p>
-		<img class="cinquante" style="text-align: center" src="images/Jettingen.jpg" alt="Affiche Jettingen">
+		<div style="text-align:center"><img class="cinquante" src="images/Jettingen.jpg" alt="Affiche Jettingen"></div>
 		<p>Toutes les précisions (engagements, etc) <a href="http://fsgt-cyclisme-alsace.shost.ca/route/publications/Publication_Jettingen.pdf">ici</a>.</p> 
 
 		
