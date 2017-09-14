@@ -130,15 +130,12 @@ License: Creative Commons Attribution
 		<h3>Dernières nouvelles</h3>
 		<hr>
 		<br>
-		<h4>Retour sur le prix Agri-Center à Jettingen</h4>
-			<div class="article-info">Rédigé le 28 août</div> 
-			<p> Ce dimanche, le VCS Altkirch organisait son traditionnel prix Agri-Center à Jettingen, sous l'égide de la FSGT. Les coureurs du club ont garni les podiums du jour, avec notamment les 2ème et 3ème place de Ludovic Klein et Julien Grimont dans la course des 2-3, remportée par Simon Bolot (AC Thann), tandis que René Schlienger montait sur la deuxième marche du podium chez les vétérans 4. <br>
-			À noter également les 4ème places de Jérôme Jouanot (V4) et de Antoine Mattern (S4).<br>
-			<a href="https://fsgt-cyclisme-alsace.shost.ca/route/resultats/resultats_jettingen.pdf">Les classements complets</a> et <a href="http://www.lalsace.fr/sport/2017/08/28/du-bon-bolot"> l'article de l'Alsace</a>.</p>
-			<div style="text-align:center"><img class="quarante" src="images/PodiumJettingen1.jpg" alt="Photo du Podium">              <img class="quarante" src="images/PodiumJettingen2.jpg" alt="Photo du Podium"></div>
-		
+		<h4>Daniel Fricker champion master du Grand Est</h4>
+			<div class="article-info">Rédigé le 12 septembre</div> 
+			<p> Première année d'existence des championnats "Grand Est" et premier maillot de champion Grand Est acquis par le VCS Altkirch !<br>
+			Daniel Fricker s'est en effet imposé dans la catégorie M4 ce dimanche 10 septembre à Goviller (Meurthe-et-Moselle).</p>
 		{% endblock firstcontent %}
-		<br>
+		
 		</section>
 		
 		{% block rightsidebar %}
@@ -191,6 +188,16 @@ License: Creative Commons Attribution
 		
 		
 		{% block nextarticles %}
+		<section class="content two-column with-right-sidebar">
+		<h4>Retour sur le prix Agri-Center à Jettingen</h4>
+			<div class="article-info">Rédigé le 28 août</div> 
+			<p> Ce dimanche, le VCS Altkirch organisait son traditionnel prix Agri-Center à Jettingen, sous l'égide de la FSGT. Les coureurs du club ont garni les podiums du jour, avec notamment les 2ème et 3ème place de Ludovic Klein et Julien Grimont dans la course des 2-3, remportée par Simon Bolot (AC Thann), tandis que René Schlienger montait sur la deuxième marche du podium chez les vétérans 4. <br>
+			À noter également les 4ème places de Jérôme Jouanot (V4) et de Antoine Mattern (S4).<br>
+			<a href="https://fsgt-cyclisme-alsace.shost.ca/route/resultats/resultats_jettingen.pdf">Les classements complets</a> et <a href="http://www.lalsace.fr/sport/2017/08/28/du-bon-bolot"> l'article de l'Alsace</a>.</p>
+			<div style="text-align:center"><img class="quarante" src="images/PodiumJettingen1.jpg" alt="Photo du Podium">              <img class="quarante" src="images/PodiumJettingen2.jpg" alt="Photo du Podium"></div>
+		<br>
+		
+		</section>
 		<section class="content two-column with-right-sidebar">
 		<h4>Antoine Mattern vainqueur du GP de la MJC à Buhl en Pass' Cyclisme!</h4>
 			<div class="article-info">Rédigé le 15 août</div> 

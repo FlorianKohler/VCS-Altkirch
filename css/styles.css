@@ -833,24 +833,25 @@ div.social-icons a {
 	
 	nav { height: auto; position: relative; font-size:1.3em; }
 
-	nav ul { text-align: center; background-color: #2c2f30; } /*mini espace en bas */
+	nav ul { text-align: center; } /*mini espace en bas */
 	
 	.sf-menu ul { position: relative; width: auto; display: block; margin: 0; }
 
 	.sf-with-ul {background-color: #2c2f30;}
 	
-	nav ul.onmobile ul { margin-bottom: 0px; padding: 0px} /* autour des sous menus (marge, etc) */
+	nav ul.onmobile ul { margin-bottom: 0px; padding: 0px ;} /* autour des sous menus (marge, etc) */
 
-	nav ul.onmobile li { float: none;  }
-
-	nav ul.onmobile li a { padding: 6px 0px; } /*#MENU: ler l'espace vertical, le 2eme.. horizontaluseless */
+	nav ul.onmobile li { float: none; background-color: #32342F;	}
+	nav ul.onmobile li a { padding: 6px 0px;  } /*#MENU: ler l'espace vertical, le 2eme.. horizontaluseless */
+	
+	nav ul.mobile li ul li a {background-color: #20221E; }
 	
 	
 	nav ul.onmobile li li a { padding: 5px 0 5px 0px;} /* padding: + et 3eme : espacement vertical. 2 et 4: centrage*/
 
 	nav ul.onmobile li a, .sf-menu li { float: none; }
 	
-	nav ul.onmobile li ul li ul li a {background-color: #32342F;}
+	nav ul.onmobile li ul li ul li a {background-color: #151613;}
 	
 	nav ul li {
 	display: block;
