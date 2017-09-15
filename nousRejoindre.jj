@@ -10,7 +10,8 @@
 <img class="cover cent" src="images/covers/cover_nousrejoindre.jpg" alt="Le VCSA, une famille!">
 {% endblock introcontent %}
 
-{% block firstcontent %}
+{% block content %}
+<section class="content two-column with-right-sidebar">
 <h2>Nous rejoindre </h2>
 		<p> Féru de vélo, sundgauvien (ou non) et à la recherche d'un club, n'hésite pas à venir nous rencontrer!
 		Le mieux, c'est de le faire sur le vélo : en nous rejoignant un mercredi (ou samedi, ou dimanche) à un entraînement.</p>
@@ -20,7 +21,5 @@
 		<p> Pour en savoir plus sur les horaires d'entraînement ou les modalités à suivre pour nous rejoindre, il y a le <a href="http://veloclubaltkirch.xoo.it/index.php">forum</a> et la rubrique <a href="contact.html">Contact</a>.</p>
 
 		<img src="images/nousrejoindre.jpg" alt="Nous rejoindre">
-		{% endblock firstcontent %}
-		
-{% block nextarticles %}
-{% endblock nextarticles %}
+</section>
+{% endblock content %}

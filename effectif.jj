@@ -11,7 +11,9 @@
 {% endblock introcontent %}
 
 
-{% block firstcontent %}
+{% block content %}
+<section class="content two-column with-right-sidebar">
+
 <h3 style="text-align:center"> Coureurs </h3>
 <!-- Note: ne pas mettre de photos de tailles identiques pose souci, merci de travailler les photos en amont (et vive photofiltre/gimp etc)-->
 	<!-- première partie -->
@@ -67,7 +69,5 @@
 		<br>
 		<p> Un grand merci à <a href="https://www.facebook.com/AurelieTscheillerPhotographiesCyclistes/">Aurélie Tscheiller</a>, <a href="https://www.facebook.com/clichesdinstants/">Au Fil des Instants</a> et <a href="https://www.facebook.com/Tiiffanie-photo-v%C3%A9lo-1692536604344741">Tiiffanie , photo vélo</a> pour les photos.
 
-{% endblock firstcontent %}
-
-{% block nextarticles %}
-{% endblock nextarticles %}
+		</section>
+{% endblock content %}

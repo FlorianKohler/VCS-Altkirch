@@ -9,7 +9,8 @@
 <img class="cover cent" src="images/covers/cover_performances.jpg" alt="Récapitulatif des places des altkirchois">
 {% endblock introcontent %}
 
-{% block firstcontent %}
+{% block content %}
+<section class="content two-column with-right-sidebar">
 <h4 style="text-align:middle"> Tableau des places - Saison Route 2017 </h4>
 <table class="perf">
 
@@ -44,8 +45,5 @@
 <li>Les résultats obtenus en cyclo-cross et en VTT</li>
 <li>Les résultats obtenus lors des courses réservées aux juniors</li>
 </ul>
-
-{% endblock firstcontent %}
-
-{% block nextarticles %}
-{% endblock nextarticles %}
+</section>
+{% endblock content %}

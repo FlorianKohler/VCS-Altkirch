@@ -11,7 +11,8 @@
 {% endblock introcontent %}
 
 
-{% block firstcontent %}
+{% block content %}
+<section class="content two-column with-right-sidebar">
 <h2>Le VCSA en bref</h2>
 <hr>
 <h3>Le mot du Président</h3>
@@ -24,12 +25,8 @@
 		
 		<br>
 		<img src="images/vcsa.jpg" alt="Le VCSA sur un contre-la-montre par équipe">
-	
-{% endblock firstcontent %}
+</section>
 
-{% block rightsidebar %} {{super()}} {% endblock rightsidebar%}
-
-{% block nextarticles %}
 <section class="content two-column with-right-sidebar">
 <h3>Le club en quelques mots</h3>
 		<p> Le vélo club Sundgovia Altkirch, fondé en 1894, est un club convivial. Affilié à la FFC (Fédération Française de Cyclisme) tout comme à la FSGT (Fédération Sportive et Gymnique du Travail), il est possible d'y pratiquer le cyclisme sur route, comme le VTT ou encore le cyclo-cross et ce dès le plus jeune âge.<br>
@@ -49,4 +46,5 @@
 		<ul><li>Président d'honneur : Rémy Brun</li></ul>
 		<ul><li>Secrétaire : Denis Hoesch</li></ul>
 </section>
-{% endblock nextarticles%}
+
+{% endblock content %}

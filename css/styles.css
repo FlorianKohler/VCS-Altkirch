@@ -6,7 +6,7 @@ body {
 	background-image: url('../images/fond.png');
 	background-color: #000000;
 	
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	margin:0;
 	padding:0;
 	font-family: 'Encode Sans Condensed', 'sans-serif'; /* font */
@@ -308,9 +308,13 @@ header h1 a {
     font-weight: bold;
 }
  header h1 a:hover {
-	font-style: bold;
 	color: #EBC700;
 	font-size: calc(22px + 1vw);
+ }
+ 
+header h1 a.nolinkanim:hover {
+	cursor: default;
+	font-size: calc(21px + 1vw);
 }
 
 nav {

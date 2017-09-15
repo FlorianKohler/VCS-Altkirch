@@ -10,14 +10,14 @@
 <img class="cover cent" src="images/covers/cover_resultats.jpg" alt="Meilleures performances de la saison">
 {% endblock introcontent %}
 
-{% block firstcontent %}
+{% block content %}
+<section class="content two-column with-right-sidebar resultats">
 <h2>Les résultats des coureurs du VCSA </h2>
 		<p>Un tableau récapitulatif des résultats altkirchois sur les courses sur route de la saison est disponible <a href="performances.html">ici</a>.
-
-{% endblock firstcontent %}
-
-{% block nextarticles %}
-<section class="content two-column with-right-sidebar resultats">		<h4>27 août</h4>
+</section>		
+	
+<section class="content two-column with-right-sidebar resultats">		
+<h4>27 août</h4>
 		
 		<h5>Prix Agri-Center à Jettingen (FSGT)</h5>
 		<p>
@@ -72,4 +72,4 @@
 		Doublé des frères Schlienger en V4 !</p>
 </section>
 
-{% endblock nextarticles %}
+{% endblock content %}
