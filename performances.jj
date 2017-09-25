@@ -41,9 +41,10 @@
 <p> Note : Ce tableau ne contient pas :</p>
 <ul>
 <li>Les résultats obtenus à l'étranger</li>
-<li>Les résultats obtenus lors des grimpées chronométrées FSGT</li>
+<li>Les résultats obtenus lors des épreuves chronométrées (grimpées FSGT notamment)</li>
 <li>Les résultats obtenus en cyclo-cross et en VTT</li>
-<li>Les résultats obtenus lors des courses réservées aux juniors</li>
+<li>Les résultats obtenus lors de courses réservées aux juniors</li>
 </ul>
+<p> Ceux-ci sont en revanche comptabilisés dans le bilan affiché dans la colonne de droite, à l'exception des résultats obtenus à l'étranger.</p>
 </section>
 {% endblock content %}

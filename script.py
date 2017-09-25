@@ -5,6 +5,7 @@ import os
 import codecs
 import jinja2
 import collections
+import copy
 
 the_dir=os.path.dirname(os.path.abspath(__file__))
 
@@ -132,6 +133,8 @@ Places.append([4,'FSGT','23','FlorianK Martyrs 06'])
 Places.append([2,'FSGT','23','FlorianK Souvenir morra 06'])
 Places.append([3,'FSGT','23','FlorianK Trappes'])
 
+
+
 Places.append([10,'FFC','23J','FlorianK clm piemont'])
 Places.append([8,'FFC','23J','FlorianK Gerardmer'])
 
@@ -183,8 +186,26 @@ Places.append([5,'FFC','23J','Jerome H Ronde Haute Saone 1'])
 Places.append([5,'FFC','23J','Ludo K Xonrupt'])
 
 Places.append([4,'FFC','PassD3','Claude S St Louis'])
+Places.append([6,'FFC','3J','Julien B Marchaux'])
+Places.append([5,'FFC','3J','Florian K Epinay sur Seine'])
 
 
+PlacesTotal = copy.deepcopy(Places)
+
+PlacesTotal.append([2,'FSGT','HC','Eric Heitz VTT'])
+PlacesTotal.append([3,'FSGT','HC','Eric Heitz VTT'])
+PlacesTotal.append([4,'FSGT','HC','Eric Heitz VTT'])
+PlacesTotal.append([5,'FSGT','HC','Eric Heitz VTT'])
+PlacesTotal.append([8,'FSGT','HC','Christophe Deis VTT'])
+PlacesTotal.append([4,'FSGT','HC','WeberGregory CX Wittenheim'])
+PlacesTotal.append([3,'FSGT','HC','Wegner Sonke CX Wittenheim'])
+PlacesTotal.append([3,'FSGT','HC','Julien B Grimpee Floridor'])
+PlacesTotal.append([5,'FSGT','HC','Julien B Grimpee Floridor'])
+PlacesTotal.append([9,'FFC','HC','Jerome H classement general prestige junior'])
+PlacesTotal.append([4,'FSGT','HC','Gentlemen Lure duo'])
+PlacesTotal.append([2,'FSGT','HC','Alex nanni chrono lure'])
+PlacesTotal.append([1,'FSGT','HC','Alexis Wolff chrono lure'])
+PlacesTotal.append([8,'FSGT','HC','Christophe Deis chrono lure'])
 
 
 listeCoureurs = []
@@ -274,13 +295,13 @@ for perf in Places: #if fsgt or ffc ?
 resultats['Total'] = [sum(resultats[cates][place] for cates in list_cates) for place in range(10)]
 
 
-victoires_fsgt = sum (1 for i in Places if i[0]==1 and i[1]=='FSGT')
-top3_fsgt = sum (1 for i in Places if i[0]<=3 and i[1]=='FSGT')
-top10_fsgt  = sum (1 for i in Places if i[0]<=10 and i[1]=='FSGT')
+victoires_fsgt = sum (1 for i in PlacesTotal if i[0]==1 and i[1]=='FSGT')
+top3_fsgt = sum (1 for i in PlacesTotal if i[0]<=3 and i[1]=='FSGT')
+top10_fsgt  = sum (1 for i in PlacesTotal if i[0]<=10 and i[1]=='FSGT')
 
-victoires_ffc = sum (1 for i in Places if i[0]==1 and i[1]=='FFC')
-top3_ffc = sum (1 for i in Places if i[0]<=3 and i[1]=='FFC')
-top10_ffc  = sum (1 for i in Places if i[0]<=10 and i[1]=='FFC')
+victoires_ffc = sum (1 for i in PlacesTotal if i[0]==1 and i[1]=='FFC')
+top3_ffc = sum (1 for i in PlacesTotal if i[0]<=3 and i[1]=='FFC')
+top10_ffc  = sum (1 for i in PlacesTotal if i[0]<=10 and i[1]=='FFC')
 
 victoires= victoires_fsgt + victoires_ffc
 top3=top3_fsgt+top3_ffc
