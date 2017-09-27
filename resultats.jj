@@ -1,6 +1,7 @@
 {% extends "index.jj" %}
 
-{% block title %}VCS Altkirch - Résultats{% endblock title %}
+{% block title %}VCS Altkirch | Résultats{% endblock title %}
+{% block description %}Découvrez les dernières performances majeures des coureurs du VCS Altkirch...{% endblock description %}
 
 {% block ifindex %}{% endblock %}
 {% block ifresultats %}class="selected"{% endblock %}
@@ -14,17 +15,17 @@
 <section class="content two-column with-right-sidebar resultats">
 <h2>Les résultats des coureurs du VCSA </h2>
 		<p>Un tableau récapitulatif des résultats altkirchois sur les courses sur route de la saison est disponible <a href="performances.html">ici</a>.
-</section>		
-	
-<section class="content two-column with-right-sidebar resultats">		
+</section>
+
+<section class="content two-column with-right-sidebar resultats">
 <h4>27 août</h4>
-		
+
 		<h5>Prix Agri-Center à Jettingen (FSGT)</h5>
 		<p>
 			2ème et 3ème places respectives de Ludovic K. et Julien G. en 2-3
 		<br>
 			2ème place de René S. chez les vétérans 4
-		</p>	
+		</p>
 </section>
 
 <section class="content two-column with-right-sidebar resultats">
@@ -34,12 +35,12 @@
 
 <section class="content two-column with-right-sidebar resultats">
 	    <h5>Montgeron (Essonne)</h5><h4>19 juillet</h4>
-		
+
 		<p>Victoire de Florian K. en 3-J !</p>
 </section>
 
 <section class="content two-column with-right-sidebar resultats">
-		
+
 		<h5>L'Alsacienne Cyclosportive</h5><h4>25 juin</h4>
 		<p>Julien B. 3ème sur l'Audacieuse</p>
 		<h5> GP de Danjoutin (FSGT)</h5>

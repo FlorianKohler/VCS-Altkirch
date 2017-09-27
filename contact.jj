@@ -1,6 +1,7 @@
 {% extends "index.jj" %}
 
-{% block title %}VCS Altkirch - Contact{% endblock title %}
+{% block title %}VCS Altkirch | Contact{% endblock title %}
+{% block description %}Une question, une remarque ? N'hésitez pas à nous écrire via ce formulaire...{% endblock description %}
 
 {% block ifindex %}{% endblock %}
 {% block ifcircuits %}class="selected"{% endblock %}
@@ -15,7 +16,7 @@
 <form action="https://formspree.io/webmaster-vcsa@ntymail.com"
       method="POST">
 	<input type="text" name="_gotcha" style="display:none" />
-	
+
 	<p> <label for="nom">Votre nom :</label><br>
     <input type="text" id="nom" name="name" placeholder="Christopher Froome"> </p>
 	<p>
@@ -29,6 +30,6 @@
 	</p>
     <input type="submit" value="Envoyer"><br>
 	<p>Après avoir envoyé votre message, vous serez redirigé vers "formspree.io" pour vérifier que vous n'êtes pas un robot, c'est normal !</p>
-</form> 
+</form>
 </section>
 {% endblock content %}

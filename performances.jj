@@ -1,6 +1,7 @@
 {% extends "index.jj" %}
 
-{% block title %}VCS Altkirch - Performances &#127942;{% endblock title %}
+{% block title %}VCS Altkirch | Performances &#127942;{% endblock title %}
+{% block description %}Découvrez un récapitulatif des résultats du VCS Altkirch sur les courses des dernières saison...{% endblock description %}
 
 {% block ifindex %}{% endblock %}
 

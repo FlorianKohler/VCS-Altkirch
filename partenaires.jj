@@ -1,6 +1,7 @@
 {% extends "index.jj" %}
 
-{% block title %}VCS Altkirch - Partenaires{% endblock title %}
+{% block title %}VCS Altkirch | Partenaires{% endblock title %}
+{% block description %}Découvrez les partenaires qui soutiennent le VCS Altkirch...{% endblock description %}
 
 {% block ifindex %}{% endblock %}
 {% block ifpartenaires %}class="selected"{% endblock %}
@@ -17,7 +18,7 @@
 
 <h4>&#x2022; ACEI Électricité</h4>
 <p>Antonio Caccese électricité industrielle - Travaux d'installation électrique, de dépannage et de mise aux normes électriques entre autres.<br>
-Basé à Waldighoffen.</p>	
+Basé à Waldighoffen.</p>
 
 <h4>&#x2022; Arcade Engineering GmbH</h4>
 <p>Votre partenaire expérimenté pour des prestations d'ingénierie et pour la planification de projets d'équipements industriels.<br>
@@ -36,7 +37,7 @@ Basé à Waldighoffen.</p>
 
 <h4>&#x2022; Le Crédit Mutuel</h4>
 <p> Banque coopérative, propose également des assurances, forfaits téléphoniques, etc.<br>
-=> Plus d'infos sur le <a href="http://www.credit-mutuel.fr">site du Crédit Mutuel</a>.</p>   
+=> Plus d'infos sur le <a href="http://www.credit-mutuel.fr">site du Crédit Mutuel</a>.</p>
 
 <h4>&#x2022; Daiichi Sankyo</h4>
 <p> Entreprise pharmaceutique.<br>
@@ -44,20 +45,20 @@ Basé à Waldighoffen.</p>
 
 <h4>&#x2022; Fun2Sport</h4>
 <p> Vos Vacances & Stages Vélo sous toutes les formes, souvent avec d'anciens Coureurs Pro et toujours avec du plaisir, de la convivialité et du Fun!<br>
-=> Plus d'infos sur le <a href="http://www.fun2sport.fr/">site de Fun2Sport</a> ou sur la <a href="https://www.facebook.com/alain.lamy.fun2sport.fr/">page Facebook</a>.</p>   
-	    
+=> Plus d'infos sur le <a href="http://www.fun2sport.fr/">site de Fun2Sport</a> ou sur la <a href="https://www.facebook.com/alain.lamy.fun2sport.fr/">page Facebook</a>.</p>
+
 <h4>&#x2022; ID Fermetures</h4>
 <p>Basée à Ilzach, l'entreprise ID Fermetures vous propose la fourniture et la pose de :<br>
 Fenêtres - Portes d'entrée / de service / blindées - Volets roulants / volets battants<br>
 Portes de garage - Stores (bannes, pergolas, etc.) - Portails / garde-corps / clôtures<br>
   => Plus d'infos sur le <a href="http://www.idfermetures.fr">site de ID Fermetures</a> ou sur la <a href="http://www.facebook.com/IDFermetures">page Facebook</a>.</p>
-  
+
 <h4>&#x2022; LB Prothèses Dentaires</h4>
 <p> Prothésistes dentaires à Altkirch depuis 2002.<br></p>
 
 <h4>&#x2022; Marc Boetsch</h4>
 <p>Entreprise de menuiseries métalliques à Altkirch.</p>
-	    
+
 <p> Merci également à la <a href="http://www.mairie-altkirch.fr">ville d'Altkirch</a> pour son soutien !</p>
 </section>
 {% endblock content %}

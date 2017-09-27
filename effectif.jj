@@ -1,6 +1,7 @@
 {% extends "index.jj" %}
 
-{% block title %}VCS Altkirch - Effectif{% endblock title %}
+{% block title %}VCS Altkirch | Effectif{% endblock title %}
+{% block description %}Découvrez en photos les coureurs qui composent l'effectif du VCS Altkirch ainsi que les encadrants qui les accompagnent !{% endblock description %}
 
 {% block ifindex %}{% endblock %}
 {% block ifeffectif %}class="selected"{% endblock %}
@@ -35,7 +36,7 @@
 	    </table>
 		{% endif %}
 	{% endfor %}
-	
+
 	{% set restCoureurs = len(listeCoureurs)%4 %}
 	{% if restCoureurs>0 %}
 	<table>
@@ -43,16 +44,16 @@
 		{% for indexDiff in range(restCoureurs) %}
 			<td><img class="coureurimg" src="images/coureurs/{{listeCoureurs[len(listeCoureurs)-restCoureurs+indexDiff][1]}}.jpg" alt="{{listeCoureurs[len(listeCoureurs)-restCoureurs+indexDiff][0]}}"></td>
 		{% endfor %}
-	
+
 	</tr>
 	<tr>
 		{% for indexDiff in range(restCoureurs) %}
 			<td> {{listeCoureurs[len(listeCoureurs)-restCoureurs+indexDiff][0]}} <br>{{listeCoureurs[len(listeCoureurs)-restCoureurs+indexDiff][2]}}</td>
 		{% endfor %}
 	</table>
-	
+
 	<br><br>
-	
+
 	<h3 style="text-align: center">Encadrement</h3>
 	<table>
 	<tr>
@@ -64,7 +65,7 @@
 	<td>René S.<br>Entraîneur & Directeur Sportif</td>
 	</tr>
 	</table>
-	
+
 	{% endif %}
 		<br>
 		<p> Un grand merci à <a href="https://www.facebook.com/AurelieTscheillerPhotographiesCyclistes/">Aurélie Tscheiller</a>, <a href="https://www.facebook.com/clichesdinstants/">Au Fil des Instants</a> et <a href="https://www.facebook.com/Tiiffanie-photo-v%C3%A9lo-1692536604344741">Tiiffanie , photo vélo</a> pour les photos.

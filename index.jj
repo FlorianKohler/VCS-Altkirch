@@ -3,6 +3,7 @@
 <head>
 <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{% block description %}Site officiel du Vélo Club Sundgovia Altkirch. Retrouvez toutes les informations du club cycliste : actualités, effectif, résultats, organisations, ...{% endblock description %}"/>
 <title>{% block title %}VCS Altkirch{% endblock title %}</title>
 
 
@@ -11,7 +12,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
 <link rel="manifest" href="images/icons/manifest.json">
-<link rel="mask-icon" href="images/icons/safari-pinned-tab.svg" color="#5bbad5"> 
+<link rel="mask-icon" href="images/icons/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff"> -->
 
 
@@ -46,13 +47,13 @@ License: Creative Commons Attribution
 
 	{% block header %}
     <header>
-	
+
 	<div class="width">
 
     	<h1><a {% if index==True %}class="nolinkanim"{% endif %}href="index.html">VCS Altkirch</a></h1>
-		<nav>			
+		<nav>
     		<ul class="sf-menu dropdown oncomputer">
-		
+
 				<li {% block ifindex %}class="selected"{% endblock %}><a href="index.html">Accueil</a></li>
         		<li><a class="oncomputer pasclickable" href="leClub.html">Le Club</a>
 					<ul>
@@ -71,7 +72,7 @@ License: Creative Commons Attribution
 				</li>
 				<li><a  href=http://veloclubaltkirch.xoo.it/index.php>Forum</a></li>
 			</ul>
-			<ul class="sf-menu dropdown onmobile">			
+			<ul class="sf-menu dropdown onmobile">
 				<li><a class="pasclickable" href="#">MENU</a>
 					<ul>
 						<li {{ self.ifindex() }}><a href="index.html">Accueil</a></li>
@@ -92,23 +93,23 @@ License: Creative Commons Attribution
 						</li>
 						<li><a href=http://veloclubaltkirch.xoo.it/index.php>Forum</a></li>
 					</ul>
-				</li>	
-			</ul>	
+				</li>
+			</ul>
 		<div class="clear"></div>
 		</nav>
 	</div>
 
 	<div class="clear"></div>
 
-      
+
     </header>
 	{% endblock header %}
 
-	
+
     <div id="intro">
 
 	<div class="width">
-			
+
 				<div class="intro-content">
 					{% block introcontent %}
 						<img class="logo" src="images/logo.png" alt="logo" style="float: right" >
@@ -116,21 +117,21 @@ License: Creative Commons Attribution
 						<h2 class="indexwelcome">Bienvenue sur le site du <br> VC Sundgovia Altkirch ! </h2>
 					{% endblock introcontent %}
             	</div> <!-- intro content-->
-                
+
             </div> <!-- width -->
-            
+
 
 	</div> <!--  intro-->
 
     <div id="body" class="width">
 		<article>
-		
+
 		{% block rightsidebar %}
         <!-- barre de droite -->
         <aside class="sidebar right-sidebar">
-		
 
-					
+
+
 			<ul>
 				<li>
 					<h4><a href="performances.html">Bilan 2017</a></h4>
@@ -145,19 +146,19 @@ License: Creative Commons Attribution
 					<ul>
 						<li>11/08/17: <a href="http://www.sport365.fr/cyclisme-arctic-race-e2-kristoff-brise-reve-dhofstetter-5205220.html">Kristoff brise le rêve d'Hofstetter</a> (sport365)</li>
 						<li>24/07/17: <a href="http://www.lalsace.fr/actualite/2017/07/24/hofstetter-a-l-euro">Hofstetter à l'Euro</a> (L'Alsace)</li>
-						<li>20/07/17: <a href="http://www.radiopeloton.fr/2017/07/20/kohler-sans-pitie-pour-les-franciliens/">Kohler sans pitié pour les franciliens</a> (Radio Peloton)</li>					
+						<li>20/07/17: <a href="http://www.radiopeloton.fr/2017/07/20/kohler-sans-pitie-pour-les-franciliens/">Kohler sans pitié pour les franciliens</a> (Radio Peloton)</li>
 						<li>02/05/17: <a href="http://www.lalsace.fr/sport/2017/05/02/heinis-ouvre-le-palmares">Heinis ouvre le palmarès</a> (L'Alsace)</li>
 						<li>24/04/17: <a href="http://www.lalsace.fr/sport/2017/04/24/la-premiere-pour-grimont">La première pour Grimont</a> (L'Alsace)</li>
-						<li>20/03/17: <a href="http://www.lalsace.fr/sport/2017/03/20/heinis-au-bonheur-du-vcs-altkirch">Heinis au bonheur du VCS Altkirch</a> (L'Alsace)</li>					
-						<li>17/03/17: <a href="http://www.dna.fr/edition-de-saint-louis-altkirch/2017/03/17/le-vcs-altkirch-bien-represente">Le VCS Altkirch bien représenté</a> (DNA)</li>	
+						<li>20/03/17: <a href="http://www.lalsace.fr/sport/2017/03/20/heinis-au-bonheur-du-vcs-altkirch">Heinis au bonheur du VCS Altkirch</a> (L'Alsace)</li>
+						<li>17/03/17: <a href="http://www.dna.fr/edition-de-saint-louis-altkirch/2017/03/17/le-vcs-altkirch-bien-represente">Le VCS Altkirch bien représenté</a> (DNA)</li>
 						<li>28/12/16: <a href="http://www.dna.fr/edition-de-saint-louis-altkirch/2016/12/28/1-800-pour-le-vcs-altkirch">1800€ pour le VCS Altkirch</a> (DNA)</li>
 						<li>30/09/16: <a href="http://www.lalsace.fr/sport/2016/11/30/l-effet-hofstetter-au-vcs-altkirch">L'effet Hofstetter au VCS Altkirch</a> (L'Alsace)</li>
 						<li>02/06/16: <a href="http://www.lalsace.fr/sport/2016/06/02/l-union-sacree-au-vcs-altkirch">L'union sacrée au VCS Altkirch</a> (L'Alsace)</li>
 					</ul>
 				</li>
-			</ul>    
-            
-            <ul>	
+			</ul>
+
+            <ul>
 				<li>
 					<h4>Liens utiles</h4>
 					<ul class="blocklist">
@@ -166,43 +167,43 @@ License: Creative Commons Attribution
 						<li><a href="http://ffc-bfc.fr">FFC Bourgogne Franche-Comté</a></li>
 						<li><a href="http://rad-net.de">Fédération Allemande</a></li>
 						<li><a href="http://swiss-cycling.ch/fr.html">Fédération Suisse</a></li>
-						<li><a href="http://www.meteofrance.com/previsions-meteo-france/altkirch/68130">Météo Altkirch</a></li>	
-					</ul> 
+						<li><a href="http://www.meteofrance.com/previsions-meteo-france/altkirch/68130">Météo Altkirch</a></li>
+					</ul>
 				</li>
-			</ul>   
+			</ul>
         </aside>
 		{% endblock rightsidebar %}
-		
-		
+
+
 		{% block content %}
 		<section class="content two-column with-right-sidebar">
 		<h3>Dernières nouvelles</h3>
 		<hr>
 		<br>
 		<h4>Daniel Fricker champion master du Grand Est</h4>
-			<div class="article-info">Rédigé le 12 septembre</div> 
+			<div class="article-info">Rédigé le 12 septembre</div>
 			<p> Première année d'existence des championnats "Grand Est" et premier maillot de champion Grand Est acquis par le VCS Altkirch !<br>
 			Daniel Fricker s'est en effet imposé dans la catégorie M4 ce dimanche 10 septembre à Goviller (Meurthe-et-Moselle).</p>
-		</section>	
-			
+		</section>
+
 		<section class="content two-column with-right-sidebar">
 		<h4>Retour sur le prix Agri-Center à Jettingen</h4>
-			<div class="article-info">Rédigé le 28 août</div> 
+			<div class="article-info">Rédigé le 28 août</div>
 			<p> Ce dimanche, le VCS Altkirch organisait son traditionnel prix Agri-Center à Jettingen, sous l'égide de la FSGT. Les coureurs du club ont garni les podiums du jour, avec notamment les 2ème et 3ème place de Ludovic Klein et Julien Grimont dans la course des 2-3, remportée par Simon Bolot (AC Thann), tandis que René Schlienger montait sur la deuxième marche du podium chez les vétérans 4. <br>
 			À noter également les 4ème places de Jérôme Jouanot (V4) et de Antoine Mattern (S4).<br>
 			<a href="https://fsgt-cyclisme-alsace.shost.ca/route/resultats/resultats_jettingen.pdf">Les classements complets</a> et <a href="http://www.lalsace.fr/sport/2017/08/28/du-bon-bolot"> l'article de l'Alsace</a>.</p>
 			<div style="text-align:center"><img class="quarante" src="images/PodiumJettingen1.jpg" alt="Photo du Podium">              <img class="quarante" src="images/PodiumJettingen2.jpg" alt="Photo du Podium"></div>
 		<br>
-		
+
 		</section>
 		<section class="content two-column with-right-sidebar">
 		<h4>Antoine Mattern vainqueur du GP de la MJC à Buhl en Pass' Cyclisme!</h4>
-			<div class="article-info">Rédigé le 15 août</div> 
+			<div class="article-info">Rédigé le 15 août</div>
 			<p> Après de nombreuses places d'honneur cette année, Antoine est ce mardi monté pour la première fois sur la plus haute marche du podium à Buhl. Une victoire en solitaire avec plus de 3 minutes d'avance sur ses poursuivants ! </p>
 			<div style="text-align:center"><img class="cinquante" src="images/AntoineBuhl.jpg" alt="Podium Antoine"></div>
 		<br>
 		</section>
-		
+
 		<section class="content two-column with-right-sidebar">
 		<h4>Hugo sélectionné aux championnats d'Europe au Danemark!</h4>
 			<div class="article-info">Rédigé le 25 Juillet</div>
@@ -210,10 +211,10 @@ License: Creative Commons Attribution
 		</section>
 
 		{% endblock content %}
-		
+
         </article>
-		
-		
+
+
     	<div class="clear"></div>
     </div>
 </div>
@@ -221,18 +222,18 @@ License: Creative Commons Attribution
 	<!-- pied de page -->
 	{% block footer %}
     <footer>
-	
+
 	<div class="footer-content">
 		<table>
 		<tr>
         <td><a href="http://www.as-bike.fr/"><img src="images/sponsors/ASBike.jpg" alt="AS Bike"></a></td>
 		<td><a href="http://www.idfermetures.fr/"><img src="images/sponsors/IDFermetures.jpg" alt="ID Fermetures"></a></td>
-		<td><a href="http://annuaire.cci.alsace/fr/entreprise/ANTONIO-CACCESE-ELECTRICITE-INDUSTRIELLE-ACEI.html?PHPSESSID=5fe55720be92351d90798fb0e0e25e00"><img src="images/sponsors/AceiElectricite.jpg" alt="ACEI Electricité"></a></td>	
+		<td><a href="http://annuaire.cci.alsace/fr/entreprise/ANTONIO-CACCESE-ELECTRICITE-INDUSTRIELLE-ACEI.html?PHPSESSID=5fe55720be92351d90798fb0e0e25e00"><img src="images/sponsors/AceiElectricite.jpg" alt="ACEI Electricité"></a></td>
 		<td><img src="images/sponsors/LBprotheses.jpg" alt="LBprotheses"></td>
 		</tr>
 		</table>
         <table>
-		<tr> 
+		<tr>
 		<td><a href="https://www.daiichi-sankyo.fr/"><img src="images/sponsors/DaiichiSankyo.jpg" alt="Daiichi Sankyo"></a></td>
 		<td><a href="https://www.pagesjaunes.fr/pros/52105117"><img src="images/sponsors/MarcBoetsch.jpg" alt="Marc Boetsch"></a></td>
 		<td><a href="http://arcade-engineering.com//"><img src="images/sponsors/Arcade.jpg" alt="Arcade Engineering"></a></td>
@@ -241,18 +242,18 @@ License: Creative Commons Attribution
 		</tr>
 		</table>
 		<table>
-		<tr> 
+		<tr>
 		<td><a href="https://www.creditmutuel.fr"><img src="images/sponsors/CreditMutuel.jpg" alt="Crédit Mutuel"></a></td>
 		<td><a href="http://www.mairie-altkirch.fr/"><img src="images/sponsors/Altkirch.png" alt="Ville d'Altkirch"></a></td>
 		<td><a href="http://www.fun2sport.fr/"><img src="images/sponsors/Fun2Sport.png" alt="Fun2Sport"></a></td>
 		</table>
-        		
+
         <div class="clear"></div>
         </div>
         <div class="footer-bottom">
             <p>&copy; VCS Altkirch 2017. Template: <a href="http://zypopwebtemplates.com/">Free CSS Web Templates</a> par ZyPOP. Site personnalisé par Florian. <a href="contact.html">Contact</a>
          </div>
-	
+
     </footer>
 	{% endblock footer %}
 </body>
