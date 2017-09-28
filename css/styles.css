@@ -101,13 +101,13 @@ p {
 
 a {
 	color: #000000;
-	border-bottom: 1px solid #000000;
+	border-bottom: 1px solid #626C75;
 	text-decoration: none;
 }
 
 a:hover {
-	border-bottom-color: #5DA1C3;
-	color: #5DA1C3;
+	border-bottom-color: #000000;
+	color: #000000;
 }
 
 a:focus {
@@ -142,6 +142,10 @@ a.button-reversed {
 
 a.button-reversed:hover {
 	background: #ccc;
+}
+
+b{
+	font-weight: bold;
 }
 
 fieldset {
