@@ -190,6 +190,7 @@ Places.append([6,'FFC','3J','Julien B Marchaux'])
 Places.append([5,'FFC','3J','Florian K Epinay sur Seine'])
 
 
+
 PlacesTotal = copy.deepcopy(Places)
 
 PlacesTotal.append([2,'FSGT','HC','Eric Heitz VTT'])
@@ -197,8 +198,7 @@ PlacesTotal.append([3,'FSGT','HC','Eric Heitz VTT'])
 PlacesTotal.append([4,'FSGT','HC','Eric Heitz VTT'])
 PlacesTotal.append([5,'FSGT','HC','Eric Heitz VTT'])
 PlacesTotal.append([8,'FSGT','HC','Christophe Deis VTT'])
-PlacesTotal.append([4,'FSGT','HC','WeberGregory CX Wittenheim'])
-PlacesTotal.append([3,'FSGT','HC','Wegner Sonke CX Wittenheim'])
+
 PlacesTotal.append([3,'FSGT','HC','Julien B Grimpee Floridor'])
 PlacesTotal.append([5,'FSGT','HC','Julien B Grimpee Floridor'])
 PlacesTotal.append([9,'FFC','HC','Jerome H classement general prestige junior'])
@@ -206,7 +206,10 @@ PlacesTotal.append([4,'FSGT','HC','Gentlemen Lure duo'])
 PlacesTotal.append([2,'FSGT','HC','Alex nanni chrono lure'])
 PlacesTotal.append([1,'FSGT','HC','Alexis Wolff chrono lure'])
 PlacesTotal.append([8,'FSGT','HC','Christophe Deis chrono lure'])
+PlacesTotal.append([1,'FSGT','HC','Sonke CX Wit'])
 
+PlacesTotal.append([3,'FFCs','HC','WeberGregory CX Wittenheim'])
+PlacesTotal.append([3,'FFC','HC','Wegner Sonke CX Wittenheim'])
 
 listeCoureurs = []
 listeCoureurs.append(["Alain L.","AlainL","Pass' D1"])
