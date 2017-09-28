@@ -208,7 +208,7 @@ PlacesTotal.append([1,'FSGT','HC','Alexis Wolff chrono lure'])
 PlacesTotal.append([8,'FSGT','HC','Christophe Deis chrono lure'])
 PlacesTotal.append([1,'FSGT','HC','Sonke CX Wit'])
 
-PlacesTotal.append([3,'FFCs','HC','WeberGregory CX Wittenheim'])
+PlacesTotal.append([3,'FFC','HC','WeberGregory CX Wittenheim'])
 PlacesTotal.append([3,'FFC','HC','Wegner Sonke CX Wittenheim'])
 
 listeCoureurs = []
