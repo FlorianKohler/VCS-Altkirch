@@ -46,6 +46,6 @@
 <li>Les résultats obtenus en cyclo-cross et en VTT</li>
 <li>Les résultats obtenus lors de courses réservées aux juniors</li>
 </ul>
-<p> Ceux-ci sont en revanche comptabilisés dans le bilan affiché dans la colonne de droite, à l'exception des résultats obtenus à l'étranger.</p>
+<p> Ceux-ci sont en revanche comptabilisés dans l'encadré "Bilan 2017" visible dans la colonne de droite, à l'exception des résultats obtenus à l'étranger.</p>
 </section>
 {% endblock content %}
