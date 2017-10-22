@@ -202,6 +202,7 @@ PlacesTotal.append([8,'FSGT','HC','Christophe Deis VTT'])
 
 PlacesTotal.append([3,'FSGT','HC','Julien B Grimpee Floridor'])
 PlacesTotal.append([5,'FSGT','HC','Julien B Grimpee Floridor'])
+PlacesTotal.append([1,'FSGT','HC','Julien B Grimpee Salbert'])
 PlacesTotal.append([9,'FFC','HC','Jerome H classement general prestige junior'])
 PlacesTotal.append([4,'FSGT','HC','Gentlemen Lure duo'])
 PlacesTotal.append([2,'FSGT','HC','Alex nanni chrono lure'])
