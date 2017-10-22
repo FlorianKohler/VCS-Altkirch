@@ -181,7 +181,6 @@ License: Creative Commons Attribution
 		<h3>Dernières nouvelles</h3>
 		<hr>
 		<br>
-<<<<<<< HEAD
 		<h4>Cyclo-cross de Saint-Bernard</h4>
 			<div class="article-info">Rédigé le 22 octobre</div>
 			<p> Le VCSA organisait ce dimanche le traditionnel cyclo-cross FFC de Saint-Bernard, rassemblant comme tous les ans coureurs et spectateurs autour de l'église du village.<br>
@@ -201,13 +200,10 @@ License: Creative Commons Attribution
 			
 			<p>Un grand merci à Aurélie Tscheiller pour toutes les photos réalisées ce dimanche. Vous pouvez voir son album complet (plus de 500 photos!) sur Facebook en cliquant <a href="https://www.facebook.com/pg/AurelieTscheillerPhotographiesCyclistes/photos/?tab=album&album_id=1433719063408710">ici</a> !
 			<br>Et pour consulter les classements de ce dimanche c'est <a href="images/ClassementStBernard.pdf"> ici</a> ! Vous y trouverez également les classements des courses des écoles de cyclisme, minimes, cadets et cadettes qui ont rassemblé une soixantaine de partants. </p>
-			
-
-			
+						
 		</section>
 		
-		
-=======
+		<section class="content two-column with-right-sidebar">
 		<h4>Une dernière grimpée FSGT victorieuse</h4>
 			<div class="article-info">Rédigé le 10 octobre</div>
 			<p>Ce samedi se disputait à Cravanche la <b>Montée du Salbert</b>, quatrième et dernière grimpée comptant pour le trophée DNA des grimpées 2017. C'est un coureur altkirchois qui s'y est imposé, puisque Julien Batlle, en terminant le chrono en 9'35, a réalisé le meilleur temps scratch !</p>
@@ -215,7 +211,6 @@ License: Creative Commons Attribution
 			<p>Voir <a href="http://www.dna.fr/sports/2017/10/10/batlle-l-emporte-au-salbert">l'article des DNA (abonnés)</a>, <a href="https://fsgt-cyclisme-alsace.shost.ca/grimpees/resultats/resultat_salbert.pdf">le classement de la montée du Salbert</a> et <a href="https://fsgt-cyclisme-alsace.shost.ca/grimpees/resultats/challenge.pdf">le classement final du Trophée des grimpées 2017</a>.</p>
 		</section>
 
->>>>>>> 8e0ea695fc5df408cdef5a7fab917c916b80d0cf
 		<section class="content two-column with-right-sidebar">
 		<h4>Retour sur le week-end du 23/24 septembre</h4>
 			<div class="article-info">Rédigé le 28 septembre</div>
