@@ -52,7 +52,9 @@ body {
 	margin:0;
 	padding:0;
 }
-
+img.trente{
+	width:30%;
+}
 img.quarante{
 	width:40%;
 }
