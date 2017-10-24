@@ -211,6 +211,13 @@ PlacesTotal.append([8,'FSGT','HC','Christophe Deis chrono lure'])
 
 PlacesTotal.append([3,'FFC','HC','Weber Gregory CX Wittenheim'])
 PlacesTotal.append([3,'FFC','HC','Wegner Sonke CX Wittenheim'])
+PlacesTotal.append([8,'FSGT','HC','Jerome H CX Morschwiller'])
+PlacesTotal.append([2,'FSGT','HC','Sonke Wegner CX Heimsbrunn'])
+PlacesTotal.append([7,'FSGT','HC','Alexis Ballester CX Heimsbrunn'])
+
+PlacesTotal.append([4,'FFC','HC','Jerome H CX Saint Bernard'])
+PlacesTotal.append([8,'FFC','HC','Christophe Deis CX Saint Bernard'])
+PlacesTotal.append([1,'FFC','HC','Hugo Hofstetter CX Saint Bernard'])
 
 listeCoureurs = []
 listeCoureurs.append(["Alain L.","AlainL","Pass' D1"])
