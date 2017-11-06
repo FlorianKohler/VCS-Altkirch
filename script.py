@@ -123,7 +123,7 @@ Places.append([5,'FSGT','V4','Jerome J Rougemont'])
 Places.append([2,'FSGT','Min','Alex N Rougemont'])
 Places.append([3,'FSGT','Min','Antoine C Rougemont'])
 Places.append([7,'FSGT','S4','Antoine M Rougemont'])
-Places.append([4,'FSGT','23','Julien G Rougemont']) 
+Places.append([4,'FSGT','23','Julien G Rougemont'])
 
 Places.append([6,'FFC','PassD1','FlorianK Monaco'])
 
@@ -158,7 +158,7 @@ Places.append([8,'FFC','PassD3','Claude S Schwenheim'])
 
 Places.append([4,'FFC','PassD1','Kevin E Ornans'])
 Places.append([6,'FFC','PassD1','Kevin E Valdahon'])
-Places.append([4,'FFC','PassD1','Kevin E Pontarlier']) 
+Places.append([4,'FFC','PassD1','Kevin E Pontarlier'])
 Places.append([2,'FFC','PassD1','Kevin E Terre de Chaux'])
 Places.append([2,'FFC','PassD1','Kevin E Morteaux'])
 Places.append([2,'FFC','PassD1','Kevin E Noroy le bourg'])
@@ -191,6 +191,8 @@ Places.append([5,'FFC','3J','Florian K Epinay sur Seine'])
 
 
 
+
+
 PlacesTotal = copy.deepcopy(Places)
 
 PlacesTotal.append([2,'FSGT','HC','Eric Heitz VTT'])
@@ -218,6 +220,15 @@ PlacesTotal.append([7,'FSGT','HC','Alexis Ballester CX Heimsbrunn'])
 PlacesTotal.append([4,'FFC','HC','Jerome H CX Saint Bernard'])
 PlacesTotal.append([8,'FFC','HC','Christophe Deis CX Saint Bernard'])
 PlacesTotal.append([1,'FFC','HC','Hugo Hofstetter CX Saint Bernard'])
+
+PlacesTotal.append([3,'FSGT','HC','Sonke W CX Wattwiller'])
+PlacesTotal.append([8,'FSGT','HC','Alexis Wolff CX Wattwiller'])
+PlacesTotal.append([3,'FSGT','HC','Alexis Wolff CX Wattwiller'])
+PlacesTotal.append([6,'FSGT','HC','Christophe D CX Wattwiller'])
+PlacesTotal.append([8,'FSGT','HC','Eric Heitz CX Wattwiller'])
+PlacesTotal.append([10,'FSGT','HC','Alexis B CX Wattwiller'])
+
+PlacesTotal.append([6,'FFC','HC','Jerome H CX Hohrod'])
 
 listeCoureurs = []
 listeCoureurs.append(["Alain L.","AlainL","Pass' D1"])
@@ -274,7 +285,7 @@ for i in listeCoureurs:
         i[0] +="&nbsp; "
     if espaceacombler%2==1:
         i[0]+="&nbsp; " '''
-        
+
 listeCoureurs.append(["Hugo Hofstetter","HugoH","Coureur professionnel - Team Cofidis"])
 
 coureursDerniereLigne= len(listeCoureurs)%4
@@ -304,7 +315,7 @@ affichage['Total']='Total'
 #print(resultats)
 for perf in Places: #if fsgt or ffc ?
     resultats[perf[1]+perf[2]][perf[0]-1]+=1   # resultats [FEDEcates] [place-1 à cause de l'indexation] += 1
-    
+
 #print(resultats)
 
 resultats['Total'] = [sum(resultats[cates][place] for cates in list_cates) for place in range(10)]
@@ -336,7 +347,7 @@ template = env.get_template('performances.jj') #nomdutemplate
 ofh = codecs.open("performances.html","w", encoding="utf-8")
 rt = template.render(resultats=resultats, bilan=bilan,affichage=affichage, index=index)
 ofh.write(rt)
-ofh.close() 
+ofh.close()
 
 template = env.get_template('nousRejoindre.jj') #nomdutemplate
 ofh = codecs.open("nousRejoindre.html","w", encoding="utf-8")
@@ -346,7 +357,7 @@ ofh.close()
 
 template = env.get_template('entrainements.jj') #nomdutemplate
 ofh = codecs.open("entrainements.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index)  
+rt = template.render(bilan=bilan, index=index)
 ofh.write(rt)
 ofh.close()
 
