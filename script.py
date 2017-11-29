@@ -230,11 +230,15 @@ PlacesTotal.append([10,'FSGT','HC','Alexis B CX Wattwiller'])
 
 PlacesTotal.append([6,'FFC','HC','Jerome H CX Hohrod'])
 
+PlacesTotal.append([9,'FSGT','HC','Alexis W CX Fesches'])
+PlacesTotal.append([5,'FFC','HC','Jerôme H CX Kappelen'])
+
 listeCoureurs = []
 listeCoureurs.append(["Alain L.","AlainL","Pass' D1"])
 listeCoureurs.append(["Alexis B.","AlexisB","S4 (FSGT)"])
 listeCoureurs.append(["Alexis W.","AlexisW","J3 (FSGT)"])
 listeCoureurs.append(["Antoine M.","AntoineM","3e caté"])
+listeCoureurs.append(["Arnaud S.","ArnaudS","2e caté"])
 listeCoureurs.append(["Baptiste S.","BaptisteS","Pass' D1"])
 listeCoureurs.append(["Boris S.","BorisS","VTT - Enduro"])
 listeCoureurs.append(["Brieuc H.","BrieucH","Pass' D1"])
@@ -268,9 +272,9 @@ listeCoureurs.append(["Philippe W.","PhilippeW","3e caté"])
 listeCoureurs.append(["René S.","ReneS","Pass' D2"])
 listeCoureurs.append(["Santo F.","SantoF","3e caté"])
 listeCoureurs.append(["Sébastien S.","SebastienS","Pass' D3"])
-listeCoureurs.append(["Stéphane M.","StephaneM","V4 (FSGT)"])
 listeCoureurs.append(["Sönke W.","SonkeW","Senior (FSGT)"])
-listeCoureurs.append(["Lionel B.","LionelB","Pass' D3"])
+listeCoureurs.append(["Stéphane M.","StephaneM","V4 (FSGT)"])
+
 
 listeCoureurs.append(["Johann V.","JohannV","Cadet"])
 listeCoureurs.append(["Alexandre N.","AlexandreN","Minime"])
