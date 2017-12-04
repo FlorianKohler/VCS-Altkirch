@@ -1,22 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300);
 
 body {
-	
+
 	/* background-color: #ffffff FOND noir */
 	background-image: url('../images/fond.png');
 	background-color: #000000;
-	
+
 	background-repeat: repeat-x;
 	margin:0;
 	padding:0;
 	font-family: 'Encode Sans Condensed', 'sans-serif'; /* font */
-	
+
 	font-size: 1.1em;
 	/*color: #000000;*/
 	font-weight: 300;
-	
+
 	min-width: 700px; /* j'approuve */
-	
+
 }
 .resultats h5 {
 	padding: 0px 0px 0px 5%;
@@ -26,7 +26,7 @@ body {
 	display: inline;
 	text-align: left;
 }
-.resultats h4 { 
+.resultats h4 {
 	padding: 0px 5% 0px 0px;
     color: #000000;
     font-size: 1.2em;
@@ -34,13 +34,13 @@ body {
 	display: inline;
 	float:right;
 	}
-	
+
 
 .resultats p {
 	text-align: center;
 	padding: 10px 0px 0px 0px;
 }
-	
+
 .resultats.p {
 	display: block;
 }
@@ -60,6 +60,9 @@ img.quarante{
 }
 img.cinquante{
 	width: 50%;
+}
+img.soixante{
+	width: 60%;
 }
 img.cent{
 	width: 100%;
@@ -91,7 +94,7 @@ th, td {
 th {
 	color: #000000;
 	font-weight: bold;
-	
+
 }
 
 p {
@@ -126,7 +129,7 @@ display: inline-block;
     font-size: 0.85em;
     letter-spacing: 0.25px;
 	line-height: 1.3em;
-border-radius: 5px;	
+border-radius: 5px;
 text-decoration: none;
 	border:none;
 text-transform: uppercase;
@@ -137,7 +140,7 @@ a.button:hover {
 	background:#4995BC;
 }
 
-a.button-reversed { 
+a.button-reversed {
 	background-color: #ddd;
 	color: #666;
 }
@@ -197,7 +200,7 @@ display: inline-block;
     font-size: 0.75em;
     letter-spacing: 0.25px;
 	line-height: 1.3em;
-border-radius: 5px;	
+border-radius: 5px;
 text-decoration: none;
 	border:none;
 text-transform: uppercase;
@@ -255,7 +258,7 @@ h4 {
 h5 {
 	padding-bottom: 10px;
 	font-size: 1.1em;
-	color: #000000;	
+	color: #000000;
 }
 
 ul, ol {
@@ -277,7 +280,7 @@ li ol, li ul {
 
 
 .width {
-	max-width: 1100px; /*au dela de cette largeur, on élargit plus rien*/	
+	max-width: 1100px; /*au dela de cette largeur, on élargit plus rien*/
 	margin: 0 auto;
 }
 
@@ -317,7 +320,7 @@ header h1 a {
 	color: #EBC700;
 	font-size: calc(22px + 1vw);
  }
- 
+
 header h1 a.nolinkanim:hover {
 	cursor: default;
 	font-size: calc(21px + 1vw);
@@ -337,7 +340,7 @@ nav ul {
 	text-align: left;
 }
 
-nav ul ul { 
+nav ul ul {
 	margin: 0;
 	padding: 0 0 5% 0;
 	border-bottom-left-radius: 10px;
@@ -383,7 +386,7 @@ nav.selected {
 nav ul li.selected a, nav ul li.selected a:hover { /* section actuelle en haut */
 	color: #EBC700;
 	font-weight: bold;
-	
+
 }
 
 
@@ -475,7 +478,7 @@ div#intro .intro-content {
 }
 
 
-.indexwelcome {padding: 10px 0px 15px 0px ;} /* h2 titre index */ 
+.indexwelcome {padding: 10px 0px 15px 0px ;} /* h2 titre index */
 
 .pagestitle {padding: 8px 0px 15px 0px;} /*titres autres pages*/
 
@@ -505,7 +508,7 @@ div#intro h2 {
 }
 
 
-div#intro div.intro-content-short h2 {	
+div#intro div.intro-content-short h2 {
 	font-size: 2.5em;
 }
 
@@ -583,7 +586,7 @@ article .article-info {
     font-style: italic;
 }
 
-article .article-info a { 
+article .article-info a {
 	color: #000000;
 }
 
@@ -595,7 +598,7 @@ article .article-info a {
 }
 
 
-.left-sidebar { 
+.left-sidebar {
 	float: left;
 }
 
@@ -650,14 +653,14 @@ article .article-info a {
 	font-size: 1em; /* taille des puces à droite */
 }
 
-.sidebar li ul li.text { 
+.sidebar li ul li.text {
 	border-bottom: none;
 }
 
 .sidebar li a {
 	border-bottom-color: #6B7680;
 	color:#000000; /* couleur du texte des liens à droite */
-	
+
 }
 
 
@@ -693,7 +696,7 @@ article .article-info a {
 	text-align: left;
 }
 
-.sidebar ul.topranks span.topranks-type { /* pour les news éventuellement à droite */ 
+.sidebar ul.topranks span.topranks-type { /* pour les news éventuellement à droite */
 	background-color: #EACF40;
 	color: #000000;
 	font-weight: bold;
@@ -756,7 +759,7 @@ footer .footer-content li a, footer .footer-content h4 {
 footer .footer-content li a {
 	color: #000000;
 	border-bottom-style: none; /* lien sponsors ? */
-    
+
 }
 
 footer .footer-content li {
@@ -765,7 +768,7 @@ footer .footer-content li {
 	font-size: 0.85em;
 }
 
-footer .footer-content li a:hover { 
+footer .footer-content li a:hover {
 	color: #000000;
 	border-bottom-style:none ; /* liens sponsors avec souris ? */
 }
@@ -801,13 +804,13 @@ div.social-icons a {
 .pasclickable { pointer-events:none;}
 
 
-	
+
 @media screen and (min-device-width: 740px) {
 	.onmobile {display:none;}
 }
 
  @media screen and (max-device-width: 740px) {
-	 
+
 	.content {
 	margin-bottom: 10px;
 	}
@@ -817,9 +820,9 @@ div.social-icons a {
 	.serre{
 	letter-spacing: calc(-1px + 0.1vw);
 	}
-	
+
 	.oncomputer {display:none;}
-	
+
 	header {
 	padding: 0px;
 	z-index: 9999;
@@ -830,45 +833,45 @@ div.social-icons a {
 	background-color: #ffffff;
 	min-width: 98%;
 	}
-	
 
-	body { font-size: 0.7em; min-width: 98%}  
 
-	
+	body { font-size: 0.7em; min-width: 98%}
+
+
 	header h1 a, header h1 a:hover { display : none;}
 
-	header h1, nav { float: none; } 
-	
+	header h1, nav { float: none; }
+
 /* #2c2f30 pour gris foncé */
-	
+
 	nav { height: auto; position: relative; font-size:1.3em; }
 
 	nav ul { text-align: center; } /*mini espace en bas */
-	
+
 	.sf-menu ul { position: relative; width: auto; display: block; margin: 0; }
 
 	.sf-with-ul {background-color: #2c2f30;}
-	
+
 	nav ul.onmobile ul { margin-bottom: 0px; padding: 0px ;} /* autour des sous menus (marge, etc) */
 
 	nav ul.onmobile li { float: none; background-color: #32342F;	}
 	nav ul.onmobile li a { padding: 6px 0px;  } /*#MENU: ler l'espace vertical, le 2eme.. horizontaluseless */
-	
+
 	nav ul.mobile li ul li a {background-color: #20221E; }
-	
-	
+
+
 	nav ul.onmobile li li a { padding: 5px 0 5px 0px;} /* padding: + et 3eme : espacement vertical. 2 et 4: centrage*/
 
 	nav ul.onmobile li a, .sf-menu li { float: none; }
-	
+
 	nav ul.onmobile li ul li ul li a {background-color: #151613;}
-	
+
 	nav ul li {
 	display: block;
 	float: left;
 	padding: 0%;
-	} 
-	
+	}
+
 	nav ul li ul {} /* MIni bordure autour */
 	nav ul li ul li {} /* coins affectés par les arrondis */
 	nav ul lu ul li ul {} /* rien */
@@ -876,31 +879,31 @@ div.social-icons a {
 	nav {} /* rien */
 
 	nav ul .onmobile li li { margin: 0; }
-	
+
 	.logo {
 		padding: 0.5% 10px 1% 10px;
 	}
-	div#intro .intro-content { 
+	div#intro .intro-content {
 		font-size: 0.7em;
 	}
 	div#intro .intro-content img{ /* pour les images de cover */
 	padding: 3px 3px 3px 3px;
 	border-radius: 10px;
 	}
-	
+
 	div#intro .intro-content h2 {}
-	
-	.indexwelcome {padding: 7px 0px 7px 0px ;} /* h2 titre index */ 
 
-	.pagestitle {padding: 7px 0px 9px 0px;} /*titres autres pages*/	
+	.indexwelcome {padding: 7px 0px 7px 0px ;} /* h2 titre index */
 
-	div#body { margin-top: 0px;} 
+	.pagestitle {padding: 7px 0px 9px 0px;} /*titres autres pages*/
+
+	div#body { margin-top: 0px;}
 
 	.sf-menu li:hover ul, .sf-menu li.sfHover ul { top: 0; }
 	*/
-	
 
-	
+
+
 	/*nav ul li a { pointer-events: none; }*/
 	.pasclickable { pointer-events:none;}
 }
