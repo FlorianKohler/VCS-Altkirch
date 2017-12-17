@@ -233,6 +233,8 @@ PlacesTotal.append([6,'FFC','HC','Jerome H CX Hohrod'])
 PlacesTotal.append([9,'FSGT','HC','Alexis W CX Fesches'])
 PlacesTotal.append([5,'FFC','HC','Jerôme H CX Kappelen'])
 
+PlacesTotal.append([9,'FSGT','HC','Eric Heitz CX Staffelfelden'])
+
 listeCoureurs = []
 listeCoureurs.append(["Alain L.","AlainL","Pass' D1"])
 listeCoureurs.append(["Alexis B.","AlexisB","S4 (FSGT)"])
