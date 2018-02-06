@@ -12,8 +12,9 @@
 
 {% block content %}
 <section class="content two-column with-right-sidebar">
-<h4 style="text-align:middle"> Tableau des places - Saison Route 2017 </h4>
+<h4 style="text-align:middle"> Tableau des places - Saison Route 2018 </h4>
 <table class="perf">
+
 
 <tr> {# première ligne #}
 	<th>Catégorie / Place</th>
@@ -25,27 +26,57 @@
 {%- endfor -%}
 </tr> {# première ligne #}
 
-{%- for titre_ligne in resultats.keys() -%}
+{%- for titre_ligne in resultats2018.keys() -%}
 <tr> {# lignes suivantes #}
 	<th class="gauche">{{affichage[titre_ligne]}}</th> {# premiere colonne #}
 	{%- for i in range(10) -%}
 		{% if titre_ligne != 'Total' %}
-		<td {% if i>=5 %}class="oncomputer"{% endif %}>{{resultats[titre_ligne][i]}}</td> {# case remplie #}
+		<td {% if i>=5 %}class="oncomputer"{% endif %}>{{resultats2018[titre_ligne][i]}}</td> {# case remplie #}
 		{% else %}
-		<th {% if i>=5 %}class="oncomputer"{% endif %}>{{resultats[titre_ligne][i]}}</th> {# case remplie #}
+		<th {% if i>=5 %}class="oncomputer"{% endif %}>{{resultats2018[titre_ligne][i]}}</th> {# case remplie #}
 		{% endif %}
 	{%- endfor -%}
 </tr> {# lignes suivantes #}
 {%- endfor -%}
 </table>
+
 <br>
-<p> Note : Ce tableau ne contient pas :</p>
+<h4 style="text-align:middle"> À titre comparatif : Saison Route 2017 </h4>
+
+<table class="perf">
+<tr> {# première ligne #}
+	<th>Catégorie / Place</th>
+	<th>{{1}}&#127942;</th>
+	<th>{{2}}&#127941;</th>
+	<th>{{3}}&#127941;</th>
+{%- for i in range(4,11) -%}
+	<th {% if i>5 %}class="oncomputer"{% endif %}>{{i}}</th>
+{%- endfor -%}
+</tr> {# première ligne #}
+
+<p>
+{%- for titre_ligne in resultats2017.keys() -%}
+<tr> {# lignes suivantes #}
+	<th class="gauche">{{affichage[titre_ligne]}}</th> {# premiere colonne #}
+	{%- for i in range(10) -%}
+		{% if titre_ligne != 'Total' %}
+		<td {% if i>=5 %}class="oncomputer"{% endif %}>{{resultats2017[titre_ligne][i]}}</td> {# case remplie #}
+		{% else %}
+		<th {% if i>=5 %}class="oncomputer"{% endif %}>{{resultats2017[titre_ligne][i]}}</th> {# case remplie #}
+		{% endif %}
+	{%- endfor -%}
+</tr> {# lignes suivantes #}
+{%- endfor -%}
+</table>
+
+<br>
+<p> Note : Ces tableaux ne contiennent pas :</p>
 <ul>
 <li>Les résultats obtenus à l'étranger</li>
 <li>Les résultats obtenus lors des épreuves chronométrées (grimpées FSGT notamment)</li>
 <li>Les résultats obtenus en cyclo-cross et en VTT</li>
 <li>Les résultats obtenus lors de courses réservées aux juniors</li>
 </ul>
-<p> Ceux-ci sont en revanche comptabilisés dans l'encadré "Bilan 2017" visible dans la colonne de droite, à l'exception des résultats obtenus à l'étranger.</p>
+<p> Ceux-ci sont en revanche comptabilisés dans l'encadré "Bilan" visible dans la colonne de droite, à l'exception des résultats obtenus à l'étranger.</p>
 </section>
 {% endblock content %}
