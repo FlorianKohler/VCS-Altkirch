@@ -12,24 +12,34 @@
 {% endblock introcontent %}
 
 {% block content %}
-<section class="content two-column with-right-sidebar">		<h4> 	&#x2022; Cyclo-cross de Saint Bernard (FFC)</h4>
-		<div class="article-info">Dimanche 22 octobre.</div>
-		<p> Cyclo-cross sundgauvien traditionnel, le cyclo-cross de Saint-Bernard aura lieu cette année le dimanche 22 octobre. À noter que le coureur professionnel du team Cofidis Hugo Hofstetter - licencié au VCS Altkirch - sera présent !</p>
-		<div style="text-align:center"><img class="cinquante" src="images/SaintBernard.jpg" alt="Affiche Saint Bernard"></div>
-		<p>Retrouvez toutes les horaires, catégories et distances sur la <a href="http://www.grandestcyclisme.fr/images/VCS-Altkirch-DO-CC22oct2017.pdf">publication officielle</a> de la course.<br>
-		La victoire était revenue en 2016 au Suisse Fabian Obrist, au terme d'une course boueuse - ce qui n'avait pas enlevé le sourire aux participants, comme en témoigne cette photo prise par Aurélie Tscheiller ! </p>
-		<div style="text-align:center"><img class="soixantedix" src="images/SaintBernard1.jpg" alt="Des maillots différents mais tout aussi sales..."></div>
-
-</section>
-
 
 <section class="content two-column with-right-sidebar">
-<h4>  	&#x2022; 	26ème prix Agri-Center Espace Emeraude (FSGT)</h4>
-		<div class="article-info">Dimanche 27 août à Jettingen.</div>
-		<div style="text-align:center"><img class="cinquante" src="images/Jettingen.jpg" alt="Affiche Jettingen"></div>
-		<p>Toutes les précisions (engagements, etc) <a href="http://fsgt-cyclisme-alsace.shost.ca/route/publications/Publication_Jettingen.pdf">ici</a>.</p>
+<h4>  	&#x2022; 	Grand Prix de Seppois-le-Bas (FSGT)</h4>
+		<div class="article-info">Dimanche 25 mars 2018.</div>
+		<p> Comme à l'habitude, le sélectif Grand Prix de Seppois-le-Bas fera office de course d'ouverture de la saison route FSGT en Alsace - Franche-Comté.
+		Le parcours entre Seppois-le-Bas et Ueberstrass a souri ces deux dernières années aux coureurs du VCS Altkirch, puisque la course des 2-3 a été remportée par Ludovic Klein en 2016 et par Jérôme Heinis en 2017. Jamais deux sans trois ?
+		<br>
+		Toutes les précisions (engagements, etc) <a href="http://fsgt-cyclisme-alsace.shost.ca/route/publications/Publication_Seppois.pdf">ici</a>.</p>
 </section>
 
+<section class="content two-column with-right-sidebar">
+<h4>  	&#x2022; 	Grand Prix de Dannemarie - Porte du Sundgau (FFC 2-3-J)</h4>
+		<div class="article-info">Dimanche 27 mai 2018.</div>
+		<p>Course à deux étapes sur une journée... plus d'informations à venir !</p>
+</section>
 
+<section class="content two-column with-right-sidebar">
+<h4>  	&#x2022; 	27ème prix Agri-Center Espace Emeraude (FSGT)</h4>
+		<div class="article-info">Dimanche 26 août 2018 à Jettingen.</div>
+		<p>Encore un circuit sélectif proposé par le VCS Altkirch au calendrier FSGT. Le jeune thannois Simon Bolot l'a emporté en solitaire en 2017 dans la course des 2-3, tandis que Florian Hilsz (ACT Belfort) a dominé les Seniors 4 et David Gehin (AC Thann) chez les Vétérans 4.</p>
+</section>
+
+<section class="content two-column with-right-sidebar">		
+<h4> 	&#x2022; Cyclo-cross de Saint Bernard (FFC)</h4>
+		<div class="article-info">Dimanche 21 octobre 2018.</div>
+		<p> Cyclo-cross sundgauvien traditionnel, le cyclo-cross de Saint-Bernard aura lieu cette année le dimanche 21 octobre.
+		<br>
+		La victoire est revenue en 2017 à Hugo Hofstetter, succédant ainsi au palmarès au Suisse Fabian Obrist.</p>
+</section>
 
 {% endblock content %}
