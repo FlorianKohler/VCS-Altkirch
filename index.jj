@@ -85,7 +85,7 @@ License: Creative Commons Attribution
 							</ul>
 						</li>
 						<li {{ self.iforganisations() }}><a href="organisations.html">Nos organisations</a></li>
-						<li><a class="pasclickable" href="#">Saison 2017</a>
+						<li><a class="pasclickable" href="#">Saison 2018</a>
 							<ul>
 								<li {{ self.ifeffectif() }}><a href="effectif.html">Effectif</a></li>
 								<li {{ self.ifresultats() }}><a href="resultats.html">Résultats</a></li>
