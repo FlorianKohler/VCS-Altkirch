@@ -185,17 +185,29 @@ License: Creative Commons Attribution
 
 
 		{% block content %}
+		
+		
 		<section class="content two-column with-right-sidebar">
 		<h3>Dernières nouvelles</h3>
 		<hr>
 		<br>
+		<h4>Premières nouvelles de 2018</h4>
+		<div class="article-info">Rédigé le 5 mars</div>
+		<p>À l'occasion des vacances scolaires, une partie des membres et amis du VCS Altkirch sont actuellement en stage en Toscane, à Casole d'Elsa. Les coureurs profitent de cette semaine, organisée d'une main de maître par <a href="http://www.fun2sport.fr/destination/toscane/" alt="Fun2Sport">Fun2Sport</a>, et du climat italien (relativement) favorable pour sillonner les routes toscanes dans la bonne humeur habituelle.</p>
+		<div style="text-align:center"><img class="soixante" src="images/Stage.jpg" alt="Stage en Toscane" title="Stage en Toscane"></div>
+		<br>
+		<p>Si l'entraînement bat son plein, c'est notamment parce que <b>le début de saison approche</b> ! C'est en effet ce dimanche au Grand Prix de Wittenheim (FFC 123J) que seront accrochés les premiers dossards altkirchois, avec déjà plus de 130 kilomètres au programme et au moins autant de coureurs au départ...</p>
+
+		</section>
+		
+		<section class="content two-column with-right-sidebar">
 		<h4>Assemblée Générale 2017</h4>
 		<div class="article-info">Rédigé le 4 décembre</div>
 		<p>Ce samedi avait lieu l'Assemblée Générale annuelle du Vélo Club, organisée dans la Salle de la Tuilerie de Hagenbach. Tous les membres du club ont participé à l'Assemblée Générale menée par le président Gilles Hartmann et son équipe, avant de partager un repas dans une  ambiance conviviale. Les coureurs, et notamment les nouvelles recrues, ont rangé pour un soir leurs maillots pour enfiler une chemise, afin de faire le bilan de la saison écoulée et de préparer la saison à venir.<br>
 		L'occasion également de découvrir le vélo dont seront équipés plusieurs coureurs pour la saison 2018, grâce à notre partenaire <b>a.s Bike</b>, qui fournit en effet 6 vélos Specialized Tarmac Expert ETap, que vous pouvez admirer ci-dessous... </p>
 		<div style="text-align:center"><img class="soixante" src="images/Velo2018.jpg" alt="Le vélo 2018" title="Le vélo 2018"></div>
 		</section>
-
+		
 		<section class="content two-column with-right-sidebar">
 		<h4>Sönke Wegner sur les podiums</h4>
 			<div class="article-info">Rédigé le 2 novembre</div>
@@ -203,7 +215,8 @@ License: Creative Commons Attribution
 			<div style="text-align:center"><img class="cinquante" src="images/PodiumWegner.jpg" alt="Le podium à Wattwiller" title="Le podium à Wattwiller"></div>
 			<p>À noter également les belles places de Alexis Ballester (7ème à Heimsbrunn et 11ème à Wattwiller), de Alexis Wolff (8ème à Wattwiller) et de Jérôme Heinis (8ème à Morschwiller-le-Bas).</p>
 
-		</section>section>
+		</section>
+		
 		<section class="content two-column with-right-sidebar">
 		<h4>Cyclo-cross de Saint-Bernard</h4>
 			<div class="article-info">Rédigé le 22 octobre</div>
