@@ -62,7 +62,7 @@ listeCoureurs.append(["Sébastien S.","SebastienS","Pass' D3"])
 listeCoureurs.append(["Sylvie R.","SylvieR","Fem (FSGT)"])
 listeCoureurs.append(["Sönke W.","SonkeW","Senior (FSGT)"])
 listeCoureurs.append(["Stéphane M.","StephaneM","V4 (FSGT)"])
-listeCoureurs.append(["Wessel van Hattum.","WesselvH","VTT DH"])
+listeCoureurs.append(["Wessel vH.","WesselvH","VTT DH"])
 
 
 listeCoureurs.append(["Alexandre N.","AlexandreN","Cadet"])
