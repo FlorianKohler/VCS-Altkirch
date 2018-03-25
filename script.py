@@ -185,61 +185,61 @@ resultats2018 = copy.deepcopy(resultats)
 index=True
 template = env.get_template('index.jj') #nomdutemplate
 ofh = codecs.open("index.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index)
+rt = template.render(bilan=bilan, bilan2018 = bilan2018, index=index)
 ofh.write(rt)
 ofh.close()
 
 index=False
 template = env.get_template('performances.jj') #nomdutemplate
 ofh = codecs.open("performances.html","w", encoding="utf-8")
-rt = template.render(resultats2018=resultats2018, resultats2017 = resultats2017, bilan=bilan,affichage=affichage, index=index)
+rt = template.render(resultats2018=resultats2018, resultats2017 = resultats2017, bilan=bilan,affichage=affichage, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('nousRejoindre.jj') #nomdutemplate
 ofh = codecs.open("nousRejoindre.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('entrainements.jj') #nomdutemplate
 ofh = codecs.open("entrainements.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('effectif.jj') #nomdutemplate
 ofh = codecs.open("effectif.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, listeCoureurs=listeCoureurs, len = len, index=index)
+rt = template.render(bilan=bilan, listeCoureurs=listeCoureurs, len = len, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('contact.jj') #nomdutemplate
 ofh = codecs.open("contact.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('leclub.jj') #nomdutemplate
 ofh = codecs.open("leClub.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('partenaires.jj') #nomdutemplate
 ofh = codecs.open("partenaires.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('resultats.jj') #nomdutemplate
 ofh = codecs.open("resultats.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('organisations.jj') #nomdutemplate
 ofh = codecs.open("organisations.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()

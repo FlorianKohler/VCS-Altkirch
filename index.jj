@@ -136,7 +136,9 @@ License: Creative Commons Attribution
 				<li>
 					<h4><a href="performances.html">Bilan 2018</a></h4>
 					<ul class="topranks">
-						<p>Patience, la saison va bientôt commencer...</p>
+						<li><p><span class="topranks-type">{{bilan2018[0]}} Victoires</span> <span class="serre">({{bilan2018[1]}}&nbsp;en&nbsp;FSGT, {{bilan2018[2]}}&nbsp;en&nbsp;FFC)</span></p></li>
+						<li><p><span class="topranks-type">{{bilan2018[3]}} Podiums</span> <span class="serre">({{bilan2018[4]}}&nbsp;en&nbsp;FSGT, {{bilan2018[5]}}&nbsp;en&nbsp;FFC)</span></p></li>
+						<li><p><span class="topranks-type">{{bilan2018[6]}} Top 10</span></p></li>
 					</ul>
 				</li>
 				<li>
@@ -192,10 +194,15 @@ License: Creative Commons Attribution
 		<h3>Dernières nouvelles</h3>
 		<hr>
 		<br>
-		<h4>Grand Prix de Seppois-le-Bas : les engagés !</h4>
-		<p>Retrouvez <a href="engages_seppois.pdf">ICI</a> la liste des engagés du Grand Prix de Seppois-le-Bas qui se déroulera - au sec - ce dimanche ! Un peu plus de 150 coureurs seront présents, répartis sur les 5 courses de la journée.
-		<br>
-		L'article de l'Alsace : <a href="https://www.lalsace.fr/sport/2018/03/24/les-altkirchois-sur-leur-lancee">ici</a></p>.
+		<h4>Doublé altkirchois à Seppois-le-Bas !</h4>
+		<div class="article-info">Rédigé le 25 mars</div>
+		<p>Au GP de Seppois-le-Bas ce dimanche, organisé par le VCSA, les altkirchois se devaient de prolonger la série victorieuse entamée il y a 2 ans par Ludovic Klein puis prolongée par Jérôme Heinis. Et bien c'est chose faite, et avec la manière : au terme d'une <b>course marquée par une énorme performance collective du VCSA, Florian Kohler et Arnaud Schlienger terminent à deux</b> - en franchissant la ligne dans cet ordre - avec plus d'1min30 d'avance sur le reste de l'échappée dans laquelle figurent Eric Heitz et Julien Battle, 5e et 6e.
+		Dans les autres courses de la journée, 3 top 10 : Sylvie Riedlé chez les Vétérans 4 et Féminnes (5e), Antoine Mattern chez les Seniors 4 (7e) et Alexandre Nanni chez les cadets (5e).<br>
+		Tous les classements <a href="https://fsgt-cyclisme-alsace.shost.ca/route/resultats/resultats_seppois.pdf"> ici</a> !</p>
+		<h5>Hofstetter - encore 2ème et en tête de la Coupe de France Pro</h2>
+		<p>Côté pro, Hugo Hofstetter était présent dans les Pays de la Loire ce week-end. 6ème samedi de la Classic Loire-Atlantique, Hugo a vu sa régularité récompensée au classement de la Coupe de France Pro dont il a pris la tête. Et ce dimanche, il termine <b>2ème de Cholet-Pays-de-la-Loire derrière Thomas Boudat</b> !</p>
+		<h5>Le maillot altkirchois également bien représenté à Wintershouse</h2>
+		<p>Pour ceux qui n'ont pas eu la chance de pouvoir courir à Seppois, il fallait se rendre dans le Bas-Rhin, à Wintershouse (FFC). Les épreuves de 3-J et de 1-2 se sont toutes deux terminées au sprint. <b>En 3-J, Jérôme Heinis prend une belle 5ème place</b>, tandis qu'en 1-2, Emile Canal, Lucas Brondani et Julien Grimont terminent dans le peloton après s'être mêlés à la lutte dans un contexte très relevé !</p>
 		</section>
 		
 		<section class="content two-column with-right-sidebar">
