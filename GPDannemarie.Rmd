@@ -114,25 +114,25 @@ Row
 
 ###Date
 ```{r}
-valueBox(value="27 mai 2018", caption="Dès 8h", icon = "fa-calendar")
+valueBox(value="27 mai 2018", caption="DÃ¨s 8h", icon = "fa-calendar")
 ```
 
-###Catégorie
+###CatÃ©gorie
 ```{r}
-valueBox(value="2-3-J-Pass'Open", caption="Épreuve FFC", icon = "fa-address-card")
+valueBox(value="2-3-J-Pass'Open", caption="Ã‰preuve FFC", icon = "fa-address-card")
 ```
 
 Row
 -------------------------------------
 
-###Présentation
+###PrÃ©sentation
 ```{r}
-valueBox(value="2", caption="étapes", icon = "fa-bicycle")
+valueBox(value="2", caption="Ã©tapes", icon = "fa-bicycle")
 ```
 
-### Kilométrage 
+### KilomÃ©trage 
 ```{r}
-valueBox(value=127, caption="kilomètres", icon = "fa-road")
+valueBox(value=127, caption="kilomÃ¨tres", icon = "fa-road")
 ```
 
 ### Maillots
@@ -144,38 +144,38 @@ valueBox(value=4, caption="maillots distinctifs", icon = "fa-trophy")
 Row
 -------------------------------------
 
-###Règlement {data-width=67}
+###RÃ¨glement {data-width=67}
 
 *__Classements annexes :__*
 
 
-__GPM__ : 4, 2 et 1 point seront attribués aux 3 premiers à chaque passage au sommet de la côte de Gildwiller. Les ex æquo seront départagés par le nombre de 1ère puis de 2ème place aux GPM.
-Le vainqueur se verra remettre le maillot rouge du meilleur grimpeur à l'issue de l'épreuve.
+__GPM__ : 4, 2 et 1 point seront attribuÃ©s aux 3 premiers Ã  chaque passage au sommet de la cÃ´te de Gildwiller. Les ex Ã¦quo seront dÃ©partagÃ©s par le nombre de 1Ã¨re puis de 2Ã¨me place aux GPM.
+Le vainqueur se verra remettre le maillot rouge du meilleur grimpeur Ã  l'issue de l'Ã©preuve.
 
-__Classement aux points :__ 4, 2 et 1 point seront attribués aux 3 premiers à chaque passage sur la ligne d'arrivée ainsi qu'à l'arrivée. Les ex æquo seront départagés par le nombre de 1ère puis de 2ème place aux sprints.
-Le vainqueur se verra remettre le maillot vert du meilleur sprinter à l'issue de l'épreuve.
+__Classement aux points :__ 4, 2 et 1 point seront attribuÃ©s aux 3 premiers Ã  chaque passage sur la ligne d'arrivÃ©e ainsi qu'Ã  l'arrivÃ©e. Les ex Ã¦quo seront dÃ©partagÃ©s par le nombre de 1Ã¨re puis de 2Ã¨me place aux sprints.
+Le vainqueur se verra remettre le maillot vert du meilleur sprinter Ã  l'issue de l'Ã©preuve.
 
-Les coureurs ayant abandonnés ne pourront prétendre aux deux classements annexes.
+Les coureurs ayant abandonnÃ©s ne pourront prÃ©tendre aux deux classements annexes.
 
-L'addition des temps des 2 étapes déterminera le __classement général__. En cas d'égalité les centièmes du CLM seront pris en compte.
+L'addition des temps des 2 Ã©tapes dÃ©terminera le __classement gÃ©nÃ©ral__. En cas d'Ã©galitÃ© les centiÃ¨mes du CLM seront pris en compte.
 
-Un __maillot jaune__ sera attribué au vainqueur du classement général et un __maillot blanc__ au 1er junior.
+Un __maillot jaune__ sera attribuÃ© au vainqueur du classement gÃ©nÃ©ral et un __maillot blanc__ au 1er junior.
 
-Pas de voitures suiveuses pour l'étape de l'après-midi, seules 2 voitures neutres de l'organisation, à qui il faudra remettre des roues, seront autorisées à suivre l'épreuve.
+Pas de voitures suiveuses pour l'Ã©tape de l'aprÃ¨s-midi, seules 2 voitures neutres de l'organisation, Ã  qui il faudra remettre des roues, seront autorisÃ©es Ã  suivre l'Ã©preuve.
 
-La réglementation FFC s'applique sur les points non abordés par cette publication.
+La rÃ©glementation FFC s'applique sur les points non abordÃ©s par cette publication.
 
-ATTENTION : la route n'est pas privative et la partie gauche de la chaussée est réservée aux véhicules circulant en sens inverse.
+ATTENTION : la route n'est pas privative et la partie gauche de la chaussÃ©e est rÃ©servÃ©e aux vÃ©hicules circulant en sens inverse.
 
 ###Prix {data-width=33}
 
-Les prix seront remis sur place par l'organisateur (et non via la FFC). Seuls les coureurs présents se verront remettre leurs récompenses.
+Les prix seront remis sur place par l'organisateur (et non via la FFC). Seuls les coureurs prÃ©sents se verront remettre leurs rÃ©compenses.
 
 
- * 1 ère étape : grille de prix 65/3 
- * 2 ème étape : grille de prix 110/10
+ * 1 Ã¨re Ã©tape : grille de prix 65/3 
+ * 2 Ã¨me Ã©tape : grille de prix 110/10
 
-Classement général au temps, maillot jaune :
+Classement gÃ©nÃ©ral au temps, maillot jaune :
 
  * grille de prix 115/5
 
@@ -183,7 +183,7 @@ Classement par points, maillot vert :
 
  * Prix en nature 
 
-Classement par points, maillot à pois :
+Classement par points, maillot Ã  pois :
 
  * Prix en nature 
 
@@ -203,21 +203,21 @@ Row {data-height=600}
 
 **_Distribution des dossards_**
 
-Elle se fera à la Salle Polyvalente de Dannemarie à partir de 8h00.
+Elle se fera Ã  la Salle Polyvalente de Dannemarie Ã  partir de 8h00.
 
-Attention, les coureurs inscrits sur place (max 15) seront les premiers à partir le matin.
-
-
+Attention, les coureurs inscrits sur place (max 15) seront les premiers Ã  partir le matin.
 
 
-**_Restauration à midi_**
 
-Le repas du dimanche midi est servi à la salle polyvalente de Dannemarie.
-Le Prix est de *14 euros par personne (entrée, plat, dessert)* : 
 
-__Réservation et règlement__ sont à effectuer auprès du Président Gilles Hartmann __au plus tard le vendredi 18 mai 2018__ :
+**_Restauration Ã  midi_**
 
-Téléphone : 03 89 40 29 24
+Le repas du dimanche midi est servi Ã  la salle polyvalente de Dannemarie.
+Le Prix est de *14 euros par personne (entrÃ©e, plat, dessert)* : 
+
+__RÃ©servation et rÃ¨glement__ sont Ã  effectuer auprÃ¨s du PrÃ©sident Gilles Hartmann __au plus tard le vendredi 18 mai 2018__ :
+
+TÃ©lÃ©phone : 03 89 40 29 24
 
 Mail : hartmann.gilles\@gmail.com
 
@@ -233,7 +233,7 @@ your.map <- leaflet() %>%
   addAwesomeMarkers(7.110730, 47.629257, label="Vestiaires et WC", icon=wc) %>%
   addAwesomeMarkers(7.111010, 47.629257, label="Restauration midi", icon=repas) %>%
   addAwesomeMarkers(7.111300, 47.629257, label="Dossards", icon=dossards) %>%
-  addAwesomeMarkers(7.121010, 47.631545, label="Contrôle Anti-Dopage", icon=antidoping) 
+  addAwesomeMarkers(7.121010, 47.631545, label="ContrÃ´le Anti-Dopage", icon=antidoping) 
 
   
 your.map
@@ -244,15 +244,15 @@ Contre-la-Montre (Matin) {data-orientation=rows}
    
 ###Informations {data-width=40}
 
-1er départ dès 9h00 puis de minute en minute.
-Les horaires de départ seront consultables sur le site du VCSA  la veille de l'épreuve : [www.vcs-altkirch.fr](www.vcs-altkirch.fr)
+1er dÃ©part dÃ¨s 9h00 puis de minute en minute.
+Les horaires de dÃ©part seront consultables sur le site du VCSA  la veille de l'Ã©preuve : [www.vcs-altkirch.fr](www.vcs-altkirch.fr)
 
 __Parcours :__ Foyer de Balschwiller, Hagenbach, Gommersdorf, Dannemarie soit 6,9 km.
 
 
-__Les vélos spéciaux CLM ne sont pas autorisés__, la machine utilisée pour le CLM devra être identique à celle utilisée pour l'épreuve de l'après-midi.
+__Les vÃ©los spÃ©ciaux CLM ne sont pas autorisÃ©s__, la machine utilisÃ©e pour le CLM devra Ãªtre identique Ã  celle utilisÃ©e pour l'Ã©preuve de l'aprÃ¨s-midi.
 
-Un maillot jaune sera attribué au vainqueur du CLM ainsi qu'un maillot blanc au 1er junior. Ces maillots devront être portés lors de la 2ème étape.
+Un maillot jaune sera attribuÃ© au vainqueur du CLM ainsi qu'un maillot blanc au 1er junior. Ces maillots devront Ãªtre portÃ©s lors de la 2Ã¨me Ã©tape.
 
 
 ###Carte {data-width=60}
@@ -264,15 +264,15 @@ your.map <- leaflet(pct) %>%
   # Add layer
   addProviderTiles(providers$OpenStreetMap)  %>%
   addPolylines(color="blue", popup="Parcours")   %>%
-  addMarkers(7.164577, 47.674719, icon = startIcon, label="Départ") %>%
-  addMarkers( 7.120155, 47.631265, icon = finishIcon, label="Arrivée") %>%
+  addMarkers(7.164577, 47.674719, icon = startIcon, label="DÃ©part") %>%
+  addMarkers( 7.120155, 47.631265, icon = finishIcon, label="ArrivÃ©e") %>%
   addAwesomeMarkers(7.110884, 47.629672, icon=prix, label="Remise des prix du CLM (12h00)")
   
 
 your.map
 ```
 
-Course en ligne (Après-midi) {data-orientation=rows}
+Course en ligne (Apr\Ã¨s-midi) {data-orientation=rows}
 ===================================== 
 
 Row
@@ -280,22 +280,22 @@ Row
 
 ###Informations {data-width=40}
 
-__Lieu du départ :__ Dannemarie devant l'ancienne Mairie
+__Lieu du dÃ©part :__ Dannemarie devant l'ancienne Mairie
 
-__Heure de départ :__ 14h30
+__Heure de dÃ©part :__ 14h30
 
 __Circuit :__ Dannemarie, Wolfersdorf, Traubach le Bas, Traubach le Haut, Falkwiller, Gildwiller le Mont, Balschwiller,  Hagenbach, Gommersdorf, Dannemarie soit 20 km.
 Nombre de tours : 5 soit 100 km.
 
-__Zone de ravitaillement :__ uniquement dans la montée de Gildwiller le Mont  (zone identifiée)
+__Zone de ravitaillement :__ uniquement dans la montÃ©e de Gildwiller le Mont  (zone identifiÃ©e)
 
 __Rappels:__
 
-* Pas de voitures suiveuses pour l'étape de l'après-midi, seules 2 voitures neutres de l'organisation, à qui il faudra remettre des roues, seront autorisées à suivre l'épreuve.
+* Pas de voitures suiveuses pour l'Ã©tape de l'aprÃ¨s-midi, seules 2 voitures neutres de l'organisation, Ã  qui il faudra remettre des roues, seront autorisÃ©es Ã  suivre l'Ã©preuve.
 
-* ATTENTION : la route n'est pas privative et la partie gauche de la chaussée est réservée aux véhicules circulant en sens inverse.
+* ATTENTION : la route n'est pas privative et la partie gauche de la chaussÃ©e est rÃ©servÃ©e aux vÃ©hicules circulant en sens inverse.
 
-Petite restauration sur la ligne de départ / arrivée.
+Petite restauration sur la ligne de dÃ©part / arrivÃ©e.
 
 
 
@@ -310,11 +310,11 @@ your.map <- leaflet(pct) %>%
   addPolylines(color="blue", popup="Parcours")  %>%
   addMarkers(7.144755, 47.688256, icon = gpmIcon, label="GPM") %>%
   addMarkers(7.120535, 47.631513, icon = sprintIcon, label="Sprints") %>%
-  addMarkers(7.120535, 47.631513, icon = finishIcon, label="Départ et Arrivée") %>%
+  addMarkers(7.120535, 47.631513, icon = finishIcon, label="DÃ©part et ArrivÃ©e") %>%
   addMarkers(7.097359, 47.659995, icon = arrow_up) %>%
   addMarkers(7.157729, 47.658324, icon = arrow_down) %>%
-  addAwesomeMarkers(7.120971, 47.631602, icon=prix, label="Remise des prix étape 2 et classement final à 18h") %>%
-  addAwesomeMarkers(7.140691, 47.685524, icon= ravito, label=" Ravitaillement (zone délimitée")
+  addAwesomeMarkers(7.120971, 47.631602, icon=prix, label="Remise des prix Ã©tape 2 et classement final Ã  18h") %>%
+  addAwesomeMarkers(7.140691, 47.685524, icon= ravito, label=" Ravitaillement (zone dÃ©limitÃ©e")
   
  # addPolygons(data=mapStates, fillColor = heat.colors(3, alpha = NULL), stroke = FALSE) %>%
   
