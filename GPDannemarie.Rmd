@@ -172,18 +172,18 @@ ATTENTION : la route n'est pas privative et la partie gauche de la chaussée est
 Les prix seront remis sur place par l'organisateur (et non via la FFC). Seuls les coureurs présents se verront remettre leurs récompenses.
 
 
- * 1 ère étape : grille de prix 65/3 
- * 2 ème étape : grille de prix 110/10
+ * 1ère étape : Grille de prix 65/3 
+ * 2ème étape : Grille de prix 110/10
 
 Classement général au temps, maillot jaune :
 
- * grille de prix 115/5
+ * Grille de prix 115/5
 
 Classement par points, maillot vert :
 
  * Prix en nature 
 
-Classement par points, maillot à pois :
+Classement du GPM, maillot rouge :
 
  * Prix en nature 
 
@@ -217,7 +217,7 @@ Le Prix est de *14 euros par personne (entrée, plat, dessert)* :
 
 __Réservation et règlement__ sont à effectuer auprès du Président Gilles Hartmann __au plus tard le vendredi 18 mai 2018__ :
 
-Téléphone : 03 89 40 29 24
+Téléphone : 03.89.40.29.24
 
 Mail : hartmann.gilles\@gmail.com
 
@@ -272,7 +272,7 @@ your.map <- leaflet(pct) %>%
 your.map
 ```
 
-Course en ligne (Apr\ès-midi) {data-orientation=rows}
+Course en ligne (Après-midi) {data-orientation=rows}
 ===================================== 
 
 Row
@@ -285,7 +285,7 @@ __Lieu du départ :__ Dannemarie devant l'ancienne Mairie
 __Heure de départ :__ 14h30
 
 __Circuit :__ Dannemarie, Wolfersdorf, Traubach le Bas, Traubach le Haut, Falkwiller, Gildwiller le Mont, Balschwiller,  Hagenbach, Gommersdorf, Dannemarie soit 20 km.
-Nombre de tours : 5 soit 100 km.
+Nombre de tours : 6 soit 120 km.
 
 __Zone de ravitaillement :__ uniquement dans la montée de Gildwiller le Mont  (zone identifiée)
 
