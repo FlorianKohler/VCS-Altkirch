@@ -132,7 +132,7 @@ valueBox(value="2", caption="étapes", icon = "fa-bicycle")
 
 ### Kilométrage 
 ```{r}
-valueBox(value=17, caption="kilomètres", icon = "fa-road")
+valueBox(value=107, caption="kilomètres", icon = "fa-road")
 ```
 
 ### Maillots
@@ -145,6 +145,16 @@ Row
 -------------------------------------
 
 ###Règlement {data-width=67}
+
+*__Règlement officiel__*
+
+Vous trouverez la publication officielle - qui fait référence - du Grand Prix de Dannemarie en cliquant __[ICI](./Publication_Dannemarie.pdf)__.
+
+*__Engagements__*
+
+Les engagements sont à effectuer par internet 12€ (15€ sur place).
+
+Participation obligatoire aux 2 étapes.
 
 *__Classements annexes :__*
 
@@ -206,9 +216,6 @@ Row {data-height=600}
 Elle se fera à la Salle Polyvalente de Dannemarie à partir de 8h00.
 
 Attention, les coureurs inscrits sur place (max 15) seront les premiers à partir le matin.
-
-
-
 
 **_Restauration à midi_**
 
@@ -285,7 +292,7 @@ __Lieu du départ :__ Dannemarie devant l'ancienne Mairie
 __Heure de départ :__ 14h30
 
 __Circuit :__ Dannemarie, Wolfersdorf, Traubach le Bas, Traubach le Haut, Falkwiller, Gildwiller le Mont, Balschwiller,  Hagenbach, Gommersdorf, Dannemarie soit 20 km.
-Nombre de tours : 6 soit 120 km.
+Nombre de tours : 5 soit 100 km.
 
 __Zone de ravitaillement :__ uniquement dans la montée de Gildwiller le Mont  (zone identifiée)
 
