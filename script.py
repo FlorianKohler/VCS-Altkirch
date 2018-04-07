@@ -133,7 +133,7 @@ for numligne in range(len(data)):
     if data.iloc[numligne]['Type']== 'Route':
         cate_nom_ligne = data.iloc[numligne]['Fédération'] + str(data.iloc[numligne]['Catégorie'])
         resultats[cate_nom_ligne][data.iloc[numligne]['Place']-1]+=1
-    
+
 #for perf in Places: #if fsgt or ffc ?
 #    resultats[perf[1]+perf[2]][perf[0]-1]+=1   # resultats [FEDEcates] [place-1 à cause de l'indexation] += 1
 
@@ -171,7 +171,7 @@ for numligne in range(len(data)):
     if data.iloc[numligne]['Type']== 'Route':
         cate_nom_ligne = data.iloc[numligne]['Fédération'] + str(data.iloc[numligne]['Catégorie'])
         resultats[cate_nom_ligne][data.iloc[numligne]['Place']-1]+=1
-    
+
 #for perf in Places: #if fsgt or ffc ?
 #    resultats[perf[1]+perf[2]][perf[0]-1]+=1   # resultats [FEDEcates] [place-1 à cause de l'indexation] += 1
 
@@ -183,62 +183,62 @@ resultats2018 = copy.deepcopy(resultats)
 
 
 index=True
-template = env.get_template('index.jj') #nomdutemplate
+template = env.get_template('index.html.j2') #nomdutemplate
 ofh = codecs.open("index.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, bilan2018 = bilan2018, index=index)
 ofh.write(rt)
 ofh.close()
 
 index=False
-template = env.get_template('performances.jj') #nomdutemplate
+template = env.get_template('performances.html.j2') #nomdutemplate
 ofh = codecs.open("performances.html","w", encoding="utf-8")
 rt = template.render(resultats2018=resultats2018, resultats2017 = resultats2017, bilan=bilan,affichage=affichage, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('nousRejoindre.jj') #nomdutemplate
+template = env.get_template('nousRejoindre.html.j2') #nomdutemplate
 ofh = codecs.open("nousRejoindre.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('entrainements.jj') #nomdutemplate
+template = env.get_template('entrainements.html.j2') #nomdutemplate
 ofh = codecs.open("entrainements.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('effectif.jj') #nomdutemplate
+template = env.get_template('effectif.html.j2') #nomdutemplate
 ofh = codecs.open("effectif.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, listeCoureurs=listeCoureurs, len = len, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('contact.jj') #nomdutemplate
+template = env.get_template('contact.html.j2') #nomdutemplate
 ofh = codecs.open("contact.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('leclub.jj') #nomdutemplate
+template = env.get_template('leclub.html.j2') #nomdutemplate
 ofh = codecs.open("leClub.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('partenaires.jj') #nomdutemplate
+template = env.get_template('partenaires.html.j2') #nomdutemplate
 ofh = codecs.open("partenaires.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('resultats.jj') #nomdutemplate
+template = env.get_template('resultats.html.j2') #nomdutemplate
 ofh = codecs.open("resultats.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('organisations.jj') #nomdutemplate
+template = env.get_template('organisations.html.j2') #nomdutemplate
 ofh = codecs.open("organisations.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)

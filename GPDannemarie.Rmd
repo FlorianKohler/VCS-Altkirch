@@ -132,7 +132,7 @@ valueBox(value="2", caption="étapes", icon = "fa-bicycle")
 
 ### Kilométrage 
 ```{r}
-valueBox(value=127, caption="kilomètres", icon = "fa-road")
+valueBox(value=17, caption="kilomètres", icon = "fa-road")
 ```
 
 ### Maillots
