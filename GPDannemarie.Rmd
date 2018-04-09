@@ -4,6 +4,8 @@ output:
   flexdashboard::flex_dashboard:
     theme: default
     favicon: images/favicon.ico
+    navbar: 
+        - { icon: "fa-home", href: "http://www.vcs-altkirch.fr", align: right, text: "VCS Altkirch" }
 orientation: rows
 
 ---
@@ -173,6 +175,8 @@ Un __maillot jaune__ sera attribué au vainqueur du classement général et un _
 
 Pas de voitures suiveuses pour l'étape de l'après-midi, seules 2 voitures neutres de l'organisation, à qui il faudra remettre des roues, seront autorisées à suivre l'épreuve.
 
+Seul le classement final est pris en compte pour l’attribution de points FFC.
+
 La réglementation FFC s'applique sur les points non abordés par cette publication.
 
 ATTENTION : la route n'est pas privative et la partie gauche de la chaussée est réservée aux véhicules circulant en sens inverse.
@@ -202,9 +206,8 @@ Classement du meilleur jeune :
  * Prix en nature 
 
 
-
 Divers (dossards, restauration, ...) {data-orientation=rows}
-=====================================     
+=====================================    
 
 Row {data-height=600}
 -------------------------------------
@@ -215,7 +218,7 @@ Row {data-height=600}
 
 Elle se fera à la Salle Polyvalente de Dannemarie à partir de 8h00.
 
-Attention, les coureurs inscrits sur place (max 15) seront les premiers à partir le matin.
+Attention, les coureurs inscrits sur place (max 15) seront les premiers à partir le matin, de 9h00 à 9h14. Les coureurs engagés par Internet partiront à partir de 9h15.
 
 **_Restauration à midi_**
 
@@ -246,6 +249,8 @@ your.map <- leaflet() %>%
 your.map
 ```
 
+  
+
 Contre-la-Montre (Matin) {data-orientation=rows}
 =====================================     
    
@@ -254,7 +259,7 @@ Contre-la-Montre (Matin) {data-orientation=rows}
 1er départ dès 9h00 puis de minute en minute.
 Les horaires de départ seront consultables sur le site du VCSA  la veille de l'épreuve : [www.vcs-altkirch.fr](www.vcs-altkirch.fr)
 
-__Parcours :__ Foyer de Balschwiller, Hagenbach, Gommersdorf, Dannemarie soit 6,9 km.
+__Parcours :__ Foyer de Balschwiller, Hagenbach, Gommersdorf, Dannemarie soit 6,8 km.
 
 
 __Les vélos spéciaux CLM ne sont pas autorisés__, la machine utilisée pour le CLM devra être identique à celle utilisée pour l'épreuve de l'après-midi.
@@ -330,3 +335,32 @@ your.map <- leaflet(pct) %>%
   #           title = 'Legend')
 your.map
 ```
+
+Remerciements {data-orientation=rows}
+===================================== 
+
+Row
+-------------------------------------
+
+###Remerciements {data-width=34}
+
+Le VCSA remercie tous [ses partenaires](http://www.vcs-altkirch.fr/partenaires.html) et en particulier
+
+* La Municipalité de Dannemarie
+* Les commerçants de Dannemarie et environs
+* La police Municipale
+* Les coureurs
+* Les commissaires
+* Et tous les bénévoles
+
+###Ville de Dannemarie {data-width=33}
+
+![](./images/partenaires/Ville_Dannemarie.png)
+
+###Commerçants artisans de Dannemarie et sa région{data-width=33}
+
+![](./images/partenaires/Commercants_Dannemarie.png)
+
+
+
+
