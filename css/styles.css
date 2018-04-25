@@ -64,6 +64,10 @@ img.cinquante{
 img.soixante{
 	width: 60%;
 }
+
+img.soixantedix{
+	width: 70%;
+}
 img.cent{
 	width: 100%;
 }
@@ -907,4 +911,3 @@ div.social-icons a {
 	/*nav ul li a { pointer-events: none; }*/
 	.pasclickable { pointer-events:none;}
 }
-
