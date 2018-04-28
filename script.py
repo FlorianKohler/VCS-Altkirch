@@ -232,12 +232,6 @@ rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('resultats.html.j2') #nomdutemplate
-ofh = codecs.open("resultats.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
-ofh.write(rt)
-ofh.close()
-
 template = env.get_template('organisations.html.j2') #nomdutemplate
 ofh = codecs.open("organisations.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
