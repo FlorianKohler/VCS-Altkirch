@@ -83,6 +83,16 @@ table {
 	color: #000000
 }
 
+.spoiler {
+	background-color : grey;
+	color:transparent;
+}
+.spoiler:hover {
+	background-color : transparent;
+	color: inherit;
+
+}
+
 th, td {
 	padding: 5px 5px;
 	line-height: 1.2em;
