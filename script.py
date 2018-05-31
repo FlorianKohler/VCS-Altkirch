@@ -21,7 +21,7 @@ env = jinja2.Environment(loader=fsloader)
 
 listeCoureurs = []
 listeCoureurs.append(["Alain L.","AlainL","Pass' D1"])
-listeCoureurs.append(["Alexi    s B.","AlexisB","Pass' D1"])
+listeCoureurs.append(["Alexis B.","AlexisB","Pass' D1"])
 listeCoureurs.append(["Alexis W.","AlexisW","Junior"])
 listeCoureurs.append(["Antoine M.","AntoineM","3e caté"])
 listeCoureurs.append(["Antony W.","AnthonyW","Junior"])
@@ -222,6 +222,12 @@ ofh.close()
 
 template = env.get_template('leclub.html.j2') #nomdutemplate
 ofh = codecs.open("leClub.html","w", encoding="utf-8")
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
+ofh.write(rt)
+ofh.close()
+
+template = env.get_template('archives.html.j2') #nomdutemplate
+ofh = codecs.open("archives.html","w", encoding="utf-8")
 rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
