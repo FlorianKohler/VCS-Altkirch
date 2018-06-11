@@ -283,7 +283,9 @@ ul, ol {
 
 li {
 	padding-bottom: 5px;
-	color: #000000
+	line-height: 1.3;
+	color: #000000;
+
 }
 
 li ol, li ul {
