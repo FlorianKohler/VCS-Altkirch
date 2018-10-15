@@ -1,0 +1,66 @@
+{% extends "index.html.j2" %}
+
+{% block title %}VCS Altkirch | 3H VTT du VCSA{% endblock title %}
+{% block description %}Trouvez toutes les informations sur les organisations du VCS Altkirch, notamment le GP Agri-Center à Jettingen, le cyclo-cross de Saint-Bernard, ...{% endblock description %}
+
+{% block ifindex %}{% endblock %}
+{% block iftroisheures %}class="selected"{% endblock %}
+
+
+{% block introcontent %}
+<img class="cover cent" src="images/covers/cover_3h.jpg" alt="VTT VCS Altkirch">
+{% endblock introcontent %}
+
+{% block rightsidebar %}
+{% endblock rightsidebar %}
+
+{% block content %}
+
+
+
+<section class="content racecontent">
+ <!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Presentation')" id="defaultOpen">Présentation</button>
+  <button class="tablinks" onclick="openCity(event, 'Reglement')">Règlement</button>
+  <button class="tablinks" onclick="openCity(event, 'Inscriptions')">Inscriptions</button>
+  <button class="tablinks" onclick="openCity(event, 'Parcours')">Parcours</button>
+
+</div>
+
+<!-- Tab content -->
+<div id="Parcours" class="tabcontent" >
+  <p>L'organisation des 3h VTT du VCS Alktirch vous a concocté un parcours de 6km, constitué de sentiers variés, sur les hauteurs d'Altkirch. Chacun y trouvera son compte !<br>
+    Détails à venir...</p>
+
+    <div style="text-align:center">  <img class="soixante" src="images/3hVTT.jpg" alt="Les 3H VTT du VCS Altkirch" title="Les 3H VTT du VCS Altkirch"></div>
+
+</div>
+
+<div id="Reglement" class="tabcontent">
+  <p>Règlement en cours de rédaction...</p>
+</div>
+
+<div id="Inscriptions" class="tabcontent">
+  <p>Les insriptions ne sont pas encore ouvertes... cela ne saurait tarder !</p>
+</div>
+
+<div id="Presentation" class="tabcontent">
+  <p><b>Le Samedi 8 Juin 2019, première édition des 3H VTT du VCS Altkirch ! Épreuve en relais par équipe de 2 coureurs sur les hauteurs d'Altkirch, de 16h à 19h et avant un excellent repas...</b></p>
+
+  <p>Toutes les infos sont sur la page Facebook de l'épreuve :</p>
+
+  <div align="center">
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fles3hvttduvcsaltkirch%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden;text-align:center" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </div>
+</div>
+
+</section>
+
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+{% endblock content %}

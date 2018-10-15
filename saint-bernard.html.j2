@@ -1,0 +1,66 @@
+{% extends "index.html.j2" %}
+
+{% block title %}VCS Altkirch | Saint-Bernard{% endblock title %}
+{% block description %}Trouvez toutes les informations sur les organisations du VCS Altkirch, notamment le GP Agri-Center à Jettingen, le cyclo-cross de Saint-Bernard, ...{% endblock description %}
+
+{% block ifindex %}{% endblock %}
+{% block ifsaintbernard %}class="selected"{% endblock %}
+
+
+{% block introcontent %}
+<img class="cover cent" src="images/covers/cover_stbernard.jpg" alt="Saint-Bernard">
+{% endblock introcontent %}
+
+{% block rightsidebar %}
+{% endblock rightsidebar %}
+
+{% block content %}
+
+
+
+<section class="content racecontent">
+
+ <!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Presentation')" id="defaultOpen">Présentation</button>
+  <button class="tablinks" onclick="openCity(event, 'Reglement')">Informations</button>
+
+</div>
+
+<!-- Tab content -->
+<div id="Presentation" class="tabcontent">
+  <p>Partie intégrante de la saison de cyclo-cross dans le Haut-Rhin, le cyclo-cross de Saint-Bernard (FFC) aura lieu cette année le 21 octobre. Le vainqueur succédera à Hugo Hofstetter (Team Cofidis - VCS Altkirch), qui a devancé en 2017 Emile Canal et Lucas Brondani !</p>
+
+  <div style="text-align:center">  <img class="quarante" src="images/SaintBernard.jpg" alt="Toutes les infos" title="Toutes les infos"></div>
+
+  <h4>Palmarès de la course reine :</h4>
+  <p>
+      <ul>
+      <li>2017 : Hugo Hofstter (Team Cofidis - VCS Altkirch)</li>
+      <li>2016 : Fabien Obrist (Suisse)</li>
+      <li>2015 : Cyrille Fretz (MJC Buhl)</li>
+      <li>2014 : Damien Mougel (VS Eguisheim)</li>
+      <li>2013 : Fabien Canal (EC Armée de Terre)</li>
+    </ul>
+</p>
+</div>
+
+<div id="Reglement" class="tabcontent">
+  <p>Tous les détails sur le site du comité Grand Est :
+  <br>
+  <a href="http://grandestcyclisme.fr/images/VCS-Altkirch-DOCC21oct2018.pdf">Publication</a> et <a href="http://grandestcyclisme.fr/images/VCS-Altkirch-Circuit-CCdu21oct2018.pdf">Plan du parcours</a></p>
+  <br>
+  Engagements sur le site de la FFC selon la procédure habituelle.
+</p>
+</div>
+
+
+
+</section>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+{% endblock content %}

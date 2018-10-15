@@ -238,8 +238,32 @@ rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
 ofh.write(rt)
 ofh.close()
 
-template = env.get_template('organisations.html.j2') #nomdutemplate
-ofh = codecs.open("organisations.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
+#template = env.get_template('organisations.html.j2') #nomdutemplate
+#ofh = codecs.open("organisations.html","w", encoding="utf-8")
+#rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
+#ofh.write(rt)
+#ofh.close()
+
+template = env.get_template('3h-vtt.html.j2') #nomdutemplate
+ofh = codecs.open("3h-vtt.html","w", encoding="utf-8")
+rt = template.render(index=index)
+ofh.write(rt)
+ofh.close()
+
+template = env.get_template('jettingen.html.j2') #nomdutemplate
+ofh = codecs.open("jettingen.html","w", encoding="utf-8")
+rt = template.render(index=index)
+ofh.write(rt)
+ofh.close()
+
+template = env.get_template('saint-bernard.html.j2') #nomdutemplate
+ofh = codecs.open("saint-bernard.html","w", encoding="utf-8")
+rt = template.render(index=index)
+ofh.write(rt)
+ofh.close()
+
+template = env.get_template('seppois.html.j2') #nomdutemplate
+ofh = codecs.open("seppois.html","w", encoding="utf-8")
+rt = template.render(index=index)
 ofh.write(rt)
 ofh.close()

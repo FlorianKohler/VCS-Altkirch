@@ -1,0 +1,78 @@
+{% extends "index.html.j2" %}
+
+{% block title %}VCS Altkirch | Jettingen{% endblock title %}
+{% block description %}Trouvez toutes les informations sur les organisations du VCS Altkirch, notamment le GP Agri-Center à Jettingen, le cyclo-cross de Saint-Bernard, ...{% endblock description %}
+
+{% block ifindex %}{% endblock %}
+{% block ifjettingen %}class="selected"{% endblock %}
+
+
+{% block introcontent %}
+<img class="cover cent" src="images/covers/cover_Jettingen.jpg" alt="Jettingen">
+{% endblock introcontent %}
+
+{% block rightsidebar %}
+{% endblock rightsidebar %}
+
+{% block content %}
+
+
+
+<section class="content racecontent">
+
+ <!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Presentation')" id="defaultOpen">Présentation</button>
+  <button class="tablinks" onclick="openCity(event, 'Reglement')">Détails</button>
+  <button class="tablinks" onclick="openCity(event, 'Parcours')">Parcours</button>
+  <button class="tablinks" onclick="openCity(event, 'Classements')">Classements</button>
+
+</div>
+
+<!-- Tab content -->
+<div id="Presentation" class="tabcontent">
+  <p>Le Prix Agri-Center à Jettingen propose un circuit sélectif de 10 kilomètres (Jettingen, ascension direction Steinsoultz, Willer, Hundsbach, Franken, Jettingen, un peu comme celui de Seppois-le-Bas, avec notamment son arrivée dans l'ascension à la sortie de Jettingen. lance en général la saison route FSGT. Sur un parcours sélectif entre Seppois-Le-Bas, le Territoire de Belfort (pendant une centaine de mètres) et Ueberstrass, le peloton FSGT peut évaluer sa forme à la sortie de l'hiver !</p>
+
+  <p>Dans la course reine, celle résevée aux coureurs de catégories 2 et 3, la dernière édition a été remportée par Julien Nehr (ASPTT Mulhouse).</p>
+
+  <div style="text-align:center">  <img class="quarante" src="images/Jettingen.jpg" alt="Toutes les infos" title="Toutes les infos"></div>
+
+</div>
+
+<div id="Parcours" class="tabcontent" >
+  <h4>Sur Strava</h4>
+
+  <iframe width="90%" height="500px" frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/segments/5345684/embed'></iframe>
+  <p>Note : le départ du segment ne correspond pas au départ ou à l'arrivée de la course! Le départ (fictif) est donné à l'école, le départ réel et l'arrivée sont dans l'ascension vers Steinsoultz.</p>
+</div>
+
+<div id="Reglement" class="tabcontent">
+  <p>Règlement, modalités d'inscription, lieu des dossards et autres informations sont disponibles sur le site de la FSGT. La publication de course est disponible <a href="https://www.fsgt-cyclisme-alsace.fr/route/publications/publication_Jettingen.pdf">ici</a></p>
+</div>
+
+<div id="Classements" class="tabcontent">
+  <h4>Classements 2018 :</h4>
+  <p> <a href="https://www.fsgt-cyclisme-alsace.fr/route/resultats/resultats_jettingen.pdf">Ici !</a></p>
+  <h4>Palmarès de l'épreuve reine :</h4>
+  <p>
+<ul>
+  <li>2018 : Julien Nehr (ASPTT Mulhouse)</li>
+  <li>2017 : Simon Bolot (AC Thann)</li>
+  <li>2016 : Ludovic Klein (VCS Altkirch)</li>
+  <li>2015 : Hervé Gébel (VC Wittenheim)</li>
+  <li>2014 : Arnaud Schlienger (VCS Altkirch)</li>
+  <li>2013 (FFC): Nicolas Hartmann (VCS Altkirch)</li>
+  <li>2012 : Cyrille Decker (VC Sainte-Croix-En-Plaine)</li>
+  <li>2011 (FFC): Guillaume Gauthier (AC Bisontine)</li>
+  </ul>
+  </p>
+</div>
+
+</section>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+{% endblock content %}

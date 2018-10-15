@@ -1,0 +1,76 @@
+{% extends "index.html.j2" %}
+
+{% block title %}VCS Altkirch | Seppois-le-Bas{% endblock title %}
+{% block description %}Trouvez toutes les informations sur les organisations du VCS Altkirch, notamment le GP Agri-Center à Jettingen, le cyclo-cross de Saint-Bernard, ...{% endblock description %}
+
+{% block ifindex %}{% endblock %}
+{% block ifseppois %}class="selected"{% endblock %}
+
+
+{% block introcontent %}
+<img class="cover cent" src="images/covers/cover_seppois.jpg" alt="Seppois-le-Bas">
+{% endblock introcontent %}
+
+{% block rightsidebar %}
+{% endblock rightsidebar %}
+
+{% block content %}
+
+
+
+<section class="content racecontent">
+ <!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Presentation')" id="defaultOpen">Présentation</button>
+  <button class="tablinks" onclick="openCity(event, 'Reglement')">Détails</button>
+  <button class="tablinks" onclick="openCity(event, 'Parcours')">Parcours</button>
+  <button class="tablinks" onclick="openCity(event, 'Classements')">Classements</button>
+
+</div>
+
+<!-- Tab content -->
+<div id="Presentation" class="tabcontent">
+  <p>Le Grand Prix de Seppois-le-Bas lance en général la saison route FSGT. Sur un parcours sélectif entre Seppois-Le-Bas, le Territoire de Belfort (pendant une centaine de mètres) et Ueberstrass, le peloton FSGT peut évaluer sa forme à la sortie de l'hiver !</p>
+
+  <p>Dans la course reine, celle résevée aux coureurs de catégories 2 et 3, le VCS Altkirch reste sur une très belle série victorieuse puisque Ludovic Klein l'a emporté en 2016, Jérôme Heinis en 2017, tandis que 2018 s'est même soldé par un doublé puisque Florian Kohler a devancé Arnaud Schlienger.</p>
+  <div style="text-align:center">  <img class="quarante" src="images/Seppois.jpg" alt="Toutes les infos" title="Toutes les infos"></div>
+
+  <p>Dans le village d'origine de son coureur professionnel Hugo Hofstetter, le VCS Altkirch propose des courses pour tous les licenciés FSGT, qu'ils soient minimes, cadets, seniors, vétérans, super-vétérans et anciens. Le coureur du Team Cofidis avait d'ailleurs remporté la course des minimes en... 2007 !</p>
+</div>
+
+<div id="Parcours" class="tabcontent" >
+  <h4>Sur Strava :</h4>
+  <iframe width="90%" height="500px" frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/segments/6921303/embed'></iframe>
+</div>
+
+<div id="Reglement" class="tabcontent">
+  <p>Règlement, modalités d'inscription, lieu des dossards et autres informations sont disponibles sur le site de la FSGT. La publication de course est disponible <a href="https://www.fsgt-cyclisme-alsace.fr/route/publications/publication_Seppois.pdf">ici</a></p>
+</div>
+
+<div id="Classements" class="tabcontent">
+  <h4>Classements 2017 :</h4>
+  <p> <a href="https://www.fsgt-cyclisme-alsace.fr/route/resultats/resultats_Seppois.pdf">ici</a></p>
+  <h4>Palmarès :</h4>
+  <p>
+<ul>
+  <li>2018 : Florian Kohler (VCS Altkirch)</li>
+    <li>2017 : Jérôme Heinis (VCS Altkirch)</li>
+    <li>2016 : Ludovic Klein (VCS Altkirch)</li>
+    <li>2015 : Florian Brender (VC Wittenheim)</li>
+    <li>2014 : Louis-Paul Niemerich (VC Wittenheim  )</li>
+    <li>2013 : Daniel Fricker (VCS Altkirch)</li>
+    <li>2012 : Emeric Dewar (VC Mollau)</li>
+  </ul>
+  </p>
+</div>
+
+
+
+</section>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+{% endblock content %}
