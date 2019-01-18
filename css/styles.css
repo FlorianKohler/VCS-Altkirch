@@ -52,6 +52,12 @@ body {
 	margin:0;
 	padding:0;
 }
+
+.exposant {
+	 vertical-align: super;
+	 font-size:40%;
+	 color: #cc0000;
+}
 img.trente{
 	width:30%;
 }
@@ -656,8 +662,14 @@ article .article-info a {
 	background-color: #dddddd;
 	color: #fff;
 }
+
+
 .sidebar ul li.bg a, .sidebar ul li.bg a:hover {
 	border-bottom-color: #fff;
+}
+
+.sidebar ul li.dark {
+	background-color: #b3b3b3;
 }
 
 .sidebar li ul {
