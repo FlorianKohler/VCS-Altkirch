@@ -183,56 +183,56 @@ resultats2018 = copy.deepcopy(resultats)
 index=True
 template = env.get_template('index.html.j2') #nomdutemplate
 ofh = codecs.open("index.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, bilan2018 = bilan2018, index=index)
+rt = template.render(bilan=bilan, bilan2018 = bilan2018, index=index, page_name="index", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 index=False
 template = env.get_template('performances.html.j2') #nomdutemplate
 ofh = codecs.open("performances.html","w", encoding="utf-8")
-rt = template.render(resultats2018=resultats2018, resultats2017 = resultats2017, bilan=bilan,affichage=affichage, index=index, bilan2018 = bilan2018)
+rt = template.render(resultats2018=resultats2018, resultats2017 = resultats2017, bilan=bilan,affichage=affichage, index=index, bilan2018 = bilan2018, page_name="performances", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('nousRejoindre.html.j2') #nomdutemplate
 ofh = codecs.open("nousRejoindre.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="nousRejoindre", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('entrainements.html.j2') #nomdutemplate
 ofh = codecs.open("entrainements.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="entrainements", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('effectif.html.j2') #nomdutemplate
 ofh = codecs.open("effectif.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, listeCoureurs=listeCoureurs, len = len, index=index, bilan2018 = bilan2018)
+rt = template.render(bilan=bilan, listeCoureurs=listeCoureurs, len = len, index=index, bilan2018 = bilan2018, page_name="effectif", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('contact.html.j2') #nomdutemplate
 ofh = codecs.open("contact.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="contact", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('leclub.html.j2') #nomdutemplate
 ofh = codecs.open("leClub.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="leClub", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('archives.html.j2') #nomdutemplate
 ofh = codecs.open("archives.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="archives", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('partenaires.html.j2') #nomdutemplate
 ofh = codecs.open("partenaires.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
+rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="partenaires", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
@@ -244,24 +244,24 @@ ofh.close()
 
 template = env.get_template('3h-vtt.html.j2') #nomdutemplate
 ofh = codecs.open("3h-vtt.html","w", encoding="utf-8")
-rt = template.render(index=index)
+rt = template.render(index=index, page_name="3h", own_fb_picture=True)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('jettingen.html.j2') #nomdutemplate
 ofh = codecs.open("jettingen.html","w", encoding="utf-8")
-rt = template.render(index=index)
+rt = template.render(index=index, page_name="Jettingen", own_fb_picture=True)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('saint-bernard.html.j2') #nomdutemplate
 ofh = codecs.open("saint-bernard.html","w", encoding="utf-8")
-rt = template.render(index=index)
+rt = template.render(index=index, page_name="StBernard", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('seppois.html.j2') #nomdutemplate
 ofh = codecs.open("seppois.html","w", encoding="utf-8")
-rt = template.render(index=index)
+rt = template.render(index=index, page_name="Seppois", own_fb_picture=True)
 ofh.write(rt)
 ofh.close()
