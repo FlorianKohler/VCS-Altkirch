@@ -32,6 +32,22 @@
 
 <script type="text/javascript" src="js/custom.js"></script>
 
+<!-- à mettre dans un fichier -->
+<script>
+function toggle(sender, target) {
+  var ele = document.getElementById(target);
+  var text = sender;
+  if (ele.style.display == "block") {
+    ele.style.display = "none";
+    text.innerHTML = "&#x25BA; " + target + " : Lire le résumé";
+  } else {
+    ele.style.display = "block";
+    text.innerHTML = "&#x25BC; " + target + " : Masquer le résumé";
+  }
+}
+</script>
+<!-- à mettre dans un fichier -->
+
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=2, user-scalable=1" />
 
 <meta property="og:url"                content="https://www.vcs-altkirch.fr/index.html" />
@@ -160,7 +176,7 @@ License: Creative Commons Attribution
 			<ul>
 				<li class="dark">
 					<h4><a href="3h-vtt.html">Les 3H VTT du VCSA<span class="exposant">NOUVEAU</span></a></h4>
-					<h5>Inscriptions dès le 8 février !</h5>
+					<h5>Inscriptions ouvertes !</h5>
 			</ul>
 
 			<ul>
@@ -239,6 +255,39 @@ License: Creative Commons Attribution
 		<h3>Dernières nouvelles</h3>
 		<hr>
 		<br>
+
+
+
+        <!--
+        <h4>Stage en Toscane</h4>
+        <div class="article-info">Rédigé le 4 février 2019</div>
+
+        <p><a href="#" onclick="javascript:toggle(this, 'Jour1');" id="ShowJour1">&#x25BA; Jour 1 : Lire le résumé</a></p>
+        <div style="display: none" id="Jour1">
+          <p>On a roulé!</p>
+        </div>
+        <p><a href="#" onclick="javascript:toggle(this, 'Jour2');" id="ShowJour2">&#x25BA; Jour 2 : Lire le résumé</a></p>
+        <div style="display: none" id="Jour2">
+          <p>On a beaucoup roulé !</p>
+        </div>
+        <p><a href="#" onclick="javascript:toggle(this, 'Jour3');" id="ShowJour3">&#x25BA; Jour 3 : Lire le résumé</a></p>
+        <div style="display: none" id="Jour3">
+          <p>On a vraiment beaucoup roulé !</p>
+        </div>
+        <p><a href="#" onclick="javascript:toggle(this, 'Jour4');" id="ShowJour4">&#x25BA; Jour 4 : Lire le résumé</a></p>
+        <div style="display: none" id="Jour4">
+          <p>On a beaucoup roulé !</p>
+        </div>
+        <p><a href="#" onclick="javascript:toggle(this, 'Jour5');" id="ShowJour5">&#x25BA; Jour 5 : Lire le résumé</a></p>
+        <div style="display: none" id="Jour5">
+          <p>On a beaucoup roulé !</p>
+        </div>
+        </section>
+
+        <section class="content two-column with-right-sidebar">
+
+        -->
+
 
     <h4>Hugo démarre sur les chapeaux de roues !</h4>
     <div class="article-info">Rédigé le 4 février 2019</div>

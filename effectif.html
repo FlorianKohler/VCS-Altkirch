@@ -32,6 +32,22 @@
 
 <script type="text/javascript" src="js/custom.js"></script>
 
+<!-- à mettre dans un fichier -->
+<script>
+function toggle(sender, target) {
+  var ele = document.getElementById(target);
+  var text = sender;
+  if (ele.style.display == "block") {
+    ele.style.display = "none";
+    text.innerHTML = "&#x25BA; " + target + " : Lire le résumé";
+  } else {
+    ele.style.display = "block";
+    text.innerHTML = "&#x25BC; " + target + " : Masquer le résumé";
+  }
+}
+</script>
+<!-- à mettre dans un fichier -->
+
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=2, user-scalable=1" />
 
 <meta property="og:url"                content="https://www.vcs-altkirch.fr/effectif.html" />
@@ -158,7 +174,7 @@ License: Creative Commons Attribution
 			<ul>
 				<li class="dark">
 					<h4><a href="3h-vtt.html">Les 3H VTT du VCSA<span class="exposant">NOUVEAU</span></a></h4>
-					<h5>Inscriptions dès le 8 février !</h5>
+					<h5>Inscriptions ouvertes !</h5>
 			</ul>
 
 			<ul>
