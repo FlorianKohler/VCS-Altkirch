@@ -29,3 +29,18 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+
+
+
+function toggle(sender, target) {
+  var ele = document.getElementById(target);
+  var text = sender;
+  if (ele.style.display == "block") {
+    ele.style.display = "none";
+    text.innerHTML = "&#x25BA; " + target + " : Lire le résumé";
+  } else {
+    ele.style.display = "block";
+    text.innerHTML = "&#x25BC; " + target + " : Masquer le résumé";
+  }
+}
