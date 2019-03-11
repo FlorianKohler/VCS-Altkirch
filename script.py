@@ -103,8 +103,7 @@ affichage['FSGTMin']='FSGT : Minimes'
 affichage['Total']='Total'
 
 
-    ###2017
-
+    ############################# 2017 ##############################
 data = content_xlsx.parse("Resultats2017")
 
 victoires = data[(data.Place == 1)].shape[0]
@@ -119,29 +118,21 @@ victoires_ffc = data[(data.Place == 1) & (data.Fédération == 'FFC')].shape[0]
 top3_ffc = data[(data.Place <= 3) & (data.Fédération == 'FFC')].shape[0]
 top10_ffc = data[(data.Place <= 10) & (data.Fédération == 'FFC')].shape[0]
 
-bilan = [victoires,victoires_fsgt,victoires_ffc,top3,top3_fsgt,top3_ffc,top10, top10_fsgt, top10_ffc]
-
-
+bilan2017 = [victoires,victoires_fsgt,victoires_ffc,top3,top3_fsgt,top3_ffc,top10, top10_fsgt, top10_ffc]
 resultats = collections.OrderedDict()
 for cate in list_cates:
     resultats[cate]=[0 for i in range(10)]
 
-#print(resultats)
 for numligne in range(len(data)):
     if data.iloc[numligne]['Type']== 'Route':
         cate_nom_ligne = data.iloc[numligne]['Fédération'] + str(data.iloc[numligne]['Catégorie'])
         resultats[cate_nom_ligne][data.iloc[numligne]['Place']-1]+=1
 
-#for perf in Places: #if fsgt or ffc ?
-#    resultats[perf[1]+perf[2]][perf[0]-1]+=1   # resultats [FEDEcates] [place-1 à cause de l'indexation] += 1
-
-#print(resultats)
-
 resultats['Total'] = [sum(resultats[cates][place] for cates in list_cates) for place in range(10)]
 
 resultats2017 = copy.deepcopy(resultats)
 
-   ###2018
+    ############################# 2018 ##############################
 
 data = content_xlsx.parse("Resultats2018")
 
@@ -159,6 +150,36 @@ top10_ffc = data[(data.Place <= 10) & (data.Fédération == 'FFC')].shape[0]
 
 bilan2018 = [victoires,victoires_fsgt,victoires_ffc,top3,top3_fsgt,top3_ffc,top10, top10_fsgt, top10_ffc]
 
+resultats = collections.OrderedDict()
+for cate in list_cates:
+    resultats[cate]=[0 for i in range(10)]
+
+for numligne in range(len(data)):
+    if data.iloc[numligne]['Type']== 'Route':
+        cate_nom_ligne = data.iloc[numligne]['Fédération'] + str(data.iloc[numligne]['Catégorie'])
+        resultats[cate_nom_ligne][data.iloc[numligne]['Place']-1]+=1
+
+resultats['Total'] = [sum(resultats[cates][place] for cates in list_cates) for place in range(10)]
+resultats2018 = copy.deepcopy(resultats)
+
+    ############################# 2019 ##############################
+
+data = content_xlsx.parse("Resultats2019")
+
+victoires = data[(data.Place == 1)].shape[0]
+top3 = data[(data.Place <= 3)].shape[0]
+top10 = data[(data.Place <= 10)].shape[0]
+
+victoires_fsgt = data[(data.Place == 1) & (data.Fédération == 'FSGT')].shape[0]
+top3_fsgt = data[(data.Place <= 3) & (data.Fédération == 'FSGT')].shape[0]
+top10_fsgt = data[(data.Place <= 10) & (data.Fédération == 'FSGT')].shape[0]
+
+victoires_ffc = data[(data.Place == 1) & (data.Fédération == 'FFC')].shape[0]
+top3_ffc = data[(data.Place <= 3) & (data.Fédération == 'FFC')].shape[0]
+top10_ffc = data[(data.Place <= 10) & (data.Fédération == 'FFC')].shape[0]
+
+bilan2019 = [victoires,victoires_fsgt,victoires_ffc,top3,top3_fsgt,top3_ffc,top10, top10_fsgt, top10_ffc]
+
 
 resultats = collections.OrderedDict()
 for cate in list_cates:
@@ -170,77 +191,72 @@ for numligne in range(len(data)):
         cate_nom_ligne = data.iloc[numligne]['Fédération'] + str(data.iloc[numligne]['Catégorie'])
         resultats[cate_nom_ligne][data.iloc[numligne]['Place']-1]+=1
 
-#for perf in Places: #if fsgt or ffc ?
-#    resultats[perf[1]+perf[2]][perf[0]-1]+=1   # resultats [FEDEcates] [place-1 à cause de l'indexation] += 1
-
-#print(resultats)
 
 resultats['Total'] = [sum(resultats[cates][place] for cates in list_cates) for place in range(10)]
+resultats2019 = copy.deepcopy(resultats)
 
-resultats2018 = copy.deepcopy(resultats)
+################## Suite ################
+bilans = dict()
+bilans['2017'] = bilan2017
+bilans['2018'] = bilan2018
+bilans['2019'] = bilan2019
 
 
 index=True
 template = env.get_template('index.html.j2') #nomdutemplate
 ofh = codecs.open("index.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, bilan2018 = bilan2018, index=index, page_name="index", own_fb_picture=False)
+rt = template.render(bilans=bilans, index=index, page_name="index", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 index=False
 template = env.get_template('performances.html.j2') #nomdutemplate
 ofh = codecs.open("performances.html","w", encoding="utf-8")
-rt = template.render(resultats2018=resultats2018, resultats2017 = resultats2017, bilan=bilan,affichage=affichage, index=index, bilan2018 = bilan2018, page_name="performances", own_fb_picture=False)
+rt = template.render(resultats2018=resultats2018, resultats2017 = resultats2017, resultats2019=resultats2019, bilans=bilans,affichage=affichage, index=index, page_name="performances", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('nousRejoindre.html.j2') #nomdutemplate
 ofh = codecs.open("nousRejoindre.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="nousRejoindre", own_fb_picture=False)
+rt = template.render(bilans=bilans, index=index, page_name="nousRejoindre", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('entrainements.html.j2') #nomdutemplate
 ofh = codecs.open("entrainements.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="entrainements", own_fb_picture=False)
+rt = template.render(bilans=bilans, index=index, page_name="entrainements", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('effectif.html.j2') #nomdutemplate
 ofh = codecs.open("effectif.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, listeCoureurs=listeCoureurs, len = len, index=index, bilan2018 = bilan2018, page_name="effectif", own_fb_picture=False)
+rt = template.render(bilans=bilans, listeCoureurs=listeCoureurs, len = len, index=index, page_name="effectif", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('contact.html.j2') #nomdutemplate
 ofh = codecs.open("contact.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="contact", own_fb_picture=False)
+rt = template.render(bilans=bilans, index=index, page_name="contact", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('leclub.html.j2') #nomdutemplate
 ofh = codecs.open("leClub.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="leClub", own_fb_picture=False)
+rt = template.render(bilans=bilans, index=index, page_name="leClub", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('archives.html.j2') #nomdutemplate
 ofh = codecs.open("archives.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="archives", own_fb_picture=False)
+rt = template.render(bilans=bilans, index=index, page_name="archives", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
 
 template = env.get_template('partenaires.html.j2') #nomdutemplate
 ofh = codecs.open("partenaires.html","w", encoding="utf-8")
-rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018, page_name="partenaires", own_fb_picture=False)
+rt = template.render(bilans=bilans, index=index, page_name="partenaires", own_fb_picture=False)
 ofh.write(rt)
 ofh.close()
-
-#template = env.get_template('organisations.html.j2') #nomdutemplate
-#ofh = codecs.open("organisations.html","w", encoding="utf-8")
-#rt = template.render(bilan=bilan, index=index, bilan2018 = bilan2018)
-#ofh.write(rt)
-#ofh.close()
 
 template = env.get_template('3h-vtt.html.j2') #nomdutemplate
 ofh = codecs.open("3h-vtt.html","w", encoding="utf-8")
