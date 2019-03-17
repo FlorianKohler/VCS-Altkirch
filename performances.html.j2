@@ -12,7 +12,7 @@
 
 {% block content %}
 <section class="content two-column with-right-sidebar">
-<h4 style="text-align:middle"> Tableau des places - Saison Route 2018 </h4>
+<h4 style="text-align:middle"> Tableau des places - Saison Route 2019 </h4>
 <table class="perf">
 
 
@@ -26,6 +26,35 @@
 {%- endfor -%}
 </tr> {# première ligne #}
 
+{%- for titre_ligne in resultats2019.keys() -%}
+<tr> {# lignes suivantes #}
+	<th class="gauche">{{affichage[titre_ligne]}}</th> {# premiere colonne #}
+	{%- for i in range(10) -%}
+		{% if titre_ligne != 'Total' %}
+		<td {% if i>=5 %}class="oncomputer"{% endif %}>{{resultats2019[titre_ligne][i]}}</td> {# case remplie #}
+		{% else %}
+		<th {% if i>=5 %}class="oncomputer"{% endif %}>{{resultats2019[titre_ligne][i]}}</th> {# case remplie #}
+		{% endif %}
+	{%- endfor -%}
+</tr> {# lignes suivantes #}
+{%- endfor -%}
+</table>
+
+<br>
+<h4 style="text-align:middle"> À titre comparatif : Saisons Route 2018 & 2017 </h4>
+<h4>2018</h4>
+<table class="perf">
+<tr> {# première ligne #}
+	<th>Catégorie / Place</th>
+	<th>{{1}}&#127942;</th>
+	<th>{{2}}&#127941;</th>
+	<th>{{3}}&#127941;</th>
+{%- for i in range(4,11) -%}
+	<th {% if i>5 %}class="oncomputer"{% endif %}>{{i}}</th>
+{%- endfor -%}
+</tr> {# première ligne #}
+
+<p>
 {%- for titre_ligne in resultats2018.keys() -%}
 <tr> {# lignes suivantes #}
 	<th class="gauche">{{affichage[titre_ligne]}}</th> {# premiere colonne #}
@@ -40,9 +69,7 @@
 {%- endfor -%}
 </table>
 
-<br>
-<h4 style="text-align:middle"> À titre comparatif : Saison Route 2017 </h4>
-
+<h4>2017</h4>
 <table class="perf">
 <tr> {# première ligne #}
 	<th>Catégorie / Place</th>
