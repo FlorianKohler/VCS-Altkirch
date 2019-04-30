@@ -1,0 +1,120 @@
+{% extends "index.html.j2" %}
+
+{% block title %}VCS Altkirch | GP de Dannemarie{% endblock title %}
+{% block description %}Trouvez toutes les informations sur les organisations du VCS Altkirch, notamment le GP Agri-Center à Jettingen, le cyclo-cross de Saint-Bernard, ...{% endblock description %}
+
+{% block ifindex %}{% endblock %}
+{% block iftroisheures %}class="selected"{% endblock %}
+
+
+{% block introcontent %}
+<img class="cover cent" src="images/covers/cover_{{page_name}}.jpg" alt="GP de Dannemarie">
+{% endblock introcontent %}
+
+{% block rightsidebar %}
+{% endblock rightsidebar %}
+
+{% block content %}
+
+
+
+<section class="content racecontent">
+ <!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Presentation')" id="defaultOpen">Général</button>
+  <!-- <button class="tablinks" onclick="openCity(event, 'Reglement')">Règlement</button> -->
+  <button class="tablinks" onclick="openCity(event, 'CLM')">Étape 1 (CLM)</button>
+  <button class="tablinks" onclick="openCity(event, 'Etape2')">Étape 2</button>
+  <button class="tablinks" onclick="openCity(event, 'Remerciements')">Remerciements</button>
+
+</div>
+
+<!-- Tab content -->
+<div id="Presentation" class="tabcontent" >
+  <h4>Présentation</h4>
+  <p>Le VCS Altkirch organise le dimanche 2 juin le Grand Prix de Dannemarie, épreuve FFC ouverte aux 2ème et 3ème catégories, aux juniors et Pass' Open. Comme l'an dernier, l'épreuve comportera un contre-la-montre (nouveau parcours) le matin et une course en circuit l'après-midi, avec plusieurs maillots distinctifs.<br>
+    <b>La publication de course est <a href="http://grandestcyclisme.fr/images/VCS-Altkirch-DOCrse02juin2019.pdf">ICI</a> et le règlement officiel est <a href="http://grandestcyclisme.fr/images/VCS-Altkirch-Reglement-02-juin-2019-rev-02-VERIF.pdf">LÀ</a></b>.
+  </p>
+
+  <p>Lors de l'édition 2018, Julien Grimont avait remporté l'épreuve au terme d'un final à suspense où tout s'est décidé dans les derniers kilomètres de l'épreuve, permettant au coureur altkirchois de conquérir le maillot jaune, qui était sur les épaules de Simon Bolot à l'issue du contre-la-montre. Retrouvez les classements de cette édition <a href="Classements_Dannemarie.pdf">ici</a>.</p>
+
+  <h4>Informations diverses</h4>
+  <ul>
+    <li>Les engagements sont à effectuer par internet 15€  (20€ sur place - maxi 15 engagés sur place).</li>
+    <li><b>Remise des dossards</b> : ancienne Mairie de Dannemarie Rue de Cernay à partir de 8h00.</li>
+    <li>Pour participer à l’épreuve de l’après-midi il faut avoir participé et terminé l’épreuve du matin.</li>
+    <li><b>Les coureurs engagés sur place partiront de 09h00 à 09h14</b>. Les engagés par internet partiront à partir de 09h15.</li>
+    <li><b>Restauration</b> : Possibilité de repas -salades diverses et côtes de porc ou autre grillades (dans la limite des disponibilités). Petite restauration sur la ligne de départ / arrivée.</li>
+    <li>Lieu du contrôle anti-dopage : ancienne Mairie.</li>
+    <li>Toilettes à l’ancienne Mairie</li>
+  </ul>
+<br>
+
+<h4>Maillots distinctifs</h4>
+<p>Maillot jaune (classement général), maillot rouge (classement des grands prix de la montagne), maillot vert (classements par points) et maillot blanc (classement junior) seront attribués après chaque étape, selon les critères d'attribution détaillés dans le règlement.</p>
+
+<h4>Prix</h4>
+<p>La remise des prix de la première étape se déroulera à l’ancienne mairie ou sur la place devant la maroquinerie Igert (selon météo) rue de Cernay à 12h00.<br>
+  La remise des prix de la deuxième étape et du classement final auront lieu à 18h00 à l’ancienne mairie. Un vin d’honneur sera servi à l’issue de la cérémonie protocolaire.<br>
+  Grille de prix : voir règlement</p>
+
+</div>
+
+
+<div id="CLM" class="tabcontent">
+  <p>Lieu des départs : Rue du bassin à Dannemarie<br>
+Horaires des départs : 1er départ à 9h00 puis de minutes en minutes<br>
+Les horaires de départ des engagés par internet seront consultables sur le site du VCSA la veille de l’épreuve : www.vcs-altkirch.fr<br>
+Parcours : Rue du bassin Dannemarie, Wolfersdorf, Traubach le Bas, Traubach le Haut, Falkwiller, Gildwiller au sommet de la rue du Mont (foyer des scouts) soit 10,1 km.<br></p>
+
+      <div style="text-align:center;">  <img class="quatrevingt" src="images/Et1.jpg" alt="CLM" title="CLM"></div>
+
+
+<p>Les vélos spéciaux CLM ne sont pas autorisés, la machine utilisée pour le CLM devra être identique à celle utilisée pour l’épreuve de l’après-midi (pas de prolongateurs, pas de roue pleine, pas de roue à bâtons, etc).</p>
+
+</div>
+
+<div id="Etape2" class="tabcontent">
+  <p>Lieu du départ : Dannemarie devant l’ancienne Mairie<br>
+<ul>
+  <li>Heure de départ : 14h30</li>
+  <li>Circuit : Dannemarie, Wolfersdorf, Traubach-le-Bas, Traubach-le-Haut, Falkwiller, Gildwiller-le-Mont, Balschwiller, Hagenbach, Gommersdorf, Dannemarie soit 20 km. Le plan <a href="http://grandestcyclisme.fr/images/VCS-Altkirch-ParcoursCrse02juin2019.pdf">ici</a>.</li>
+  <li>Nombre de tours : 5, soit 99.9 km.</li>
+  <li>GPM : Gildwiller-le-Mont à chaque passage (4, 2 et 1 points). Les ex æquo seront départagés par le nombre de 1ère puis de 2ème places.</li>
+  <li>Sprints : à chaque  passage  sur  la ligne d’arrivée ainsi qu’à l’arrivée (4, 2, 1 points). Les ex æquo seront départagés par le nombre de 1ère puis de 2ème places.</li>
+  <li>Zone de ravitaillement : Montée de Gildwiller-le-Mont uniquement.</li>
+  <li>Pas de voitures suiveuses pour l’étape de l’après-midi, seules 2 voitures neutres de l’organisation, à qui il faudra remettre des roues, seront autorisées à suivre l’épreuve.</li>
+</ul>
+</p>
+
+      <div style="text-align:center;">  <img class="quatrevingtdix" src="images/Et2.jpg" alt="La course" title="La course"></div>
+
+
+
+</p>
+</div>
+
+<div id="Remerciements" class="tabcontent">
+  <p>Le VCSA remercietous ses partenaires et en particulier :
+    <ul>
+      <li>La Municipalité de Dannemarie</li>
+      <li>Les commerçants de Dannemarie et environs</li>
+      <li>La police Municipale</li>
+      <li>Les coureurs</li>
+      <li>Les arbitres</li>
+      <li>Et tous les bénévoles</li>
+    </ul>
+  </p>
+
+</div>
+
+
+</section>
+
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+{% endblock content %}

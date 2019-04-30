@@ -282,3 +282,9 @@ ofh = codecs.open("seppois.html","w", encoding="utf-8")
 rt = template.render(index=index, page_name="Seppois", own_fb_picture=True)
 ofh.write(rt)
 ofh.close()
+
+template = env.get_template('GP_Dannemarie.html.j2') #nomdutemplate
+ofh = codecs.open("GP_Dannemarie.html","w", encoding="utf-8")
+rt = template.render(index=index, page_name="Dannemarie", own_fb_picture=True)
+ofh.write(rt)
+ofh.close()
