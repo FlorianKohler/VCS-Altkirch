@@ -273,7 +273,7 @@ ofh.close()
 
 template = env.get_template('saint-bernard.html.j2') #nomdutemplate
 ofh = codecs.open("saint-bernard.html","w", encoding="utf-8")
-rt = template.render(index=index, page_name="StBernard", own_fb_picture=True)
+rt = template.render(index=index, page_name="saint-bernard", own_fb_picture=True)
 ofh.write(rt)
 ofh.close()
 
