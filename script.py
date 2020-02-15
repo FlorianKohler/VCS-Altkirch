@@ -289,3 +289,9 @@ ofh = codecs.open("GP_Dannemarie.html","w", encoding="utf-8")
 rt = template.render(index=index, page_name="Dannemarie", own_fb_picture=True)
 ofh.write(rt)
 ofh.close()
+
+template = env.get_template('CLM_GE_SaintBernard.html.j2') #nomdutemplate
+ofh = codecs.open("CLM_GE_SaintBernard.html","w", encoding="utf-8")
+rt = template.render(index=index, page_name="CLM_GE", own_fb_picture=False)
+ofh.write(rt)
+ofh.close()
