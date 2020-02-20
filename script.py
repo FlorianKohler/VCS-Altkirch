@@ -81,7 +81,7 @@ for i in listeCoureurs:
     if espaceacombler%2==1:
         i[0]+="&nbsp; " '''
 
-listeCoureurs.append(["Hugo Hofstetter","HugoH","Coureur professionnel - Team Cofidis"])
+listeCoureurs.append(["Hugo Hofstetter","HugoH","Coureur professionnel - Israel Start-Up Nation"])
 
 coureursDerniereLigne= len(listeCoureurs)%4
 
