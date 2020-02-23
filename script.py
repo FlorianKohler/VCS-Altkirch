@@ -197,11 +197,44 @@ for numligne in range(len(data)):
 resultats['Total'] = [sum(resultats[cates][place] for cates in list_cates) for place in range(10)]
 resultats2019 = copy.deepcopy(resultats)
 
+   ########################## 2020  #####################################
+
+# data = content_xlsx.parse("Resultats2020")
+
+# victoires = data[(data.Place == 1)].shape[0]
+# top3 = data[(data.Place <= 3)].shape[0]
+# top10 = data[(data.Place <= 10)].shape[0]
+
+# victoires_fsgt = data[(data.Place == 1) & (data.Fédération == 'FSGT')].shape[0]
+# top3_fsgt = data[(data.Place <= 3) & (data.Fédération == 'FSGT')].shape[0]
+# top10_fsgt = data[(data.Place <= 10) & (data.Fédération == 'FSGT')].shape[0]
+
+# victoires_ffc = data[(data.Place == 1) & (data.Fédération == 'FFC')].shape[0]
+# top3_ffc = data[(data.Place <= 3) & (data.Fédération == 'FFC')].shape[0]
+# top10_ffc = data[(data.Place <= 10) & (data.Fédération == 'FFC')].shape[0]
+
+# bilan2020 = [victoires,victoires_fsgt,victoires_ffc,top3,top3_fsgt,top3_ffc,top10, top10_fsgt, top10_ffc]
+
+
+# resultats = collections.OrderedDict()
+# for cate in list_cates:
+#     resultats[cate]=[0 for i in range(10)]
+
+# #print(resultats)
+# for numligne in range(len(data)):
+#     if data.iloc[numligne]['Type']== 'Route':
+#         cate_nom_ligne = data.iloc[numligne]['Fédération'] + str(data.iloc[numligne]['Catégorie'])
+#         resultats[cate_nom_ligne][data.iloc[numligne]['Place']-1]+=1
+
+
+# resultats['Total'] = [sum(resultats[cates][place] for cates in list_cates) for place in range(10)]
+# resultats2020 = copy.deepcopy(resultats)
 ################## Suite ################
 bilans = dict()
 bilans['2017'] = bilan2017
 bilans['2018'] = bilan2018
 bilans['2019'] = bilan2019
+# bilans['2020'] = bilan2020
 
 
 index=True
