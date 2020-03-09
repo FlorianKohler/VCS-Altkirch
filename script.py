@@ -21,7 +21,9 @@ env = jinja2.Environment(loader=fsloader)
 
 listeCoureurs = []
 listeCoureurs.append(["Alain L.","AlainL","Pass' D1"])
+listeCoureurs.append(["Alexandre N.","AlexandreN","Cadet"])
 listeCoureurs.append(["Alexis B.","AlexisB","Pass' D1"])
+
 #listeCoureurs.append(["Alexis W.","AlexisW","Junior"])
 listeCoureurs.append(["Antoine B.","AntoineB","3e caté"])
 listeCoureurs.append(["Antoine M.","AntoineM","3e caté"])
@@ -66,7 +68,6 @@ listeCoureurs.append(["Thibaud P.","ThibaudP","3e caté"])
 listeCoureurs.append(["Thomas L.","ThomasL","S4 (FSGT)"])
 listeCoureurs.append(["Valentin T.","ValentinT","3e caté"])
 listeCoureurs.append(["Vivien S.","VivienS","S4 (FSGT)"])
-listeCoureurs.append(["Alexandre N.","AlexandreN","Cadet"])
 listeCoureurs.append(["Antoine C.","AntoineC","Cadet"])
 listeCoureurs.append(["Mathias G.","MathiasG","Cadet"])
 listeCoureurs.append(["Matthieu L.","MatthieuL","Minime"])
