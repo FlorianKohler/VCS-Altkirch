@@ -6,7 +6,7 @@ meta_description: "Site officiel du Vélo Club Sundgovia Altkirch. Retrouvez tou
 logo: 'assets/images/logo-footer.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 10
-baseurl: ''
+baseurl: '/'
 email: 'webmaster-vcsa@ntymail.com'
 
 
