@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+
+
+<div class="topimg">
+    <div class="nocovering">
+		<!-- <img src="{{ site.baseur1 }}/assets/images/covers/cover_{{page.path | remove: ".md" | remove: ".html" }}.jpg" alt="cover"> -->
+		<img src="{{ site.baseurl }}/assets/images/covers/{{ page.path | remove: ".md" | remove: ".html" }}.jpg" alt="cover">
+	</div>
+</div>
+
+<!-- Content
+================================================== --> 
+<div class="main-content page">
+
+
+
+	<section>
+
+	    
+	    <div class="article-post">
+	    {{content}}
+	    </div>
+	    
+	    
+	</section>
+
+</div>

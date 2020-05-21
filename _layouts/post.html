@@ -1,0 +1,105 @@
+---
+layout: default
+archive: false
+post_class: post-template
+---
+
+
+
+
+<!-- Content
+================================================== --> 
+<div class="main-content-post">
+
+<!-- Begin Article
+================================================== -->
+
+
+	<div class="row">
+
+
+		<!-- Sidebar -->
+        <div id="mobilehidden2" class="col-sm-4">
+        {% include sidebar.html %}
+        </div>
+
+		<!-- Post -->        
+        {% assign author = site.authors[page.author] %}
+        
+		<div class="col-sm-8">
+			<div class="wholepostcontent">
+
+                <div class="mainheading">              
+                    <!-- Post Title -->
+    				<h1 class="posttitle">{{ page.title }}</h1>  
+    			</div>
+                            <!-- Post Date -->
+                <p>
+                <small>
+                    <span class="post-date">
+                        {{ page.date | date: "%d" }}
+
+                        {% assign mo = page.date | date: "%m" %}
+                        {% case mo %}
+                            {% when '01' %}janv.
+                            {% when '02' %}févr.
+                            {% when '03' %}mars
+                            {% when '04' %}avr.
+                            {% when '05' %}mai
+                            {% when '06' %}juin
+                            {% when '07' %}juill.
+                            {% when '08' %}août
+                            {% when '09' %}sept.
+                            {% when '10' %}oct.
+                            {% when '11' %}nov.
+                            {% when '12' %}déc.
+                          {% endcase %}
+
+                        {{ page.date | date: '%Y' }}
+                    </span>           
+
+                </small>
+                </p>
+
+    			<!-- Post Featured Image -->
+    			 <!-- {% if page.image %}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %} 
+                    We rather want the freedom to place it wherever we want in the article-->
+    			<!-- End Featured Image -->
+
+    			<!-- Post Content -->
+    			<div class="article-post">
+    				{{content}}
+                    <div class="clearfix"></div>
+    			</div>
+
+
+                
+                <!-- Prev/Next -->
+                <div class="row PageNavigation mt-4 prevnextlinks">
+                  {% if page.previous.url %}
+                    <div class="col-md-6 rightborder pl-0">
+                        <a class="thepostlink" href="{{page.previous.url | absolute_url}}">&laquo; {{page.previous.title}}</a>
+                    </div>
+                  {% endif %}
+                  {% if page.next.url %}
+                    <div class="col-md-6 text-right pr-0">
+                        <a class="thepostlink" href="{{page.next.url | absolute_url}}">{{page.next.title}} &raquo;</a>
+                    </div>
+                  {% endif %}
+                </div>
+                <!-- End Prev/Next -->        
+            
+                     
+
+    		</div>
+        </div>
+    		<!-- End Post -->
+        
+
+
+	</div>
+
+<!-- End Article
+================================================== -->
+
+</div>

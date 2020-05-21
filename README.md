@@ -1,39 +1,26 @@
-# Cycling Team Website
+# "Affiliates" - Jekyll Template by WowThemes.net
 
-## Introduction
-
-This branch contains the website of a cycling team (more information on the website). It is a __static website__ (no php) host on GitHub pages. Most of its pages are built using the template engine Jinja (for Python), whereas a few of them are not following this template and built using  Rmarkdown files converted into HTML.
-
-## Use
-
-The branch ```gh-pages``` contains :
-   * Jinja templates : these files do not require any specific extension. In this project, their extension is ```.j2```, which has the advantage that it allows to the Atom package "atom-Jinja2" to recognize the files (specific syntax highlighting)
-   * Generated HTML Files (```.html```)
-   * The Python script that converts templates into HTML files, computing and providing to the templates the information needed (```script.py```)
+[Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/affiliates-jekyll-theme/archive/master.zip) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-affiliates-bootstrap-jekyll/) &nbsp; | &nbsp; [More Jekyll Themes](https://bootstrapstarter.com/template-categories/jekyll/)
 
 
-   * RMarkdown templates for some specific pages (```.Rmd```) and their generated HTML files
+![affiliates](assets/images/theme1.jpg)
 
 
-   * CSS and JavaScript Files (respectively ```css``` and ```js``` folders)
-   * All pictures
+### Copyright
 
-It does not contain, for confidentiality reasons :
-   * *Results.xlsx*, a file with a given structure that contains the results.
+Copyright (C) 2019 WowThemes.net.
 
-### Prerequisites
-  Python 3 with jinja2 and a few other libraries (pandas, numpy, os, sys, codecs, copy).
-  R with several libraries (flexdashboard, leaflet, htmlwidgets, among others...)
+**Affiliates for Jekyll** is designed by [Sal](https://www.wowthemes.net) and it is licensed MIT. If this project helps you reduce time to develop or you want to remove the attribution credit, you can give me a cup of coffee :)
 
-### Templating
+[Buy me a coffee](https://www.wowthemes.net/donate/)
 
-#### Jinja Files
+-----------------
 
-Jinja templates use various elements of syntax provided by Jinja2 (see jinja.pocoo.org for all the information). The "index" page contains all the elements and defines several blocks (header menu, sidebar) which are included in other pages which follow the same structure.
+### Contribute
 
-In order to generate HTML files from Jinja templates, the file ```script.py``` simply needs to be executed. Any modification in the template will then be applied to the HTML file, erasing the previous one).
+1. [Fork the repo](https://github.com/wowthemesnet/affiliates-jekyll-theme.git).
+2. Clone a copy of your fork on your local
+3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
+4. Make necessary changes, commit, push and open a pull request on GitHub.
 
-#### RMarkdown Files
-
-Rmarkdown files can for example be converted into HTML using the following command, in the folder where the file is :
-```rmarkdown::render(filename.Rmd)```
+Thank you!

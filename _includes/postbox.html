@@ -1,0 +1,43 @@
+<!-- begin post -->
+{% assign author = site.authors[post.author] %}
+
+<div class="col-md-6 grid-item">
+<div class="card">
+    <a href="{{ post.url | absolute_url }}">
+        {% if post.image %} <img class="img-fluid" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}
+    </a>
+    <div class="card-block">
+        <h2 class="card-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+        <span class="post-date">
+       <!-- {{ post.date | date_to_string }} -->
+        {{ post.date | date: "%d" }}
+
+        {% assign mo = post.date | date: "%m" %}
+        {% case mo %}
+            {% when '01' %}janv.
+            {% when '02' %}févr.
+            {% when '03' %}mars
+            {% when '04' %}avr.
+            {% when '05' %}mai
+            {% when '06' %}juin
+            {% when '07' %}juill.
+            {% when '08' %}août
+            {% when '09' %}sept.
+            {% when '10' %}oct.
+            {% when '11' %}nov.
+            {% when '12' %}déc.
+          {% endcase %}
+
+        {{ post.date | date: '%Y' }}
+        </span>    
+        
+        <!-- {{ post.date | date_to_string }} -->
+        <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+        <div class="wrapfooter">
+            <span class="post-read-more"><a href="{{ post.url | absolute_url }}" title="Lire plus"><i class="fa fa-arrow-right"></i></a></span>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- end post -->

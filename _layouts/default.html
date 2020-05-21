@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico"> 
+   
+<title>{{ page.title }} | {{site.name}}</title>
+{% seo %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/21c287ecc6.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
+
+<meta content="{{ site.title }}" property="og:site_name">
+{% if page.title %}
+  <meta content="{{ page.title }}" property="og:title">
+{% else %}
+  <meta content="{{ site.title }}" property="og:title">
+{% endif %}
+
+
+{% if page.description %}
+  <meta content="{{ page.description }}" property="og:description">
+{% else %}
+  <meta content="{{ site.description }}" property="og:description">
+{% endif %}
+
+{% if page.url %}
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+{% endif %}
+
+
+{% if page.image %}
+  <meta content="{{ site.baseurl }}/{{ page.image }}" property="og:image">
+{% else %}
+  <meta content="{{ site.baseurl }}/assets/images/facebook/Fb_default.jpg" property="og:image">
+{% endif %}
+
+{% if page.title %}
+  <meta content="article" property="og:type">
+{% else %}
+  <meta content="website" property="og:type">
+{% endif %}
+
+
+
+</head>
+    
+
+    
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+<body class="{{ layout }}">
+
+<!-- Begin Menu Navigation
+================================================== -->
+<header class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+    <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsWow" aria-controls="navbarsWow" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Begin Logo -->
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+    <!-- <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"> TOO LOW DEFINITION TO BE WORTH ? --> 
+    <span style="font-size:25px; color:black;font-weight:700;letter-spacing:1.5px;">VCS ALTKIRCH</span>
+    </a>
+    <!-- End Logo -->
+
+    <!-- Begin Menu -->
+    <div class="collapse navbar-collapse" id="navbarsWow">
+        
+        <!-- Begin Menu -->
+        <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item">                
+            <a class="nav-link" href="{{ site.baseurl }}/index.html">Accueil</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Le Club</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="{{ site.baseurl }}/leClub">Le VCSA en bref</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/entrainements">Entraînements</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/nousrejoindre">Nous rejoindre</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/partenaires">Nos partenaires</a>
+                </div>
+            </li>
+          
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos organisations</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="{{ site.baseurl }}/jettingen">Prix Agri-Center</a>
+                <a class="dropdown-item" href="{{ site.baseurl }}/seppois">GP de Seppois-le-Bas</a>
+                <a class="dropdown-item" href="{{ site.baseurl }}/3h-vtt">Les 3H VTT du VCSA</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/clm-saint-bernard">Contre-la-montre par équipes</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/gp_dannemarie">Grand Prix de Dannemarie</a>
+                  <a class="dropdown-item" href="{{ site.baseurl }}/saint-bernard">Cyclo-cross de Saint-Bernard</a>
+                </div>
+            </li>
+          
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Saison 2020</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="{{ site.baseurl }}/effectif">Effectif</a>
+                <a class="dropdown-item" href="{{ site.baseurl }}/resultats">Résultats</a>
+                
+                </div>
+            </li>
+            
+             <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://veloclubaltkirch.xoo.it/index.php">Forum</a>
+            </li> 
+             <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://veloclubaltkirch.xoo.it/index.php"><i class="fa fa-facebook-square"></i></a>
+            </li>               
+            
+        </ul>
+        <!-- End Menu -->
+        
+    </div>
+</header>
+    
+<!-- End Menu Navigation
+================================================== -->
+
+    
+<div class="site-content">
+  
+        
+        {{ content }}
+
+
+    <!-- Before Footer
+    ================================================== --> 
+    {% include beforefooter.html %}
+
+    <!-- Begin Footer
+    ================================================== -->
+    {% include footer.html %}
+    <!-- End Footer
+    ================================================== -->
+
+    
+</div> <!-- /.site-content>
+
+<!-- JavaScript ================================================== -->
+    
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+    
+<script type='text/javascript' src='{{ site.baseurl }}/assets/js/masonry.pkgd.min.js'></script>
+    
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>    
+
+
+
+<script type="text/javascript">
+
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+</script>
+
+</body>
+    
+</html>
