@@ -10,11 +10,11 @@ Pour les nombreux spectateurs venus assister au cyclo-cross de Saint-Bernard ce 
 
 C'est pourtant un scénario bien différent qui s'était dessiné dans les premiers tours. Auteur d'un départ tonitruant, Hugo Hofstetter s'était isolé en tête de course très rapidement. Accumulant au fil des premiers tours jusqu'à une minute d'avance, **la victoire semblait promise au coureur professionnel licencié au VCS Altkirch** qui montrait toute sa puissance sur le parcours, lui qui a encore enfilé un dossard sur route dimanche dernier, avec une 25e place au Memorial Rik Van Steenbergen (Belgique). Mais **Hugo déjantait** alors. Avec un seul vélo, le vainqueur de l'édition 2017 de ce cyclo-cross était donc contraint à l'abandon.
 
-![Hugo]({{ site.baseurl }}/assets/images/19_StBernard_1.jpg "Hugo")
+![Hugo]({{ site.baseurl }}assets/images/19_StBernard_1.jpg "Hugo")
 
 Changement total de physionomie de course donc. La victoire allait alors se jouer entre ses poursuivants (sans Jérôme Heinis, lui aussi victime d'une crevaison fatale), à savoir Arnaud Schlienger, Tim Meier, Sébastien Kern et, 50m plus loin, Loïc Sémon. La situation ne se décantait pas et le suspense restait total à l'entame du dernier tour. Kern partait à la faute en premier et perdait ses chances de podium. Puis **Tim Meier, le plus frais, plaçait dans la dernière ascension une accélération fatale à ses adversaires, qui ne purent plus l'empêcher de lever les bras sur la ligne**. Juste derrière, Arnaud, porté par les supporters altkirchois, prenait l'ascendant sur Loïc Sémon dans le dernier virage et s'adjugeait donc la deuxième place !
 
-![Tim Meier et Arnaud Schlienger]({{ site.baseurl }}/assets/images/19_StBernard_2.jpg "Tim Meier et Arnaud Schlienger")
+![Tim Meier et Arnaud Schlienger]({{ site.baseurl }}assets/images/19_StBernard_2.jpg "Tim Meier et Arnaud Schlienger")
 
 Plus tôt dans l'après-midi, **la course des masters a été dominée par Olivier Schnell** (AC Erstein). Le coureur bas-rhinois s'est isolé en tête dès le départ et laissé aucune chance à ses poursuivants, **Eric et Alexis, les deux altkirchois qui terminaient finalement 2e et 3e** tandis que Grégory complétait la belle performance collective du VCSA en terminant 5e.
 

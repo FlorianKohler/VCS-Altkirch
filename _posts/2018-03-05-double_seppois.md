@@ -7,8 +7,8 @@ featured: false
 
 Au GP de Seppois-le-Bas ce dimanche, organisé par le VCSA, les altkirchois se devaient de prolonger la série victorieuse entamée il y a 2 ans par Ludovic Klein puis prolongée par Jérôme Heinis. Et bien c'est chose faite, et avec la manière : au terme d'une **course marquée par une énorme performance collective du VCSA, Florian Kohler et Arnaud Schlienger terminent à deux** - en franchissant la ligne dans cet ordre - avec plus d'1min30 d'avance sur le reste de l'échappée dans laquelle figurent Eric Heitz et Julien Batlle, 5e et 6e.
 
-![Eric et Florian]({{ site.baseurl }}/assets/images/18_Seppois2.jpg "Eric et Florian, présents dès le km10 dans l'échappée")
-![Arnaud et Julien]({{ site.baseurl }}/assets/images/18_Seppois1.jpg "Arnaud et Julien, auteurs d'un retour express sur le groupe de tête")
+![Eric et Florian]({{ site.baseurl }}assets/images/18_Seppois2.jpg "Eric et Florian, présents dès le km10 dans l'échappée")
+![Arnaud et Julien]({{ site.baseurl }}assets/images/18_Seppois1.jpg "Arnaud et Julien, auteurs d'un retour express sur le groupe de tête")
 
 Merci à ["Au fil des instants"](https://www.facebook.com/pg/aufildesinstants/photos/?tab=album&album_id=2060809644132476) pour les photos.  
 Dans les autres courses de la journée, 3 top 10 : Sylvie Riedlé chez les Vétérans 4 et Féminines (5e), Antoine Mattern chez les Seniors 4 (7e) et Alexandre Nanni chez les cadets (5e).  

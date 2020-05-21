@@ -21,6 +21,6 @@ Et du côté de Frotey-les-Lure, course support aux championnats d'Alsace et de 
 *   Chez les Seniors 4, Thomas a été aux avant-postes, comme toujours. Il termine 5e.
 *   En Seniors & Juniors 2-3, la performance peut-être la plus remarquable de la journée est signée par Antony Wurtz, qui court habituellement en Junior 4 mais qui a participé à la course reine pour ce championnat : **Antony termine 6e au scratch** de la course après avoir été actif du début à la fin de l'épreuve de près de 100 km !
 
-![Frotey-les-Lure !]({{ site.baseurl }}/assets/images/18_10mai.jpg "Les altkirchois à Frotey")
+![Frotey-les-Lure !]({{ site.baseurl }}assets/images/18_10mai.jpg "Les altkirchois à Frotey")
 
 Enfin, la seule victoire au scratch du week-end, qui nous vient d'un coureur allemand et sur un VTT : **Sönke Wegner a dominé le VTT FSGT de Didenheim** ! Second coureur altkirchois engagé sur l'épreuve tout-terrain, Maxence Schummer termine 12e.

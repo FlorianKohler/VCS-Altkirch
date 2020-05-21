@@ -11,6 +11,6 @@ Daniel, Florian, Jérôme, Arnaud et Émile ont représenté ce week-end les cou
 
 Après une nuit de repos à Rioz, la deuxième étape (Vesoul-Vesoul) s'élance, avec toujours énormément de spectateurs aux bords des routes. Comme la veille, une échappée - cette fois sans altkirchois - se détache, et on craint alors de ne plus la revoir au sein du peloton et dans l'esprit du DS. Mais Arnaud et Daniel lancent un contre, Émile fait la jonction et les 3 altkirchois, avec une dizaine d'autres coureurs, foncent en direction de Vesoul, rattrapant l'échappée et amenant Émile au sprint dans les meilleures conditions qui soient : celles qui lui permettre de conquérir la **victoire d'étape** !!! Davantage "Forêt Noire" que simple "Cerise sur le gâteau", cette performance permet à l'équipe de **remporter le classement par équipes**, et à **Émile de terminer meilleur jeune ainsi que meilleur sprinter de l'épreuve!**
 
-![Victoire pour Emile]({{ site.baseurl }}/assets/images/18_CanalPlus.jpg "Victoire pour Emile")
+![Victoire pour Emile]({{ site.baseurl }}assets/images/18_CanalPlus.jpg "Victoire pour Emile")
 
 Un week-end exceptionnel, qui n'aurait, rappelons-le, pas pu se réaliser sans les accompagnateurs altkirchois (merci !). Les classements sont [ici](http://www.tour-haute-saone.fr/images/documents/2018/e2.pdf).

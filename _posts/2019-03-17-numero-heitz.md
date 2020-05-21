@@ -7,8 +7,8 @@ featured: false
 
 Il n'aura pas fallu attendre bien longtemps pour voir le compteur de victoires 2019 être débloqué : ce dimanche, **à Fontaine (FSGT), dans la course reine des 2-3, Eric Heitz s'est imposé au terme d'une échappée solitaire débutée... dès le premier tour !** Malgré plusieurs contre-attaques, et notamment celle de Alexandre Brandt (CC Etupes), revenu à 20 secondes d'Eric à un tour de la fin, le héros du jour a tenu bon, résistant également aux conditions météorologiques terribles de l'après-midi. Avec de la pluie, du vent et 5°C, les abandons ont en effet été très nombreux (7 coureurs seulement ont terminé chez les 2-3) ; les coureurs étaient gelés et tremblaient encore des dizaines de minutes après être descendus du vélo. Daniel Fricker termine 6e.
 
-![Eric victorieux avec la manière à Fontaine]({{ site.baseurl }}/assets/images/19_EricFontaine0.jpg "Eric victorieux avec la manière à Fontaine") 
-![Eric victorieux avec la manière à Fontaine]({{ site.baseurl }}/assets/images/19_EricFontaine.jpg "Eric victorieux avec la manière à Fontaine")
+![Eric victorieux avec la manière à Fontaine]({{ site.baseurl }}assets/images/19_EricFontaine0.jpg "Eric victorieux avec la manière à Fontaine") 
+![Eric victorieux avec la manière à Fontaine]({{ site.baseurl }}assets/images/19_EricFontaine.jpg "Eric victorieux avec la manière à Fontaine")
 
 Mais l'épopée victorieuse d'Eric n'est pas la seule performance notable du jour à Fontaine : Chez les Seniors 4, **Valentin Testud** a su, lui aussi, résister au froid et se glisser dans une échappée : derrière l'intouchable vainqueur en solitaire, il **termine à une très belle 3e place** ! Nathan Scherrer termine 10e pour sa première (!) course et Fabian Döring 12e.
 En début d'après-midi, avant l'arrivée de la pluie (mais avec un vent d'autant plus fort), René terminait 6e chez les Vétérans & Super Vétérans 4 et Mathias 5e chez les cadets.

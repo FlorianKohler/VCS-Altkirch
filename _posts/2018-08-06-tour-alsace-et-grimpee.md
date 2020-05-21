@@ -7,7 +7,7 @@ featured: false
 
 Ce dimanche, la Ville de Dannemarie accueillait l'arrivée de la dernière étape de la plus grande course cycliste d'Alsace : le Tour Alsace. En mai, la ligne d'arrivée de Dannemarie avait permis à Julien Grimont d'enfiler le maillot jaune du Grand Prix de Dannemarie. Cette fois-ci, faute de participer à l'épreuve (UCI 2.2), les altkirchois n'ont pas pu chercher le maillot jaune (qui est allé sur les épaules de Geoffrey Bouchard). Mais le VCSA était quand même présent sur ses routes sundgauviennes, en compagnie de Rodolphe Gaudin, Paul Belmondo et Denis Schmitt, grâce au travail de préparation d'Alain Lamy (Fun2Sport).
 
-![Le VCSA avec Rodolphe Gaudin]({{ site.baseurl }}/assets/images/18_TourAlsace.jpg "Le VCSA avec Rodolphe Gaudin")
+![Le VCSA avec Rodolphe Gaudin]({{ site.baseurl }}assets/images/18_TourAlsace.jpg "Le VCSA avec Rodolphe Gaudin")
 
 Retrouvez d'autres photos dans le diaporama du journal l'Alsace [ici](https://www.lalsace.fr/loisirs/2018/08/05/diaporama-la-ville-accueille-l-ultime-etape-du-15e-tour-d-alsace).
 

@@ -9,7 +9,7 @@ C'est un mardi pas comme les autres auquel ont eu droit les tous les membres du 
 
 Au bout de plus de 200 km de course, après de nombreux rebondissements, le petit groupe allait se disputer la victoire. Face à des sprinters comme Venturini et Nizzolo, l'affaire s'annonçait délicate. Mais Hugo, parfaitement calé en 4e position à l'entame d'un sprint lancé de trop loin par Venturini, a fait parler sa puissance pour déborder tout le monde dans la dernière ligne droite : une victoire sans appel, qui lui permit de faire exploser sa joie, d'abord sous forme de rage puis d'intense émotion, devant les nombreux téléspectateurs de cette épreuve !
 
-![Hugo Samyn]({{ site.baseurl }}/assets/images/20_Hugo_Samyn.jpg)
+![Hugo Samyn]({{ site.baseurl }}assets/images/20_Hugo_Samyn.jpg)
 
 Une émotion partagée par ses supporters, ravis de voir Hugo briller si tôt. Et également impatients de voir ce que donnera la suite de la saison des classiques (si le coronavirus n'y nuit pas) !
 

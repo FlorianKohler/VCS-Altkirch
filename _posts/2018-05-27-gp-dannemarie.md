@@ -9,14 +9,14 @@ Le VCS Altkirch rêvait de remporter, à domicile, le Grand Prix de Dannemarie (
 
 Une journée très bien organisée par le Vélo Club Sundgovia Altkirch, dont **on ne remerciera jamais assez les très nombreux bénévoles** ! Présents aux croisements, à la buvette, dans les voitures ouvreuses, suiveuses, aux dossards... ou encore en selfie avec le héros du jour...
 
-![Merci aux bénévoles !]({{ site.baseurl }}/assets/images/18_Dannemarie_Julien.jpg "Merci aux bénévoles !")
+![Merci aux bénévoles !]({{ site.baseurl }}assets/images/18_Dannemarie_Julien.jpg "Merci aux bénévoles !")
 
 *   Maillot jaune (Ville de Dannemarie) : Julien Grimont
 *   Maillot rouge (Commune de Gildwiller) : Cyrille Fretz
 *   Maillot vert (Les commerçants et artisans de Dannemarie et sa région) : Cyrille Fretz, porté par procuration par Arnaud Schlienger
 *   Maillot blanc (RECK) : Antonin Chatila-Brunotte
 
-![Merci aux sponsors !]({{ site.baseurl }}/assets/images/18_Podium_Dannemarie.jpg "Merci aux sponsors !")
+![Merci aux sponsors !]({{ site.baseurl }}assets/images/18_Podium_Dannemarie.jpg "Merci aux sponsors !")
 
 Les résultats complets (matin, après-midi, classement général) [ici](Classements_Dannemarie.pdf).  
 Bon rétablissement enfin aux coureurs qui ont chuté en début de course !

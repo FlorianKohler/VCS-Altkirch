@@ -12,5 +12,5 @@ Le club accueille également les jeunes coureurs, qui pourront rejoindre l'écol
 
 Pour en savoir plus sur les horaires d'entraînement ou les modalités à suivre pour nous rejoindre, il y a le [forum](http://veloclubaltkirch.xoo.it/index.php). Vous pouvez également nous contacter par mail à l'adresse [vcsaltkirch@gmail.com](mailto:vcsaltkirch@gmail.com).
 
-![Nous rejoindre]({{ site.baseurl }}/assets/images/nousrejoindre.jpg)
+![Nous rejoindre]({{ site.baseurl }}assets/images/nousrejoindre.jpg)
 

@@ -13,7 +13,7 @@ Je souhaite à TOUS une saison 2020 pleine de plaisir et de satisfaction.
 
 &nbsp;&nbsp;   Gilles Hartmann
 
-![Le VCSA sur un CLM par équipes]({{ site.baseurl }}/assets/images/vcsa.jpg)
+![Le VCSA sur un CLM par équipes]({{ site.baseurl }}assets/images/vcsa.jpg)
 
 ### Le club en quelques mots
 
@@ -23,7 +23,7 @@ Terreau de champions, le maillot du VCS Altkirch a déjà été porté - entre a
   * [Nicolas Hartmann](https://fr.wikipedia.org/wiki/Nicolas_Hartmann), professionnel de 2007 à 2009, chez Cofidis puis chez Bretagne-Schuller
   * [Hugo Hofstetter](https://fr.wikipedia.org/wiki/Hugo_Hofstetter), passé professionnel en 2016 chez Cofidis, puis depuis 2020 chez Israël Start-Up Nation. Suivez sa saison sur [ProCyclingStats](http://www.procyclingstats.com/rider/Hugo_Hofstetter).
 
-![Hugo Hofstetter]({{ site.baseurl }}/assets/images/HugoAltkirch.jpg)
+![Hugo Hofstetter]({{ site.baseurl }}assets/images/HugoAltkirch.jpg)
 
 Toujours licencié au VCS Altkirch, Hugo Hofstetter voit parfois ses supporters l'encourager.. ici à Vesoul, aux Championnats de France élite 2016.
 

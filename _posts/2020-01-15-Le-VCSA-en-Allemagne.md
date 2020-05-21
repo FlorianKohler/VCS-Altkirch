@@ -10,7 +10,7 @@ featured: false
 
 Au programme, pas encore de grosses séances d'intensités (sauf pour Hugo), mais des heures de selle entre amis et équipiers sur de nouvelles routes, et une soirée conviviale tous ensemble (avec en bonus les directeurs sportifs, venus déguster eux aussi une pizza), à deux mois des premières courses pour les amateurs.
 
-![Photo Kaiserstuhl]({{ site.baseurl }}/assets/images/20_Kaiserstuhl.jpg)
+![Photo Kaiserstuhl]({{ site.baseurl }}assets/images/20_Kaiserstuhl.jpg)
 
 Le dimanche, les coureurs ont eu le privilège d'être accompagnés par <a href="https://marie-nussbaumer.com/">Marie Nussbaumer</a>, photographe professionnelle qui a pu immortalier certains instants et mettre en valeur les nouveaux maillots... (photo ci-dessus) !
 

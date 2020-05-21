@@ -7,7 +7,7 @@ featured: false
 
 Le VCS Altkirch organisait ce dimanche le Prix Agri-Center à Jettingen, épreuve sous l'égide de la FSGT. Dans un premier temps, du côté des Minimes, Mathias Tarbouriech l'emportait devant l'altkirchois Mathias Gast ! Chez les cadets, Alexandre Nanni prenait la 5e place alors qu'en même temps, du côté des Seniors-Juniors 4, victoire altkirchoise avec **Antony Wurtz qui dominait tout ses adversaires dans l'ultime ascension pour empocher sa première victoire dans la catégorie !**
 
-![Victoire pour Antony !]({{ site.baseurl }}/assets/images/18_Jettingen.jpg "Victoire pour Antony !")
+![Victoire pour Antony !]({{ site.baseurl }}assets/images/18_Jettingen.jpg "Victoire pour Antony !")
 
 Dans la deuxième série de courses, notre féminine **Sylvie Riedlé s'est jointe aux Vétérans 4 et y a pris une belle 6e place** !
 
