@@ -2,7 +2,7 @@
 layout: post
 title:  "Hugo s'impose et ravit ses fans !"
 image: assets/images/20_Hugo_Samyn.jpg
-featured: true
+featured: false
 ---
 
 C'est un mardi pas comme les autres auquel ont eu droit les tous les membres du VCSA supporters de Hugo Hofstetter. Devant Eurosport, la tension est peu à peu montée au fil des kilomètres de Le Samyn, semi-classique belge. En particulier dans les 10 derniers kilomètres, lorsqu'un groupe de douze coureurs s'est extirpé du reste du peloton - déjà bien amaigri par les secteurs pavés en faux-plat montant successifs, avec dans ses rangs notre star altkirchoise.

@@ -10,7 +10,7 @@ Adresse mail : [webmaster-vcsa@ntymail.com](mailto:webmaster-vcsa@ntymail.com)
 
 ### Hébergement
 
-Ce site web est hébergé par [Github](https://github.com/).
+Ce site web est hébergé par [Netlify](https://netlify.com/) - 2325 3rd St #215 - San Francisco - CA 94107 - USA.
 
 ### Crédits
 
