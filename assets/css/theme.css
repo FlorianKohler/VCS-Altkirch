@@ -24,7 +24,7 @@ a,a:hover {
 /* Navigation bar */
 
 .mediumnavigation {
-	background: rgb(255, 241, 0, 0.97);
+	background: rgba(255, 241, 0, 0.97);
 	color: rgb(47,47,47);
     transition: top 0.3s ease-in-out;
     padding: 0.8rem 5%;
