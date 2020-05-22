@@ -540,10 +540,10 @@ blockquote {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
 }
 img {max-width:100%;height: auto;}
-.bottompagination span.navigation {
+.bottompagination .navigation {
 
 }
-.bottompagination span.navigation a {
+.bottompagination .navigation a {
 	background: #fff100;
     color: #333;
     padding: 5px;
@@ -555,17 +555,17 @@ img {max-width:100%;height: auto;}
     display: inline-block;
 }
 
-.bottompagination span.navigation i {
+.bottompagination .navigation i {
 	display:inline-block;
 }
-span.navigation {
+.navigation {
     display: block;
     font-size: 0.93rem;
     font-weight: 700;
     text-align:center;
     position:relative;
 }
-span.navigation:before {
+.navigation:before {
     margin-bottom: 0;
     position: absolute;
     z-index: 1;
