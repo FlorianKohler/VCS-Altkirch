@@ -3,7 +3,7 @@ name: "VCS Altkirch"
 title: "VCS Altkirch"
 description: "Site du Vélo Club Sundgovia Altkirch. Retrouvez toutes les informations du club cycliste : actualités, effectif, résultats, organisations, ..."
 meta_description: "Site officiel du Vélo Club Sundgovia Altkirch. Retrouvez toutes les informations du club cycliste : actualités, effectif, résultats, organisations, ..."
-logo: 'assets/images/logo-footer.png'
+logo: 'assets/images/logo-dark.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 10
 url: 'https://vcs-altkirch.fr'
