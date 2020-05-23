@@ -21,7 +21,7 @@ Le vélo club Sundgovia Altkirch, fondé en 1894, est un club convivial. Affili�
 
 Terreau de champions, le maillot du VCS Altkirch a déjà été porté - entre autres, par :
   * [Nicolas Hartmann](https://fr.wikipedia.org/wiki/Nicolas_Hartmann), professionnel de 2007 à 2009, chez Cofidis puis chez Bretagne-Schuller
-  * [Hugo Hofstetter](https://fr.wikipedia.org/wiki/Hugo_Hofstetter), passé professionnel en 2016 chez Cofidis, puis depuis 2020 chez Israël Start-Up Nation. Suivez sa saison sur [ProCyclingStats](http://www.procyclingstats.com/rider/Hugo_Hofstetter).
+  * [Hugo Hofstetter](https://www.procyclingstats.com/rider/hugo-hofstetter), passé professionnel en 2016 chez Cofidis, puis depuis 2020 chez Israël Start-Up Nation. Suivez sa saison sur [ProCyclingStats](http://www.procyclingstats.com/rider/Hugo_Hofstetter).
 
 ![Hugo Hofstetter]({{ site.baseurl }}assets/images/HugoAltkirch.jpg)
 
