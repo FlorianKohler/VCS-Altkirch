@@ -18,6 +18,6 @@ Une journée très bien organisée par le Vélo Club Sundgovia Altkirch, dont **
 
 ![Merci aux sponsors !]({{ site.baseurl }}assets/images/18_Podium_Dannemarie.jpg "Merci aux sponsors !")
 
-Les résultats complets (matin, après-midi, classement général) [ici](Classements_Dannemarie.pdf).  
+Les résultats complets (matin, après-midi, classement général) [ici]({{ site.baseurl }}assets/Classements_Dannemarie_18.pdf).  
 Bon rétablissement enfin aux coureurs qui ont chuté en début de course !
 
