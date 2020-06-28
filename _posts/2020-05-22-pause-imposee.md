@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Le coronavirus impose sa pause"
-featured : yes
+featured : false
 image: assets/images/20_pause_imposee.jpg
 ---
   
