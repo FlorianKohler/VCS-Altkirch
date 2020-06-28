@@ -2,7 +2,7 @@
 layout: post
 title:  "Les sorties club font leur retour !"
 featured : yes
-image: assets/images/20_Soubey_Piquenique.jpg
+image: assets/images/20_Soubey_Groupe.jpg
 ---
   
 Le déconfinement se poursuivant petit à petit, la FFC annonçait ce vendredi [la fin des contraintes appliquées aux entraînements](http://www.ffc-bfc.fr/uploads/elfinder/ACTUALITE/2020/Communiqu%C3%A9%20FFC%2026%20juin%202020%20-%20Activit%C3%A9s%20Cyclistes%20-%20Retour%20%C3%A0%20la%20normale.pdf) (10 coureurs max et espacés de 2m). À l'aube d'un week-end globalement ensoleillé, il n'en fallait guère davantage pour que deux sorties club s'organisent : la première, samedi, sillonnait les routes du Sundgau en conduisant les coureurs du côté de Winkel et du Blochmont.
