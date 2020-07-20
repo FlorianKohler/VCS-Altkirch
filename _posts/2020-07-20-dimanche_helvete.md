@@ -14,12 +14,12 @@ Si Thibaud est allé transpirer sur une ascension valaisaine, d'autres altkircho
 
 Au total, près de 100km, 2900m de dénivelé positif, quelques litres de sueur mais surtout beaucoup d'étoiles dans les yeux devant les sublimes panoramas offerts !
 
-![Furkapass]({{ site.baseurl }}assets/images/20_Gotthard3.jpg)
-![Furkapass]({{ site.baseurl }}assets/images/20_Gotthard1.jpg)
+![Furkapass]({{ site.baseurl }}assets/images/20_Gotthard3.jpg){: .center-image }
+![Furkapass]({{ site.baseurl }}assets/images/20_Gotthard1.jpg){: .center-image }
 _En raison de la difficulté du parcours, deux groupes distincts sont partis à des horaires différents de sorte à terminer ensemble._
 
-![Nufenenpass]({{ site.baseurl }}assets/images/20_Gotthard2.jpg)
-![Gotthardpass]({{ site.baseurl }}assets/images/20_Gotthard4.jpg)
+![Nufenenpass]({{ site.baseurl }}assets/images/20_Gotthard2.jpg){: .center-image }
+![Gotthardpass]({{ site.baseurl }}assets/images/20_Gotthard4.jpg){: .center-image }
 _Le Nufenenpass, sans doute le plus difficile des trois cols, a bien fatigué les altkirchois avant que les pavés et lacets du Gotthard, aussi magnifiques qu'exigeants, ne se soient chargés de les achever !_
 
 

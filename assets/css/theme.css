@@ -1202,3 +1202,11 @@ iframe {
 .footer  .row{ display: flex; align-items: center;}
 
 /* END OF VERY END FOOTER */
+
+
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
