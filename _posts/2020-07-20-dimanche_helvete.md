@@ -10,7 +10,7 @@ Après plus de quatre mois sans qu'un seul altkirchois n'ait la possibilité de 
 
 Ce premier dossard annonce, si rien ne vient perturber les prévisions, la reprise des compétitions en peloton du côté français : les prochains dossards devraient être accrochés à Authoison, en Haute-Saône, le 2 août. 
 
-Si Thibaud est allé transpirer sur une ascension valaisaine, d'autres altkirchois ont profité de la météo exceptionnelle du dimanche pour aller escalader trois cols, non pas en suisse francophone, mais en suisse germanophone et italophone ! Au programme de cet entraînement délocalisé (départ à Hospental), trois cols : d'abord le **col de la Furka** (Furkapass, 2429m), puis l'exigeant **col du Nufenen** (Nufenenpass, 2478m), et enfin le **col du Saint-Gotthard** (Gotthardpass, 2106m) dont l'ascension serait presque facile si elle n'était pas essentiellement.. pavée ! 
+Si Thibaud est allé transpirer sur une ascension valaisaine, d'autres altkirchois ont profité de la météo exceptionnelle du dimanche pour aller escalader trois cols, non pas en suisse romande, mais en suisse aémanique et italienne ! Au programme de cet entraînement délocalisé (départ à Hospental), trois cols : d'abord le **col de la Furka** (Furkapass, 2429m), puis l'exigeant **col du Nufenen** (Nufenenpass, 2478m), et enfin le **col du Saint-Gotthard** (Gotthardpass, 2106m) dont l'ascension serait presque facile si elle n'était pas essentiellement.. pavée !
 
 Au total, près de 100km, 2900m de dénivelé positif, quelques litres de sueur mais surtout beaucoup d'étoiles dans les yeux devant les sublimes panoramas offerts !
 
