@@ -2,7 +2,7 @@
 layout: post
 title:  "De retour au sein des pelotons !"
 featured : yes
-image: assets/images/20_Authoison_1.jpg
+image: assets/images/20_Authoison_0.jpg
 ---
   
 Essayer de retrouver les maillots jaune et noir du VCS Altkirch passer au sein d'un peloton ? C'est l'exercice que les supporters du VCS Altkirch ont enfin pu pratiquer à nouveau, après de trop longs mois d'attente ! D'abord *samedi au critérium d'Eckwersheim*, 1ère course alsacienne. Un maillot parmi les minimes, celui de Matthieu (11e sur 21), un parmi les cadets, celui de Mathias (14e sur 41), et enfin un maillot taille XXL généralement facile à apercevoir, chez les Pass D1-D2, celui de **Christophe qui s'est classé 5e** de cette épreuve de reprise !
@@ -12,7 +12,7 @@ Parmi les 160 coureurs de cette dernière épreuve, les deux Antoine, Thibaud, F
 Sur la ligne, **Thibaud terminait 15ème d'une épreuve remportée par Pierre Gautherat (VC Dolois), tandis que Florian et Antoine terminaient respectivement aux 25e et 30e place** (visiblement soucieux d'opter pour des places qui soient également multiples de 5).
 
 
-![Photo Authoison]({{ site.baseurl }}assets/images/20_Authoison_1.jpg){: .center-image }
+![Photo Authoison]({{ site.baseurl }}assets/images/20_Authoison_0.jpg){: .center-image }
 _Thibaud et Antoine dans la course des 3-J - Photo Merlinjm_
 
 Pendant ce temps, le peloton des 1-2, essentiellement constitué de coureurs de division nationale, filait à une allure digne de MotoGP (43.7km/h de moyenne sur 134km !). Le seul représentant altkirchois, Arnaud, ne s'y est pas contenté de suivre le rythme infernal imposé par les CC Etupes, Chambéry Cyclisme Formation et autres, mais allait encore se placer dans le sprint massif du jour : en prenant une **très belle 22ème place**, Arnaud signait là une excellente performance et terminait à la fois 2e coureur de 2e catégorie et 2e coureur hors-DN ! Classement complet [ici](https://www.directvelo.com/actualite/82872/prix-d-authoison-classement).
