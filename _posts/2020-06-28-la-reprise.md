@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Les sorties club font leur retour !"
-featured : yes
+featured : no
 image: assets/images/20_Soubey_Groupe.jpg
 ---
   
