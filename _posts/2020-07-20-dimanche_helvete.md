@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Un dimanche chez les helvètes"
-featured : yes
+featured : no
 image: assets/images/20_Gotthard2.jpg
 ---
   
