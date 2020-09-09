@@ -8,14 +8,14 @@ image: assets/images/20_Boron.jpg
 
 Après avoir passé une semaine à voir Hugo Hofstetter briller sur les routes du Tour de France, avec 3 top 10 avant la première journée repos, les amateurs du VCS Altkirch pouvaient presque se sentir coupable s'ils ne parvenaient pas au minimum à égaler ses performances.. à l'échelle régionale.
 
-Alors dès samedi à Montigny-lès-Vesoul, en 23J et avec une centaine de partants, Thibaud se montrait offensif et se retrouvait dans la bonne échappée dès le 2e des 10 tours à parcourir, avec une vingtaine de coureurs. À mi-course, l'echappée perdait des éléments à l'usure mais un contre venait la renforcer, avec Florian en son sein.
-Les deux altkirchois s'accrochaient malgré les changements de rythme et cassures dans le final, pour terminer finalement 9e et 10e au sommet de la (nouvelle) bosse d'arrivée. Un beau résultat pour une course de ce niveau, qui pouvait leur redonner confiance !
+Alors dès **samedi à Montigny-lès-Vesoul**, en 23J et avec une centaine de partants, Thibaud se montrait offensif et se retrouvait dans la bonne échappée dès le 2e des 10 tours à parcourir, avec une vingtaine de coureurs. À mi-course, l'echappée perdait des éléments à l'usure mais un contre venait la renforcer, avec Florian en son sein.
+Les deux altkirchois s'accrochaient malgré les changements de rythme et cassures dans le final, pour terminer finalement 9e et 10e au sommet de la (nouvelle) bosse d'arrivée ! Un beau résultat pour une course de ce niveau, qui pouvait leur donner confiance pour la suite.
 
 ![Thibaud]({{ site.baseurl }}assets/images/20_Boron_1.jpg){: .center-image }
 _Rares sont les clichés de Thibaud dans le peloton ce samedi : il a passé presque toute la course dans l'échappée ! Photo Merlinjm_
 
 
-Dimanche, en FSGT à Boron, des 9e et 10e places n'auraient en revanche pas convenu aux altkirchois. Mais avec un formato original, à savoir une course par handicap avec classements séparés, les manoeuvres étaient délicates. 
+**Dimanche, en FSGT à Boron,** des 9e et 10e places n'auraient en revanche pas convenu aux altkirchois. Mais avec un format original, à savoir une course par handicap avec classements séparés, les manoeuvres étaient délicates. 
 
 Une échappée de 4 coureurs des 2-3, avec Antoine, bouchait les 3' de retard sur les S4 après 25km, avant que le peloton des V4 ne soit rejoint vers le 40e km. Restait à ce moment encore en tête une échappée de trois solides rouleurs des V4 dont l'avance (1'30 à 2') ne semblait pas décliner : Le VCSA haussait alors le rythme dans le peloton pour rattraper le trio à une dizaine de kilomètres. Mais ce rythme soutenu empêchait aussi définitivement le reste des 2-3 (y compris hélas Thibaud, seul en chasse-patate), de revenir sur ce peloton de S4-V4 !
 
