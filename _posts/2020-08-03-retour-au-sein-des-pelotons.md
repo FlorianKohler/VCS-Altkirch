@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "De retour au sein des pelotons !"
-featured : yes
+featured : false
 image: assets/images/20_Authoison_0.jpg
 ---
   
