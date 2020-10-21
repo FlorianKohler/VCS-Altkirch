@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Onay, Esprels, Danjoutin... et le Tour de France"
-featured : yes
+featured : false
 image: assets/images/20_Aout_1.jpg
 ---
   
