@@ -19,7 +19,7 @@ _Rares sont les clichés de Thibaud dans le peloton ce samedi : il a passé pres
 
 Une échappée de 4 coureurs des 2-3, avec Antoine, bouchait les 3' de retard sur les S4 après 25km, avant que le peloton des V4 ne soit rejoint vers le 40e km. Restait à ce moment encore en tête une échappée de trois solides rouleurs des V4 dont l'avance (1'30 à 2') ne semblait pas décliner : Le VCSA haussait alors le rythme dans le peloton pour rattraper le trio à une dizaine de kilomètres. Mais ce rythme soutenu empêchait aussi définitivement le reste des 2-3 (y compris hélas Thibaud, seul en chasse-patate), de revenir sur ce peloton de S4-V4 !
 
-À trois tours de la fin, c'est d'abord les cadets (partis avec les S4) qui se sont disputés la victoire au sprint, **et le VCS Altkirch cherchait sa première victoire avec la solide victoire de Mathias !**
+À trois tours de la fin, c'est d'abord les cadets (partis avec les S4) qui se sont disputé la victoire au sprint, **et le VCS Altkirch cherchait sa première victoire avec la solide victoire de Mathias !**
 
 
 Dans le peloton principal des adultes, l'objectif des altkirchois devenait alors d'imiter Mathias et de remporter le classement scratch. Et à ce jeu, c'est **Valentin qui montrait une sacrée forme et un tempérament très offensif, en sortant d'abord avec 4 autres coureurs, puis en accélérant pour en distancer 2, avant d'enfin régler aisément le trio dans la ligne droite finale !** Une victoire amplement méritée après sa 3e place à Danjoutin.
