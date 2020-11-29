@@ -1,0 +1,108 @@
+---
+layout: post
+title: Test
+---
+
+<h3> Formulaire d'engagement </h3>
+<form id="engagement" name="engagement" action="/paiement-3h" method="POST" data-netlify="true">
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+
+    <h4>Coureur 1 :</h4>
+
+   <div class="form-group">
+    <label for="nomun">Nom :</label><br> 
+    <input type="text" id="nomun" name="nomun" required>
+  </div>
+
+  <div class="form-group">
+    <label for="prenomun">Prénom :</label><br>
+    <input type="text" id="prenomun" name="prenomun" required>
+  </div>
+
+  <div class="form-group">
+    <input type="radio" id="hommeun" name="gender" value="hommeun">
+      <label for="hommeun">Homme</label><br>
+  </div>
+
+  <div class="form-group">
+    <input type="radio" id="femmeun" name="gender" value="femmeun" required>
+    <label for="femmeun">Femme</label><br>
+  </div>
+
+  <div class="form-group">
+    Date de naissance :<br>
+      <input type="date" id="naissanceun" name="naissanceun"
+         value="2000-01-31"
+         min="1900-01-01" max="2020-01-01" required>
+  </div>
+
+  <div class="form-group">
+    <label for="telephoneun">Téléphone :</label><br>
+    <input type="text" id="telephoneun" name="telephoneun" required>
+  </div>
+
+    <div class="form-group">
+      <label for="mailun">Mail :</label><br>
+      <input type="text" id="mailun" name="mailun" required>
+
+  <br>
+
+    <h4>Coureur 2 :</h4>
+
+    <div class="form-group">
+      <label for="nomdeux">Nom :</label><br>
+      <input type="text" id="nomdeux" name="nomdeux" required>
+    </div>
+
+    <div class="form-group">
+      <label for="prenomun">Prénom :</label><br>
+      <input type="text" id="prenomdeux" name="prenomdeux" required>
+    </div>
+
+      <div class="form-group">
+      <input type="radio" id="hommedeux" name="gender" value="hommedeux" required>
+      <label for="hommedeux">Homme</label>
+    </div>
+
+    <div class="form-group">
+      <input type="radio" id="femmeun" name="gender" value="femmedeux" required>
+      <label for="femmedeux">Femme</label>
+    </div>
+
+    <div class="form-group">
+      Date de naissance :<br>
+      <input type="date" id="naissancedeux" name="naissancedeux"
+         value="2000-01-31"
+         min="1900-01-01" max="2020-01-01" required>
+    </div>
+
+  <div class="form-group">
+    <label for="telephonedeux">Téléphone :</label><br>
+    <input type="text" id="telephonedeux" name="telephonedeux" required>
+  </div>
+
+  <div class="form-group">
+      <label for="maildeux">Mail :</label><br>
+      <input type="text" id="maildeux" name="maildeux" required>
+    </div>
+
+  <br>
+
+  <p><input id="field_terms" type="checkbox" required name="terms">J'ai lu et j'accepte le </a href="https://vcs-altkirch.fr/reglement-3h.pdf">règlement</a>. Je m'engage notamment à fournir, pour chacun des participants, un certificat médical de non contre-indication à la pratique du VTT en compétition de moins d'un an à l'organisateur.</p>
+
+  <button
+    class="btn btn-primary"
+    id="confirm"
+    role="link"
+    type="submit"
+  >
+  <!--DECIDE WHICH TYPE???-->
+    Confirmer et payer
+  </button>
+
+</form>
+
+<div id="error-message"></div>
+
+
+
