@@ -3,8 +3,17 @@ layout: post
 title: Test
 ---
 
+<script>
+  ('#engagement').submit(function() {
+  var value = $('#repas').val(); 
+    this.action = '/paiement-3h-' + repas +'r.html';
+    return true;
+}
+</script>
+
+
 <h3> Formulaire d'engagement </h3>
-<form id="engagement" name="engagement" action="/paiement-3h" method="POST" data-netlify="true">
+<form id="engagement" name="engagement" method="POST" data-netlify="true">
 <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
 
     <h4>Coureur 1 :</h4>
@@ -44,7 +53,12 @@ title: Test
     <div class="form-group">
       <label for="mailun">Mail :</label><br>
       <input type="text" id="mailun" name="mailun" required>
+    </div>
 
+    <div class="form-group">
+      <label for="cmun">Certificat Médical :</label><br>
+      <input type="file" accept="image/*,.pdf" id="CMun">
+    </div>
   <br>
 
     <h4>Coureur 2 :</h4>
@@ -86,9 +100,26 @@ title: Test
       <input type="text" id="maildeux" name="maildeux" required>
     </div>
 
+    <div class="form-group">
+      <label for="cmdeux">Certificat Médical :</label><br>
+      <input type="file" accept="image/*,.pdf" id="CMdeux">
+    </div>
+
+
+    <h4>Repas supplémentaires</h4>
+    Chaque binôme engagé reçoit deux tickets repas par défaut. Mais vous pouvez également réserver des repas supplémentaires pour vos accompagnateurs :
+
+     <label for="repas">Nombre de repas supplémentaires :</label>
+      <select id="repas" name="repas">
+        <option value="0">0</option>
+        <option value="1">1 (+10€)</option>
+        <option value="2">2 (+20€)</option>
+        <option value="3">3 (+30€)</option>
+        <option value="4">4 (+40€)</option>
+      </select> 
   <br>
 
-  <p><input id="field_terms" type="checkbox" required name="terms">J'ai lu et j'accepte le </a href="https://vcs-altkirch.fr/reglement-3h.pdf">règlement</a>. Je m'engage notamment à fournir, pour chacun des participants, un certificat médical de non contre-indication à la pratique du VTT en compétition de moins d'un an à l'organisateur.</p>
+  <p><input id="field_terms" type="checkbox" required name="terms"> J'ai lu et j'accepte le </a href="https://vcs-altkirch.fr/reglement-3h.pdf">règlement</a>. Je m'engage notamment à fournir, pour chacun des participants, un certificat médical de non contre-indication à la pratique du VTT en compétition de moins d'un an à l'organisateur.</p>
 
   <button
     class="btn btn-primary"
@@ -97,12 +128,11 @@ title: Test
     type="submit"
   >
   <!--DECIDE WHICH TYPE???-->
-    Confirmer et payer
+    Confirmer mon engagement et accéder au paiement
   </button>
 
 </form>
 
 <div id="error-message"></div>
-
 
 
