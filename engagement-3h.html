@@ -10,7 +10,7 @@ title: Test
    action=""
    method="POST"
    data-netlify="true"
-   enctype="application/x-www-form-urlencoded"
+   enctype="multipart/form-data"
     >
 <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
 
@@ -119,7 +119,9 @@ title: Test
 
   <p><input id="field_terms" type="checkbox" required name="terms"> J'ai lu et j'accepte le </a href="https://vcs-altkirch.fr/reglement-3h.pdf">règlement</a>. Je m'engage notamment à fournir, pour chacun des participants, un certificat médical de non contre-indication à la pratique du VTT en compétition de moins d'un an à l'organisateur.</p>
 
-  <button action="submit"
+  <button 
+    name="confirm"
+    action="submit"
     class="btn btn-primary">
 
   <!--DECIDE WHICH TYPE???-->
@@ -136,7 +138,7 @@ title: Test
   $(function() {
    $('#engagement').submit(function(){
      var car = $('#repas').val();
-     $(this).attr('action', '/paiement-3h-' + car + "r.html");
+     $(this).attr('action', '/paiement-3h-' + car + "r");
    });
   });
 </script>
