@@ -3,21 +3,15 @@ layout: post
 title: Test
 ---
 
-
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-
-
-  ('#engagement').submit(function() {
-  var value = $('#repas').val(); 
-    this.action = '/paiement-3h-' + value +'r.html';
-    return true;
-})
-</script>
-
-
 <h3> Formulaire d'engagement </h3>
-<form id="engagement" name="engagement" method="POST" data-netlify="true">
+<form 
+   name="engagement"
+   id="engagement"
+   action=""
+   method="POST"
+   data-netlify="true"
+   enctype="application/x-www-form-urlencoded"
+    >
 <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
 
     <h4>Coureur 1 :</h4>
@@ -125,12 +119,9 @@ title: Test
 
   <p><input id="field_terms" type="checkbox" required name="terms"> J'ai lu et j'accepte le </a href="https://vcs-altkirch.fr/reglement-3h.pdf">règlement</a>. Je m'engage notamment à fournir, pour chacun des participants, un certificat médical de non contre-indication à la pratique du VTT en compétition de moins d'un an à l'organisateur.</p>
 
-  <button
-    class="btn btn-primary"
-    id="confirm"
-    role="link"
-    type="submit"
-  >
+  <button action="submit"
+    class="btn btn-primary">
+
   <!--DECIDE WHICH TYPE???-->
     Confirmer mon engagement et accéder au paiement
   </button>
@@ -140,3 +131,12 @@ title: Test
 <div id="error-message"></div>
 
 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script>
+  $(function() {
+   $('#engagement').submit(function(){
+     var car = $('#repas').val();
+     $(this).attr('action', '/paiement-3h-' + car + "r.html");
+   });
+  });
+</script>
