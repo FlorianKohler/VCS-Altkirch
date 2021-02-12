@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: vcs-altkirch.fr
+Token: 3aba6ddc0dc77509689354449ac5575f831108abe1f3fa8c75a19d6112c20d4c
