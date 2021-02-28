@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Val, enfin !"
-featured : yes
+featured : no
 image: assets/images/20_Boron.jpg
 ---
 
