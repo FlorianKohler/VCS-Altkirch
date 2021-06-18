@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Clap de fin pour la saison route 2020"
-featured : yes
+featured : no
 image: assets/images/20_TTB.jpg
 ---
 
