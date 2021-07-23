@@ -29,7 +29,7 @@ L'hiver, une séance d'entraînement en salle a également lieu les vendredis so
 
 
 ### Pour l'école de cyclisme
-Les entraînements des écoles de cyclisme ont lieu le samedi après-midi, Rue du Manège à Altkirch, encadrés par Patrick (diplômé BF1). Là encore, n'hésitez pas à consulter le <a href="http://veloclubaltkirch.xoo.it/index.php">forum</a> ou à nous contacter par mail à l'adresse [vcsaltkirch@gmail.com](mailto:vcsaltkirch@gmail.com).
+Les entraînements des écoles de cyclisme ont lieu le samedi après-midi, à 14h, au quartier Plessier, en face du restaurant Marie Pire. Là encore, n'hésitez pas à consulter le <a href="http://veloclubaltkirch.xoo.it/index.php">forum</a> ou à nous contacter par mail à l'adresse [vcsaltkirch@gmail.com](mailto:vcsaltkirch@gmail.com).
 
 
 ### Club Strava
