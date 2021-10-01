@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reprise victorieuse à Jettingen"
-featured : yes
+featured : no
 image: assets/images/21_Jettingen4.jpg
 ---
 
