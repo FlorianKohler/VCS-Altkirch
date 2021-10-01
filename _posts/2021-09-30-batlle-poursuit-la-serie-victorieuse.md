@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Julien poursuit la belle série"
+title:  "Julien poursuit la belle série à Seppois"
 featured : yes
 image: assets/images/21_Seppois2.jpg
 ---
@@ -12,17 +12,17 @@ _Briefing d'avant-course !_
 
 En n'ayant pas forcément dans ses rangs de puncheur qui soit certain de s'imposer en cas d'arrivée groupée, le VCSA optait pour une course collective et offensive : dès le 1er des 90 kilomètres de course, Julien Batlle plaçait la première accélération et s'isolait en tête de course. Son avance sur un peloton alternant temps morts et accélérations montait puis stagnait autour de 40". En ayant l'homme de tête fréquemment en ligne de mire, le peloton finissait par s'endormir un peu. Les altkirchois relançaient alors d'eux-mêmes la course pour essayer soit d'apporter du soutien à Julien, soit de lui permettre de se reposer un peu. Finalement, Julien était repris mais aucune autre échappée ne parvenait à prendre de l'avance pendant plusieurs tours, malgré plusieurs offensives. 
 
-À trois tours et demi de l'arrivée, entre Ueberstrass et Seppois, les coureurs du peloton (bien amaigri au fil des tours) éprouvaient le besoin de souffler : c'est à ce moment là que Julien, tout juste remis de ses efforts de début de course, faussait à nouveau compagnie au peloton, en s'en extirpant à sa façon, [en facteur](https://www.ouest-france.fr/tour-de-france/tour-de-france-un-jour-une-expression-partir-en-facteur-5119721). Et tout comme au 1er tour, son avance décollait rapidement pour atteindre la minute. Mais cette fois, l'écart grimpait même au delà, atteignant à deux tours de la fin près de deux minutes. . Derrière, le reste des altkirchois sentait que Julien pouvait aller au bout, et redoublait donc d'efforts pour contrôler les différentes tentatives de contre-attaques, de Schweitzer ou Foehrle notamment. Seul Anthony Uldry (CC Etupes) eût un bon de sortie, mais il ne parvenait pas à revenir sur Julien.
+À trois tours et demi de l'arrivée, entre Ueberstrass et Seppois, les coureurs du peloton (bien amaigri au fil des tours) éprouvaient le besoin de souffler : c'est à ce moment là que Julien, tout juste remis de ses efforts de début de course, faussait à nouveau compagnie au peloton, en s'en extirpant à sa façon, [en facteur](https://www.ouest-france.fr/tour-de-france/tour-de-france-un-jour-une-expression-partir-en-facteur-5119721). Et tout comme au 1er tour, son avance décollait rapidement pour atteindre la minute. Mais cette fois, l'écart grimpait même au-delà, atteignant à deux tours de la fin près de deux minutes. Derrière, le reste des altkirchois sentait que Julien pouvait aller au bout, et redoublait donc d'efforts pour contrôler les différentes tentatives de contre-attaques, de Schweitzer ou Foehrle notamment. Seul Anthony Uldry (CC Etupes) eût un bon de sortie, mais il ne parvenait pas à revenir sur Julien.
 
 ![Julien seul en tête]({{ site.baseurl }}assets/images/21_Seppois2.jpg){: .center-image }
-_Julien échappée... !_
+_Julien seul à l'avant... !_
 
 ![Les équipiers]({{ site.baseurl }}assets/images/21_Seppois3.jpg){: .center-image }
-_... et derrière, ses équipiers veillent au grain !_
+_... tandis qu'à l'arrière, ses équipiers veillent au grain !_
 
 Finalement, quelques minutes après le sacre mondial en solitaire de son quasi homonyme de prénom Julian Alaphilippe à Louvain, **Julien s'imposait** de la même manière, malgré des crampes, et s'adjugeait donc par la même occasion le titre de champion d'Alsace FSGT seniors sur route 2021 ! À un peu plus d'une minute du vainqueur, Anthony Uldry prenait la 2e place en évitant de peu le retour du peloton, au sein dulequel on retrouvait les autres altkirchois (Mathias 7e, Valentin 10e, Florian 14e, Antoine 17e).
 
-Plus tôt, dans la course des +40 ans (Vétérans, Super-Vétérans, Anciens), Alexis Ballester et Daniel Fricker avaient bien tenté sans cesse d'intégrer des échappées, la victoire s'est finalement jouée au sprint : jeu auquel David Arnoux (UC Lutterbach) se montrait le plus fort. Alexis terminait 5e et Daniel 9e.
+Plus tôt, dans la course des +40 ans (Vétérans, Super-Vétérans, Anciens), Alexis Ballester et Daniel Fricker avaient bien tenté sans cesse d'intégrer des échappées, la victoire s'est finalement jouée au sprint. Dans cet exercice, c'est David Arnoux (UC Lutterbach) qui se montrait le plus fort, alors qu'Alexis terminait 5e et Daniel 9e.
 
 René s'était de son côté également accroché pour terminer dans le peloton, en résistant malgré le gros tempo imposé à plusieurs reprises par les jeunes quarantenaires dans l'ascension de Seppois-le-Bas. Et en terminant 13e, **il s'adjugeait le titre de champion d'Alsace FSGT Anciens** !
 
