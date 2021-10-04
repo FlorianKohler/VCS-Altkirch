@@ -35,12 +35,12 @@ Côté minimes enfin, Nathan terminait 5e et Louis 6e, tandis que Paul Muller (E
 
 Cette belle journée de cyclisme se clôturait par la cérémonie protocolaire, qui mettait encore plus en évidence **tout le travail de Geneviève Hofstetter, organisatrice principale du GP de Seppois-le-Bas** : avec des lots pour tous les coureurs, des bouquets et coupes en nombre, la remise des prix faisait beaucoup d'heureux. D'autant plus qu'elle était couplée à la distribution des médailles et maillots de champion(ne)s aux meilleurs alsacien(ne)s, effectuée par Mickaël Jacquot, vice-président Route de la FSGT Alsace section cyclisme.
 
-![Une remise des prix riche en lots]({{ site.baseurl }}assets/images/21_Seppois7.jpg){: .center-image }
+![Une remise des prix riche en lots]({{ site.baseurl }}assets/images/21_Seppois6.jpg){: .center-image }
 
 L'épreuve avait également l'honneur d'avoir **Hugo Hofstetter présent comme spectateur** : entre une 4e place à Denain (5 jours plus tôt) et une 5e place à l'Eurométropole Tour (3 jours plus tard), mais surtout à une semaine de Paris-Roubaix, il profitait de son dimanche après-midi pour recharger les batteries au bord des routes de sa jeunesse. [Rapppelons qu'il avait terminé 2e du GP de l'épreuve 2-3 du GP Seppois-le-Bas en 2011](https://www.lalsace.fr/sport/2011/03/21/flandre-en-routier), lorsqu'il était junior 1ère année. La même année, il avait également remporté le championnat Alsace Franche-Comté FSGT à Danjoutin, puis terminé vice-champion national FSGT juniors...
 Des courses FSGT à l'Enfer du Nord en WorldTour, il n'y a qu'un pas !
 
-![Les champions]({{ site.baseurl }}assets/images/21_Seppois6.jpg){: .center-image }
+![Les champions]({{ site.baseurl }}assets/images/21_Seppois7.jpg){: .center-image }
 
 Photos : Pierre Delunsch
 
