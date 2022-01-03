@@ -11,11 +11,6 @@ Le VCS Altkirch ne serait rien sans ses partenaires et les remercie particulièr
 Antonio Caccese électricité industrielle - Travaux d'installation électrique, de dépannage et de mise aux normes électriques entre autres.  
 Basé à Waldighoffen.
 
-#### • Arcade Engineering GmbH
-
-Votre partenaire expérimenté pour des prestations d'ingénierie et pour la planification de projets d'équipements industriels.  
-=> Plus d'infos sur le [site de Arcade Engineering](http://arcade-engineering.com/Accueil.html).
-
 #### • Boucherie Schmidlin
 
 Boucherie - Charcuterie - Traiteur à Altkirch depuis 1977.
@@ -64,6 +59,12 @@ Prothésistes dentaires à Altkirch depuis 2002.
 #### • Marc Boetsch
 
 Entreprise de menuiseries métalliques à Altkirch.
+
+
+#### • Peduzzi Taille de pierre
+
+Tailleur de pierre à Balschwiller. Aménagements extérieurs et intérieurs, escaliers et dallages, plans de travail de cuisine, restauration du patrimoine, aménagements funéraires et cinéraires.
+=> Plus d'infos sur la [page Facebook de Peduzzi Taille de pierre](https://www.facebook.com/Peduzzi-Taille-de-Pierre-373836173170649).
 
 #### • Setal : Menuiserie Aluminuum
 
