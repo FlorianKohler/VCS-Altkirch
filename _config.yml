@@ -11,6 +11,8 @@ baseurl: '/'
 email: 'webmaster-vcsa@ntymail.com'
 
 
+
+
 # Plugins
 plugins: 
   - jekyll-paginate
@@ -18,7 +20,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+    
 
 # Other
 markdown: kramdown
 highlighter: rouge
+
