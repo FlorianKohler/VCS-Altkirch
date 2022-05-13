@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Les courses s'enchaînent, les résultats s'améliorent"
-featured : yes
+featured : no
 image: assets/images/21_Authoison.jpg
 ---
 
