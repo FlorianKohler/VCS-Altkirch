@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GP de Dannemarie : Les horaires de départ"
+title:  "GP de Dannemarie : Les classements du CLM"
 featured : yes
 image: assets/images/19_GP_Dannemarie.jpg
 ---
