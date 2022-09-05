@@ -19,12 +19,12 @@ Mais, bien qu'entouré de plusieurs coéquipiers, Lucas Vincent savait qu'il lui
 
 Si, à l'issue des 3 tours premiers tours de 20km - sur 5 à parcourir, le peloton était encore groupé, l'avant-dernier tour voyait les premières échappées se former. Et dans le dernier tour, c'est une groupe d'une vingtaine de coureurs qui prenait une nette avance sur le peloton : parmi ce peloton, on ne retrouvait pas le maillot jaune, mais ses poursuivants (Nocquet, Brondani, Navarro) étaient bien présents !
 
-![Briefing]({{ site.baseurl }}assets/images/22_GP_Dannemarie_2.jpg){: .center-image }
+![Briefing]({{ site.baseurl }}assets/images/22_GP_Dannemarie_4.jpg){: .center-image }
 _Nocquet, maillot vert, à l'offensif mais suivi de près par Vincent, maillot jaune_
 
 À quelques kilomètres de l'arrivée, il était certain que le maillot changerait donc d'épaules : mais sur quelles épaules irait-il ? En ralliant à vive allure la ligne à Dannemarie, l'échappée ne laissait sortir personne, à l'exception d'un coureur du Team Macadam Cowboys. Mais dans l'ultime (longue) ligne droite, Julien Navarro faisait parler sa force et s'extirpait du peloton, dépassant l'homme de tête à quelques dizaines de mètres de la ligne pour finalement remporter l'étape avec une courte avance sur le reste du groupe. Avance trop courte pour compenser les écarts du matin : au classement général, c'est bien Nocquet qui s'imposait, devant Brondani et Navarro.
 
-Les classements complets sont à consulter [ici]({{ site.baseurl }}assets/Classements_GP_Dannemarie_22.pdf)
+Les classements de la 2e étape et généraux sont à consulter [ici]({{ site.baseurl }}assets/Classements_GP_Dannemarie_22.pdf)
 
 ![Maillots finaux]({{ site.baseurl }}assets/images/22_GP_Dannemarie_3.jpg){: .center-image }
 _Les lauréats finaux_
