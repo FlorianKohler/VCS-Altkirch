@@ -11,10 +11,6 @@ Le VCS Altkirch ne serait rien sans ses partenaires et les remercie particulièr
 Antonio Caccese électricité industrielle - Travaux d'installation électrique, de dépannage et de mise aux normes électriques entre autres.  
 Basé à Waldighoffen.
 
-#### • Boucherie Schmidlin
-
-Boucherie - Charcuterie - Traiteur à Altkirch depuis 1977.
-
 #### • La Cave de L'Ill
 
 Caviste à Brunstatt - Marchand et magasin de vin pour l'achat de vos vins et spiritueux - Boutique spécialiste en vins - Magasin de vente en ligne de vins biologiques, vins natures, vins biodynamie/biodynamiques, vins sans sulfites, vins sans colle et sans filtration.  
@@ -59,7 +55,6 @@ Prothésistes dentaires à Altkirch depuis 2002.
 #### • Marc Boetsch
 
 Entreprise de menuiseries métalliques à Altkirch.
-
 
 #### • Peduzzi Taille de pierre
 
