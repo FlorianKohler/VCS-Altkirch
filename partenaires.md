@@ -61,10 +61,15 @@ Entreprise de menuiseries métalliques à Altkirch.
 Tailleur de pierre à Balschwiller. Aménagements extérieurs et intérieurs, escaliers et dallages, plans de travail de cuisine, restauration du patrimoine, aménagements funéraires et cinéraires.
 => Plus d'infos sur la [page Facebook de Peduzzi Taille de pierre](https://www.facebook.com/Peduzzi-Taille-de-Pierre-373836173170649).
 
-#### • Setal : Menuiserie Aluminuum
+#### • Setal : Menuiserie Aluminium
 
 La société Setal (Société Européenne de Transformation Aluminium, SARL) créée en 1997, par M. Vaxelaire est située à Montbéliard dans le département du Doubs (25) et intervient pour la transformation de produits aluminium pour les industries et les collectivités essentiellement.  
 => Plus d'infos sur le [site de Setal](http://www.setal.eu).
+
+#### • Start Electricité
+
+Electricien pour pros et particuliers, basé à Lutterbach.  
+=> Plus d'infos sur le [site de Start Electricité](https://www.start-electricite.fr/).
 
 Merci également à la [ville d'Altkirch](http://www.mairie-altkirch.fr), au [Conseil départemental du Haut-Rhin](https://www.haut-rhin.fr/) et à [la Communauté de Communes Sundgau](https://www.cc-sundgau.fr/) pour leur soutien !
 
