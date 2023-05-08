@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GP de Dannemarie : Baldinger prend l'avantage"
+title:  "GP de Dannemarie : Baldinger vainqueur"
 featured : yes
 image: assets/images/23_GP_Dannemarie_2.jpg
 ---
@@ -18,7 +18,7 @@ Le classements de l'étape en ligne : [ici]({{ site.baseurl }}assets/Classements
 Le classement général : [ici]({{ site.baseurl }}assets/Classements_GP_Dannemarie_23_CG.pdf)
 
 ![Photo du vainqueur]({{ site.baseurl }}assets/images/23_GP_Dannemarie_1.jpg){: .center-image }
-_Lukas Baldinger a dominé le Grand Prix de Dannemarie 2023_
+_Lukas Baldinger a dominé le Grand Prix de Dannemarie 2023 - Photo Coralie Rehm_
 
 
 
