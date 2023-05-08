@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Julien poursuit la belle série à Seppois"
-featured : yes
+featured : no
 image: assets/images/21_Seppois2.jpg
 ---
 
