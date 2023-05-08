@@ -5,14 +5,20 @@ featured : yes
 image: assets/images/23_GP_Dannemarie_2.jpg
 ---
 
-Epargné par la pluie et exceptionnellement exonéré par l'ascension vers le Gildwiller-le-Mont, le contre-la-montre individuel du Grand Prix de Dannemarie a permis d'établir une première hiérarchie. Le meilleur rouleur s'est avéré être Lukas Baldinger (Union Cycliste de Haguenau), le coureur allemand qui s'est déjà montré à son aise ce dimanche 7 mai, du côté de Eckwersheim, avec une 2e place derrière Julien Tomasi. A plus de 47km/h de moyenne, il devance Matteo Gaudel (AC Bisontine) de 17", tandis que le podium est complété par Matthieu Ruolt (VC Sainte-Croix-en-Plaine).
+Victoire allemande ce lundi 8 mai à Dannemarie ! Lukas Baldinger, net vainqueur du CLM du matin, avec 17" d'avance sur le bisontin Matteo Gaudel, a su conserver son maillot jaune l'après-midi ! 
 
-Ce lundi, personne n'a su rivaliser avec le rouleur du club bas-rhinois, déjà vainqueur en Alsace cette année en Elite au GP de Wittenheim. L'Union Cycliste Haguenau, présente avec plusieurs éléments, tentera cet après-midi de défendre le maillot jaune porté par son leader. Et tentera de changer la tendance du GP de Dannemarie, où le maillot jaune à l'issue du CLM n'est parvenu à conserver son bien lors d'aucune des trois dernières éditions.
+Après 3 éditions où les vainqueurs du CLM matinal ont été détrônés de leur maillot jaune, l'édition 2023 du GP de Dannemarie a enfin vu un maillot jaune rester sur les mêmes épaules ! Bien entouré par un collectif de l'UC Haguenau qui a choisi de mettre des coureurs - sans rouler - dans les différentes échappées pour leur nuire, le concurrent allemand de l'UC Haguenau, 2e la veille du critérium Eckwersheim, n'a pas fléchi.
 
-Les classements du CLM : [ici]({{ site.baseurl }}assets/Classements_GP_Dannemarie_23_CLM.pdf)
+Malgré les différentes tentatives d'échappée, et en dépit de la section "gravel" en amont de l'ascension de Gildwiller-le-Mont, une trentaine de coureur s'est finalement disputée l'étape de l'après-midi au sprint. Sprint remporté par l'explosif Romain Debord (Cross Team Legendre).
+
+Le classement général est donc resté celui du contre-la-montre dans les premières places : Lukas Badinger devance Matteo Gaudel (AC Bisontine) de 17", tandis que le podium est complété par Matthieu Ruolt (VC Sainte-Croix-en-Plaine). Ce dernier, 2e de l'étape de l'après-midi, en profite pour accumuler les maillots : maillot blanc de mailleur jeune (junior), mais surtout champion d'Alsace !
+
+Le classements du CLM : [ici]({{ site.baseurl }}assets/Classements_GP_Dannemarie_23_CLM.pdf)
+Le classements de l'étape en ligne : [ici]({{ site.baseurl }}assets/Classements_GP_Dannemarie_23_ET2.pdf)
+Le classement général : [ici]({{ site.baseurl }}assets/Classements_GP_Dannemarie_23_CG.pdf)
 
 ![Photo du vainqueur]({{ site.baseurl }}assets/images/23_GP_Dannemarie_1.jpg){: .center-image }
-_Lukas Baldinger portera le maillot jaune cet après-midi_
+_Lukas Baldinger a dominé le Grand Prix de Dannemarie 2023_
 
 
 
