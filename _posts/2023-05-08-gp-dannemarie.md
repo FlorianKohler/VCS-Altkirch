@@ -13,7 +13,7 @@ L'étape de l'après-midi, pimentée par une section "gravel" avant l'ascension,
 
 Au terme des 5 tours, parsemés par les sprints intermédaires (**maillot vert remporté par Brieuc Heyer**) et GPM (**maillot rouge remporté par Mathias Gast**), c'est donc un peloton groupé, quoique réduit (environ 25 coureurs), avec tous les coureurs les mieux classés au CLM qui s'est présenté à l'entrée de longue ligne droite d'arrivée à Dannemarie. Et au jeu du sprint, l'explosif spécialiste du VTT & cyclo-cross Romain Debord (Cross Team Legendre) levait les bras !
 
-Le classement général est donc resté celui du contre-la-montre dans les premières places : **Lukas Baldinger endosse le maillot jaune** ; il devance Matteo Gaudel (AC Bisontine) de 17", tandis que le podium est complété par **Matthieu Ruolt** (VC Sainte-Croix-en-Plaine). Ce dernier, 2e de l'étape de l'après-midi, en profite pour accumuler les maillots : **maillot blanc** de mailleur jeune (junior), mais surtout **champion d'Alsace** !
+Le classement général est donc resté celui du contre-la-montre dans les premières places : **Lukas Baldinger endosse le maillot jaune** ; il devance Matteo Gaudel (AC Bisontine) de 17", tandis que le podium est complété par **Matthieu Ruolt** (VC Sainte-Croix-en-Plaine). Ce dernier, 2e de l'étape de l'après-midi, en profite pour accumuler les maillots : **maillot blanc** de meilleur jeune (junior), mais surtout **champion d'Alsace** !
 
 * Le classements du CLM : [ici]({{ site.baseurl }}assets/Classements_GP_Dannemarie_23_CLM.pdf)
 * Le classements de l'étape en ligne : [ici]({{ site.baseurl }}assets/Classements_GP_Dannemarie_23_ET2.pdf)
