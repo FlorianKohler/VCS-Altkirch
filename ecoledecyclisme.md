@@ -17,7 +17,7 @@ L’école de cyclisme du Vélo Club Sundgovia d’Altkirch accueille une vingta
 **Formation :** Les jeunes sont encadré(e)s et conseillé(e)s par un éducateur qualifié par la fédération française de cyclisme qui est un gage de sécurité, aidé de bénévoles.
 
  
-**Compétition :** Les jeunes cyclistes ont la possibilité de prendre part à des mini-compétitions adaptées à leur catégorie d’âge. Au cours de la saison, les enfants participent à des compétitions organisées par le V.C. Altkirch et d’autres clubs de la région.
+**Compétition :** Les jeunes cyclistes ont la possibilité de prendre part à des mini-compétitions adaptées à leur catégorie d’âge. Au cours de la saison, les enfants participent à des compétitions organisées par le VCS Altkirch et d’autres clubs de la région.
 
  ![En course]({{ site.baseurl }}assets/images/EDV02.jpg)
 
@@ -37,6 +37,6 @@ Pendant la période hivernale, l’entraînement se déroule dans la salle Léop
 
 Pour tous renseignements, vous pouvez contacter :
 
-* Responsables de l’école de cyclisme, Denis HOESCH (tél : 07 71 23 94 72 - mail : [hoesch.denis@orange.fr](mailto:hoesch.denis@orange.fr) & Françoise LELARGE (tél : 06 07 47 34 61 - mail : [francoise.lelarge@stellantis.com](mailto:francoise.lelarge@stellantis.com))
+* Responsables de l’école de cyclisme, Denis HOESCH (tél : 07 71 23 94 72 - mail : [hoesch.denis@orange.fr](mailto:hoesch.denis@orange.fr) & Françoise LELARGE (tél : 06 07 47 34 61 - mail : [francoise.lelarge@outlook.fr](mailto:francoise.lelarge@outlook.fr))
 
-* Président du V.C.S. Altkirch, Gilles HARTMANN (tél : 06 95 42 12 78 & mail :[hartmann.gilles@gmail.com](mailto:hartmann.gilles@gmail.com))
+* Président du VCS Altkirch, Gilles HARTMANN (tél : 06 95 42 12 78 & mail :[hartmann.gilles@gmail.com](mailto:hartmann.gilles@gmail.com))
