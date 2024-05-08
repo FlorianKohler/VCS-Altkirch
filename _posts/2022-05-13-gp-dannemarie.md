@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GP de Dannemarie : Nocquet renverse Vincent"
-featured : yes
+featured : no
 image: assets/images/22_GP_Dannemarie_3.jpg
 ---
 

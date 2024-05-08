@@ -22,14 +22,12 @@ Balschwiller - D18.1 - Saint-Bernard - D18.3 - D18 - Eglingen - Hagenbach - D103
 
 ### Horaires (jeunes et adultes)
 
-Habituellement le mercredi à 15h45, l'horaire de l'entraînement varie légèrement selon les semaines, retrouvez-les en suivant le [forum du club](http://veloclubaltkirch.xoo.it/index.php) ! D'autres sorties sont également organisées, notamment le samedi et le dimanche matin.
-
+Habituellement le mercredi à 15h45, l'horaire de l'entraînement varie légèrement selon les semaines, contactez-nous pour avoir toutes les informations ! D'autres sorties sont également organisées, notamment le samedi et le dimanche matin.
 
 L'hiver, une séance d'entraînement en salle a également lieu les vendredis soir au COSEC d'Altkirch.
 
-
 ### Pour l'école de cyclisme
-Les entraînements des écoles de cyclisme ont lieu le samedi après-midi, à 14h, au quartier Plessier, en face du restaurant Marie Pire. Là encore, n'hésitez pas à consulter le <a href="http://veloclubaltkirch.xoo.it/index.php">forum</a> ou à nous contacter par mail à l'adresse [vcsaltkirch@gmail.com](mailto:vcsaltkirch@gmail.com).
+Les entraînements des écoles de cyclisme ont lieu le samedi après-midi, à 14h, au quartier Plessier, en face du restaurant Marie Pire. Là encore, n'hésitez pas à nous contacter par mail à l'adresse [vcsaltkirch@gmail.com](mailto:vcsaltkirch@gmail.com).
 
 
 ### Club Strava
