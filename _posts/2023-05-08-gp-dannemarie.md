@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GP de Dannemarie : Baldinger vainqueur"
-featured : yes
+featured : no
 image: assets/images/23_GP_Dannemarie_2.jpg
 ---
 
