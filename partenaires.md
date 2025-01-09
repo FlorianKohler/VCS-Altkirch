@@ -6,72 +6,69 @@ title: Nos partenaires
 
 Le VCS Altkirch ne serait rien sans ses partenaires et les remercie particulièrement pour leur soutien. Notamment :
 
+#### • Sundgau 2 Roues
+
+Magasin de cycle dans le Sundgau depuis près de 40 ans et désormais basé à Dannemarie (Rue de Bâle), Sundgau 2 Roues propose des produits de toutes les gammes (vélos musculaires, vélos à assistance électrique) et des prestations d'entretiens et de réparation !\
+=> Plus d'infos sur le [site de S2R](https://www.sundgau2roues.fr/) ou sur la [page Facebook](https://www.facebook.com/Sundgau2Roues).
+
+#### • Setal : Menuiserie Aluminium
+
+La société Setal (Société Européenne de Transformation Aluminium, SARL) créée en 1997 par M. Vaxelaire est située à Montbéliard dans le département du Doubs (25) et intervient pour la transformation de produits aluminium pour les industries et les collectivités essentiellement.\  
+=> Plus d'infos sur le [site de Setal](http://www.setal.eu).
+
+#### • Le Crédit Mutuel - Région Altkirch
+
+Banque coopérative qui propose également des assurances, forfaits téléphoniques, etc.\  
+=> Plus d'infos sur le [site du Crédit Mutuel](http://www.credit-mutuel.fr).
+
+#### • Express Sundgoviens - Autocars Gast
+
+Tansporteur touristique en autocars basé à Ballersdorf (sorties scolaires, famliales, de groupe, ...)\  
+=> Plus d'infos sur le [site d'Express Sundgoviens](http://www.express-sundgoviens.info) ou sur la [page Facebook](https://www.facebook.com/Express-Sundgoviens-486717881526026/).
+
+#### • Maison Bahlinger
+
+Boulangerie pâtisserie artisanale à Tagsdorf (4c Rue de Belfort) !\
+=> Retrouvez la boulangerie-pâtisserie sur sa [page Facebook](https://www.facebook.com/bahlingertagsdorf/).
+
 #### • ACEI Électricité
 
 Antonio Caccese électricité industrielle - Travaux d'installation électrique, de dépannage et de mise aux normes électriques entre autres.  
 Basé à Waldighoffen.
-
-#### • La Cave de L'Ill
-
-Caviste à Brunstatt - Marchand et magasin de vin pour l'achat de vos vins et spiritueux - Boutique spécialiste en vins - Magasin de vente en ligne de vins biologiques, vins natures, vins biodynamie/biodynamiques, vins sans sulfites, vins sans colle et sans filtration.  
-=> Plus d'infos sur le [site de la Cave de l'Ill](https://www.lacavedelill.fr/) ou sur la [page Facebook](https://www.facebook.com/lacavedelillcom/).
-
-#### • Confort 2000
-
-Votre spécialiste en électroménager ! À Altkirch et Bartenheim.  
-=> Plus d'infos sur le [site de Confort 2000](https://www.confort2000.fr/) ou sur la [page Facebook](https://www.facebook.com/Confort2000/).
-
-#### • Le Crédit Mutuel
-
-Banque coopérative, propose également des assurances, forfaits téléphoniques, etc.  
-=> Plus d'infos sur le [site du Crédit Mutuel](http://www.credit-mutuel.fr).
 
 #### • Daiichi Sankyo
 
 Entreprise pharmaceutique.  
 => Plus d'infos sur le [site de Daiichi Sankyo](http://www.daiichi-sankyo.fr).
 
-#### • Express Sundgoviens - Autocars Gast
+#### • AMS
 
-Tansporteur touristique en autocars basé à Ballersdorf (sorties scolaires, famliales, de groupe, ...)  
-=> Plus d'infos sur le [site d'Express Sundgoviens](http://www.express-sundgoviens.info) ou sur la [page Facebook](https://www.facebook.com/Express-Sundgoviens-486717881526026/).
+AMS est une entreprise spécialisée dans le nettoyage professionnel en Alsace : espaces industriels, bureaux, copropriétés, cabinets médicaux et autres. AMS propose également des services spécifiques aux particuliers ainsi qu'un service d’entretien d’espaces verts !\
+=> Plus d'infos sur le [site d'AMS](https://ams.alsace/).
 
-#### • Fun2Sport
+#### • Bigstores et Fermetures, entreprise de stores et de fermetures
 
-Vos Vacances & Stages Vélo sous toutes les formes, souvent avec d'anciens Coureurs Pro et toujours avec du plaisir, de la convivialité et du Fun !  
-=> Plus d'infos sur le [site de Fun2Sport](http://www.fun2sport.fr/) ou sur la [page Facebook](https://www.facebook.com/alain.lamy.fun2sport.fr/).
+Bigstores et Fermetures répond à tous les souhaits sundgauviens en termes de menuiseries d’intérieur, d’extérieur et de stores (fenêtres, portes, portails, clôtures et stores).\
+=> Plus d'infos sur le [site de Bigstores et Fermetures](https://www.bigstores-fermetures.com/) ou directement au showroom à Koestlach !
 
-#### • Daniel Fricker Fermetures Alu & PVC
+#### • Selmoni Smart Handling
 
-Basée à Ilzach, l'entreprise Daniel Fricker Fermetures Alu & PVC (anciennement ID Fermetures) vous propose la fourniture et la pose de :  
-Fenêtres - Portes d'entrée / de service / blindées - Volets roulants / volets battants  
-Portes de garage - Stores (bannes, pergolas, etc.) - Portails / garde-corps / clôtures  
-=> Plus d'infos sur le [site de Daniel Fricker Fermetures](http://www.danielfricker-fermetures.fr/) ou sur la [page Facebook](https://www.facebook.com/DanielFrickerFermetures).
+Basé à Altkirch, Selmoni Smart Handling dispose avec son partenaire Selmoni SA, d‘une longue et solide expérience dans l‘automatisation de machines et de lignes de production.\
+=> Plus d'infos sur le [site de Selmoni Smart Handling](https://www.selmoni-sh.fr/fr/accueil/).
 
-#### • LB Prothèses Dentaires
+#### • Tactum - l'aperception du vin
 
-Prothésistes dentaires à Altkirch depuis 2002.  
+Vente de vins à Altkirch 
 
-#### • Marc Boetsch
+#### • Emporia Immobilier
 
-Entreprise de menuiseries métalliques à Altkirch.
-
-#### • Peduzzi Taille de pierre
-
-Tailleur de pierre à Balschwiller. Aménagements extérieurs et intérieurs, escaliers et dallages, plans de travail de cuisine, restauration du patrimoine, aménagements funéraires et cinéraires.
-=> Plus d'infos sur la [page Facebook de Peduzzi Taille de pierre](https://www.facebook.com/Peduzzi-Taille-de-Pierre-373836173170649).
-
-#### • Setal : Menuiserie Aluminium
-
-La société Setal (Société Européenne de Transformation Aluminium, SARL) créée en 1997, par M. Vaxelaire est située à Montbéliard dans le département du Doubs (25) et intervient pour la transformation de produits aluminium pour les industries et les collectivités essentiellement.  
-=> Plus d'infos sur le [site de Setal](http://www.setal.eu).
-
-#### • Start Electricité
-
-Electricien pour pros et particuliers, basé à Lutterbach.  
-=> Plus d'infos sur le [site de Start Electricité](https://www.start-electricite.fr/).
+Agence immobilière basée à Illfurth (vente, location, ...).\
+=> Retrouvez toutes les offres sur le [site d'Emporia Immobilier](https://www.emporia-immobilier.com/)
 
 Merci également à la [ville d'Altkirch](http://www.mairie-altkirch.fr), au [Conseil départemental du Haut-Rhin](https://www.haut-rhin.fr/) et à [la Communauté de Communes Sundgau](https://www.cc-sundgau.fr/) pour leur soutien !
 
 Votre entreprise a envie de soutenir le VCS Altkirch ? N'hésitez pas à nous écrire à [vcsaltkirch@gmail.com](mailto:vcsaltkirch@gmail.com) !
+
+
+
 
