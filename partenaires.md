@@ -31,15 +31,22 @@ Tansporteur touristique en autocars basé à Ballersdorf (sorties scolaires, fam
 Boulangerie pâtisserie artisanale à Tagsdorf (4c Rue de Belfort) !\
 => Retrouvez la boulangerie-pâtisserie sur sa [page Facebook](https://www.facebook.com/bahlingertagsdorf/).
 
+#### • Daiichi Sankyo
+
+Entreprise pharmaceutique.  
+=> Plus d'infos sur le [site de Daiichi Sankyo](http://www.daiichi-sankyo.fr).
+
+#### • Fun2Sport
+
+Vos vacances & stages vélo sous toutes les formes, parfois avec des épreuves Gran Fondo au programme, parfois avec d’anciens coureurs pro, et toujours avec du plaisir, de la convivialité et du fun !\
+=> Plus d’infos sur le [site de Fun2Sport](http://www.fun2sport.fr/) ou sur la [page Facebook](https://www.facebook.com/alain.lamy.fun2sport.fr/).
+
 #### • ACEI Électricité
 
 Antonio Caccese électricité industrielle - Travaux d'installation électrique, de dépannage et de mise aux normes électriques entre autres.  
 Basé à Waldighoffen.
 
-#### • Daiichi Sankyo
 
-Entreprise pharmaceutique.  
-=> Plus d'infos sur le [site de Daiichi Sankyo](http://www.daiichi-sankyo.fr).
 
 #### • AMS
 
