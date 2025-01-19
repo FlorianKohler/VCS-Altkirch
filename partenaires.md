@@ -74,7 +74,7 @@ Agence immobilière basée à Illfurth (vente, location, ...).\
 
 Merci également à la [ville d'Altkirch](http://www.mairie-altkirch.fr), au [Conseil départemental du Haut-Rhin](https://www.haut-rhin.fr/) et à [la Communauté de Communes Sundgau](https://www.cc-sundgau.fr/) pour leur soutien !
 
-Votre entreprise a envie de soutenir le VCS Altkirch ? N'hésitez pas à nous écrire à [vcsaltkirch@gmail.com](mailto:vcsaltkirch@gmail.com) !
+Votre entreprise a envie de soutenir le VCS Altkirch ? N'hésitez pas à nous écrire à [contact@vcs-altkirch.fr](mailto:contact@vcs-altkirch.fr) !
 
 
 

@@ -27,7 +27,7 @@ Habituellement le mercredi à 15h45, l'horaire de l'entraînement varie légère
 L'hiver, une séance d'entraînement en salle a également lieu les vendredis soir au COSEC d'Altkirch.
 
 ### Pour l'école de cyclisme
-Les entraînements des écoles de cyclisme ont lieu le samedi après-midi, à 14h, au quartier Plessier, en face du restaurant Marie Pire. Là encore, n'hésitez pas à nous contacter par mail à l'adresse [vcsaltkirch@gmail.com](mailto:vcsaltkirch@gmail.com).
+Les entraînements des écoles de cyclisme ont lieu le samedi après-midi, à 14h, au quartier Plessier, en face du restaurant Marie Pire. Là encore, n'hésitez pas à nous contacter par mail à l'adresse [contact@vcs-altkirch.fr](mailto:contact@vcs-altkirch.fr).
 
 
 ### Club Strava
