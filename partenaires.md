@@ -46,8 +46,6 @@ Vos vacances & stages vélo sous toutes les formes, parfois avec des épreuves G
 Antonio Caccese électricité industrielle - Travaux d'installation électrique, de dépannage et de mise aux normes électriques entre autres.  
 Basé à Waldighoffen.
 
-
-
 #### • AMS
 
 AMS est une entreprise spécialisée dans le nettoyage professionnel en Alsace : espaces industriels, bureaux, copropriétés, cabinets médicaux et autres. AMS propose également des services spécifiques aux particuliers ainsi qu'un service d’entretien d’espaces verts !\
@@ -57,6 +55,11 @@ AMS est une entreprise spécialisée dans le nettoyage professionnel en Alsace :
 
 Bigstores et Fermetures répond à tous les souhaits sundgauviens en termes de menuiseries d’intérieur, d’extérieur et de stores (fenêtres, portes, portails, clôtures et stores).\
 => Plus d'infos sur le [site de Bigstores et Fermetures](https://www.bigstores-fermetures.com/) ou directement au showroom à Koestlach !
+
+#### • Confort 2000
+
+Votre spécialiste en électroménager à Altkirch.\
+=> Plus d'infos sur le [site de Confort 2000](https://www.confort2000.fr/), sur la [page Facebook](https://www.facebook.com/Confort2000)... ou directement en magasin !
 
 #### • Selmoni Smart Handling
 
