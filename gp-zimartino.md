@@ -44,7 +44,7 @@ Au départ de la __3e et dernière manche__, Jules était à nouveau présent, m
 
 Soulagement, tous les gnocchis du déjeuner sont restés dans les estomacs malgré l'intensité de l'effort fourni par les athlètes du jour, qui mériteront bien un peu de rab' de pâtes au dîner (quoique, Matthieu aura du rab' seulement s'il arrête de faire la moue parce qu'il s'est fait rattraper dans la dernière montée).
 
-Bravo à tous les participants et aux bénévoles qui ont contribué à la réussite de cette épreuve.
+Bravo à tous les participants et aux bénévoles qui ont contribué à la réussite de cette épreuve, ainsi qu'à tous les enfants qui ont été des supporters formidables (et dont les coursiers attendent qu'ils reproduisent cette performance tout au long de la saison !)
 
 _L'organisation tient en particulier à souligner la présence en tant que signaleur-ambianceur du seul et unique ancien vainqueur du GP de Jettingen en S4, Antony Wurtz. Merci à cet immense champion d'honorer cette épreuve de sa présence._
 
