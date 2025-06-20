@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Ecole de cyclisme
+image: assets/images/covers/ecoledecyclisme.jpg
+
 ---
 
 

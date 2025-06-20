@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Entraînements
+image: assets/images/covers/Entrainements.jpg
 ---
 
 

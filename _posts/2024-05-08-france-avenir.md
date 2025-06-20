@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Championnats de France de l'Avenir à Altkirch"
-featured : yes
+featured : no
 image: assets/images/24_France_Avenir.jpg
 ---
 

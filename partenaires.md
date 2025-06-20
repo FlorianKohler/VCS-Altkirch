@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Nos partenaires
+image: assets/images/covers/cover_default.jpg
+
 ---
 
 

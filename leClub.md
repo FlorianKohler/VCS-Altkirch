@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Le Club en bref
+image: assets/images/covers/leClub.jpg
 ---
 
 ### Le mot du Président
