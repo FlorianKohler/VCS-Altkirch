@@ -2,7 +2,7 @@
 layout: post
 title:  "Sprints à vive allure à Ballersdorf et Charvieu-Chavagneux"
 featured : yes
-image: assets/images/25_Mi-saison_1.jpg
+image: assets/images/25_Ballersdorf_1.jpg
 ---
 
 Si tout le VCSA connaît depuis belle lurette notre sprinteur Hugo Hofstetter (toujours licencié au VCS Altkirch depuis qu'il est passé professionnel), un autre sprinteur, amateur celui-là, se fait bien connaître : Augustin Gallerne.
