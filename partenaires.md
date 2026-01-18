@@ -68,10 +68,6 @@ Votre spécialiste en électroménager à Altkirch.\
 Basé à Altkirch, Selmoni Smart Handling dispose avec son partenaire Selmoni SA, d‘une longue et solide expérience dans l‘automatisation de machines et de lignes de production.\
 => Plus d'infos sur le [site de Selmoni Smart Handling](https://www.selmoni-sh.fr/fr/accueil/).
 
-#### • Tactum - l'aperception du vin
-
-Vente de vins à Altkirch 
-
 #### • Emporia Immobilier
 
 Agence immobilière basée à Illfurth (vente, location, ...).\
