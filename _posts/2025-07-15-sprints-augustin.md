@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sprints à vive allure à Ballersdorf et Charvieu-Chavagneux"
-featured : yes
+featured : no
 image: assets/images/25_Ballersdorf_1.jpg
 ---
 
