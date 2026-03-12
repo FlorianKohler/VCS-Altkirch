@@ -73,7 +73,7 @@ Basé à Altkirch, Selmoni Smart Handling dispose avec son partenaire Selmoni SA
 Agence immobilière basée à Illfurth (vente, location, ...).\
 => Retrouvez toutes les offres sur le [site d'Emporia Immobilier](https://www.emporia-immobilier.com/)
 
-Merci également à la [ville d'Altkirch](http://www.mairie-altkirch.fr), au [Conseil départemental du Haut-Rhin](https://www.haut-rhin.fr/) et à [la Communauté de Communes Sundgau](https://www.cc-sundgau.fr/) pour leur soutien !
+Merci également à la [ville d'Altkirch](http://www.mairie-altkirch.fr), au [Conseil départemental du Haut-Rhin](https://www.haut-rhin.fr/), à la [Région Grand Est](https://www.grandest.fr/) et à [la Communauté de Communes Sundgau](https://www.cc-sundgau.fr/) pour leur soutien !
 
 Votre entreprise a envie de soutenir le VCS Altkirch ? N'hésitez pas à nous écrire à [contact@vcs-altkirch.fr](mailto:contact@vcs-altkirch.fr) !
 
