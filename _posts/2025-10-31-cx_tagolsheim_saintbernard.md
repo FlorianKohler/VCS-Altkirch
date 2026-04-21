@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Le cyclo-cross à la fête dans le Sundgau"
-featured : yes
+featured : false
 image: assets/images/25_SaintBernard_3.jpg
 ---
 
