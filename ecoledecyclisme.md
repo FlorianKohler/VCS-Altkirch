@@ -41,4 +41,4 @@ Pour tous renseignements, vous pouvez contacter :
 
 * Responsables de l’école de cyclisme, Denis HOESCH (tél : 07 71 23 94 72 - mail : [hoesch.denis@orange.fr](mailto:hoesch.denis@orange.fr) & Françoise LELARGE (tél : 06 07 47 34 61 - mail : [francoise.lelarge@outlook.fr](mailto:francoise.lelarge@outlook.fr))
 
-* Président du VCS Altkirch, Gilles HARTMANN (tél : 06 95 42 12 78 & mail :[hartmann.gilles@gmail.com](mailto:hartmann.gilles@gmail.com))
+* Président du VCS Altkirch, Maxence Schumer - mail :[maxence@vcs-altkirch.fr](mailto:contact@vcs-altkirch.fr))
